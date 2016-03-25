@@ -34,6 +34,9 @@ library(llamar)
 loadPkgs()
 
 
+# DHS ---------------------------------------------------------------------
+
+
 # set up the queries ------------------------------------------------------
 
 apiKey = 'USAAID-405632'
@@ -43,7 +46,7 @@ indicator[2] = 'CN_NUTS_C_WA2,HA_HIVP_W_HIV,HA_HIVP_W_HVE'
 indicator[3] = 'HA_HIVP_B_HIV,HA_HIVP_B_HVE,CM_ECMT_C_U5M,CM_ECMR_C_IMR'
 indicator[4] = 'CM_ECMR_C_NNR,CH_VACS_C_BAS,CH_VACS_C_NON,CH_VACC_C_BAS,CH_VACC_C_NON'
 indicator[5] = 'CH_VAC1_C_BAS,CH_VAC1_C_NON,CH_DIAT_C_ORT,CH_DIAR_C_DIA,MA_AAFM_W_M20'
-indicator[6] = 'MA_AAFM_W,MA_AAFM_W,MA_AAFM_W,MA_AAFM_W,MA_AAFM_W,MA_AAFM_W,MA_AAFM_W_M2'
+indicator[6] = 'MA_AAFM_W,MA_AAFM_W,MA_AAFM_W,MA_AAFM_W,MA_AAFM_W,MA_AAFM_W,MA_AAFM_W_M2,SX_AAFS_W_M20'
 indicator[7] = 'HA_HIVP_M_HVE,HA_HIVP_M_HIV'
 indicator[8] = 'CN_NUTS_C_WH2,CN_NUTS_C_HA2,ED_EDUC_W_SEP'
 indicator[9] = 'CM_ECMR_C_PNR,FP_CUSA_W_MOD,FP_CUSM_W_ANY,FP_CUSM_W_MOD'
@@ -51,7 +54,7 @@ indicator[10] = 'SX_AAFS_W_M25,SX_AAFS_W_M30,SX_AAFS_W_M35,SX_AAFS_W_M40,SX_AAFS
 indicator[11] = 'SX_AAFS_W_M2A,SX_AAFS_W_M2B,ED_LITR_W_LIT,RH_PAHC_W_KNW,RH_PAHC_W_PRM'
 indicator[12] = 'RH_PAHC_W_MON,RH_PAHC_W_DIS,RH_PAHC_W_TRN,RH_PAHC_W_ALN,RH_PAHC_W_FEM'
 indicator[13] = 'MM_MMRT_W_MRT,MM_MMRO_W_GFR,MM_MMRO_W_MMR,MM_MMRO_W_CIL,MM_MMRO_W_CIH'
-indicator[14] = 'RH_DELP_C_DHF,FP_CUSA_W_ANY,SX_AAFS_W_M20'
+indicator[14] = 'RH_DELP_C_DHF,FP_CUSA_W_ANY'
 
 indicators = paste0(indicator[1], ',', indicator[2], ',', indicator[3], ',', indicator[4], ',', indicator[5],
                     ',', indicator[6], ',', indicator[7], ',', 
@@ -103,9 +106,66 @@ natl = loadDHS(breakdown = 'national', indicators = indicators,
                countries = countries, years = years, apiKey = apiKey, numResults = 5000)
 
 
+subnatl = NULL
 
-x = loadDHS(breakdown = 'national', indicators = indicator14, countries = countries, years = years, apiKey = apiKey, numResults = 100)
+for (i in seq_along(indicator)) {
+  print(i)
+  
+  temp = loadDHS(breakdown = 'national', indicators = indicator[i], countries = countries, 
+                 years = years, apiKey = apiKey, numResults = 5000)
+  
+  subnatl = rbind(temp, subnatl)  
+}
 
 
 
 write.csv(natl, '~/Documents/USAID/West Africa Regional 2016/dataout/WAFR_DHS_natl.csv')
+rite.csv(subnatl, '~/Documents/USAID/West Africa Regional 2016/dataout/WAFR_DHS_subnatl.csv')
+
+ggplot(natl %>% filter(Indicator %like% 'Maternal mortality ratio'), aes(x = SurveyYear, y = Value)) +
+  geom_point(size = 5) +
+  facet_wrap(~CountryName) +
+  scale_y_continuous(limits = c(0, 1200))
+
+
+# basic comparative plot --------------------------------------------------
+
+
+df = natl %>% filter(Indicator %like% 'stunted')
+
+mostRecent = df %>% 
+  group_by(CountryName) %>% 
+  summarise(SurveyYear = max(SurveyYear))
+
+avg = left_join(mostRecent, df) 
+
+wAfrAvg = mean(avg$Value)
+
+avg = avg %>% 
+  mutate(deviation = Value - wAfrAvg)
+
+df = left_join(df, avg %>% select(CountryName, deviation))
+
+ggplot(df, 
+       aes(x = SurveyYear, y = Value, 
+           group = CountryName,
+           colour = deviation)) +
+  geom_point(size = 3) +
+  geom_line() +
+  geom_hline(yintercept = wAfrAvg) +
+  scale_colour_gradientn(colours = rev(brewer.pal(11, 'RdYlBu'))) +
+  # facet_wrap(~CountryName) +
+  scale_y_continuous(limits = c(0, 60))
+
+
+# WHO Global Health Observatory -------------------------------------------
+x = fromJSON(paste0('http://apps.who.int/gho/athena/api/GHO/WHOSIS_000001.json'))
+json_data <- lapply(x$dataset, function(x) { unlist(x) })
+
+# Convert JSON input to a data frame
+allData <- as.data.frame(do.call("rbind", json_data),stringsAsFactors=FALSE)
+
+library(XML)
+df <- xmlParse("http://apps.who.int/gho/athena/api/GHO/WHOSIS_000001?filter=COUNTRY:*;REGION:EUR")
+
+xml_data <- xmlToList(df)
