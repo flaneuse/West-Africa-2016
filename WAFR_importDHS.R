@@ -111,7 +111,7 @@ subnatl = NULL
 for (i in seq_along(indicator)) {
   print(i)
   
-  temp = loadDHS(breakdown = 'national', indicators = indicator[i], countries = countries, 
+  temp = loadDHS(breakdown = 'all', indicators = indicator[i], countries = countries, 
                  years = years, apiKey = apiKey, numResults = 5000)
   
   subnatl = rbind(temp, subnatl)  
