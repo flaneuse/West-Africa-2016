@@ -40,21 +40,20 @@ loadPkgs()
 # set up the queries ------------------------------------------------------
 
 apiKey = 'USAAID-405632'
-indicator = NULL
-indicator[1] = 'FP_NADM_W_UNT,FE_FRTR_W_TFR,CN_BFDR_C_MDE,HA_CPHT_W_T1R,HC_ELEC_H_ELC'
-indicator[2] = 'CN_NUTS_C_WA2,HA_HIVP_W_HIV,HA_HIVP_W_HVE'
-indicator[3] = 'HA_HIVP_B_HIV,HA_HIVP_B_HVE,CM_ECMT_C_U5M,CM_ECMR_C_IMR'
-indicator[4] = 'CM_ECMR_C_NNR,CH_VACS_C_BAS,CH_VACS_C_NON,CH_VACC_C_BAS,CH_VACC_C_NON'
-indicator[5] = 'CH_VAC1_C_BAS,CH_VAC1_C_NON,CH_DIAT_C_ORT,CH_DIAR_C_DIA,MA_AAFM_W_M20'
-indicator[6] = 'MA_AAFM_W,MA_AAFM_W,MA_AAFM_W,MA_AAFM_W,MA_AAFM_W,MA_AAFM_W,MA_AAFM_W_M2,SX_AAFS_W_M20'
-indicator[7] = 'HA_HIVP_M_HVE,HA_HIVP_M_HIV'
-indicator[8] = 'CN_NUTS_C_WH2,CN_NUTS_C_HA2,ED_EDUC_W_SEP'
-indicator[9] = 'CM_ECMR_C_PNR,FP_CUSA_W_MOD,FP_CUSM_W_ANY,FP_CUSM_W_MOD'
-indicator[10] = 'SX_AAFS_W_M25,SX_AAFS_W_M30,SX_AAFS_W_M35,SX_AAFS_W_M40,SX_AAFS_W_M45'
-indicator[11] = 'SX_AAFS_W_M2A,SX_AAFS_W_M2B,ED_LITR_W_LIT,RH_PAHC_W_KNW,RH_PAHC_W_PRM'
-indicator[12] = 'RH_PAHC_W_MON,RH_PAHC_W_DIS,RH_PAHC_W_TRN,RH_PAHC_W_ALN,RH_PAHC_W_FEM'
-indicator[13] = 'MM_MMRT_W_MRT,MM_MMRO_W_GFR,MM_MMRO_W_MMR,MM_MMRO_W_CIL,MM_MMRO_W_CIH'
-indicator[14] = 'RH_DELP_C_DHF,FP_CUSA_W_ANY'
+indicator = c('FP_NADM_W_UNT','FE_FRTR_W_TFR','CN_BFDR_C_MDE','HA_CPHT_W_T1R','HC_ELEC_H_ELC',
+'CN_NUTS_C_WA2','HA_HIVP_W_HIV','HA_HIVP_W_HVE',
+'HA_HIVP_B_HIV','HA_HIVP_B_HVE','CM_ECMT_C_U5M','CM_ECMR_C_IMR',
+'CM_ECMR_C_NNR','CH_VACS_C_BAS','CH_VACS_C_NON','CH_VACC_C_BAS','CH_VACC_C_NON',
+'CH_VAC1_C_BAS','CH_VAC1_C_NON','CH_DIAT_C_ORT','CH_DIAR_C_DIA','MA_AAFM_W_M20',
+'MA_AAFM_W','MA_AAFM_W','MA_AAFM_W','MA_AAFM_W','MA_AAFM_W','MA_AAFM_W','MA_AAFM_W_M2','SX_AAFS_W_M20',
+'HA_HIVP_M_HVE','HA_HIVP_M_HIV',
+'CN_NUTS_C_WH2','CN_NUTS_C_HA2','ED_EDUC_W_SEP',
+'CM_ECMR_C_PNR','FP_CUSA_W_MOD','FP_CUSM_W_ANY','FP_CUSM_W_MOD',
+'SX_AAFS_W_M25','SX_AAFS_W_M30','SX_AAFS_W_M35','SX_AAFS_W_M40','SX_AAFS_W_M45',
+'SX_AAFS_W_M2A','SX_AAFS_W_M2B','ED_LITR_W_LIT','RH_PAHC_W_KNW','RH_PAHC_W_PRM',
+'RH_PAHC_W_MON','RH_PAHC_W_DIS','RH_PAHC_W_TRN','RH_PAHC_W_ALN','RH_PAHC_W_FEM',
+'MM_MMRT_W_MRT','MM_MMRO_W_GFR','MM_MMRO_W_MMR','MM_MMRO_W_CIL','MM_MMRO_W_CIH',
+'RH_DELP_C_DHF','FP_CUSA_W_ANY')
 
 indicators = paste0(indicator[1], ',', indicator[2], ',', indicator[3], ',', indicator[4], ',', indicator[5],
                     ',', indicator[6], ',', indicator[7], ',', 
@@ -65,6 +64,10 @@ countries = 'BJ,BF,CM,CI,GH,GN,LB,ML,MR,NI,NG,SN,SL,TG'
 
 # years = paste0(seq(1980,2016), collapse = ',')
 years = paste0(seq(2000,2016), collapse = ',')
+
+
+# Testing year limits -----------------------------------------------------
+
 
 # Figure out where to filter the years of DHS data
 json_file <- fromJSON(paste0('http://api.dhsprogram.com/rest/dhs/data?breakdown=national&indicatorIds=',indicators, 
@@ -100,6 +103,10 @@ ggplot(svyYrs, aes(x = year, y = CountryName, size = num)) +
 
 years = paste0(seq(2000,2016), collapse = ',')
 
+
+# Import DHS --------------------------------------------------------------
+
+
 # Import DHS Indicator National-level data
 
 natl = loadDHS(breakdown = 'national', indicators = indicators, 
@@ -120,7 +127,7 @@ for (i in seq_along(indicator)) {
 
 
 write.csv(natl, '~/Documents/USAID/West Africa Regional 2016/dataout/WAFR_DHS_natl.csv')
-rite.csv(subnatl, '~/Documents/USAID/West Africa Regional 2016/dataout/WAFR_DHS_subnatl.csv')
+write.csv(subnatl, '~/Documents/USAID/West Africa Regional 2016/dataout/WAFR_DHS_subnatl.csv')
 
 ggplot(natl %>% filter(Indicator %like% 'Maternal mortality ratio'), aes(x = SurveyYear, y = Value)) +
   geom_point(size = 5) +
