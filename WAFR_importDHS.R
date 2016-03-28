@@ -41,24 +41,21 @@ loadPkgs()
 
 apiKey = 'USAAID-405632'
 indicator = c('FP_NADM_W_UNT','FE_FRTR_W_TFR','CN_BFDR_C_MDE','HA_CPHT_W_T1R','HC_ELEC_H_ELC',
-'CN_NUTS_C_WA2','HA_HIVP_W_HIV','HA_HIVP_W_HVE',
-'HA_HIVP_B_HIV','HA_HIVP_B_HVE','CM_ECMT_C_U5M','CM_ECMR_C_IMR',
-'CM_ECMR_C_NNR','CH_VACS_C_BAS','CH_VACS_C_NON','CH_VACC_C_BAS','CH_VACC_C_NON',
-'CH_VAC1_C_BAS','CH_VAC1_C_NON','CH_DIAT_C_ORT','CH_DIAR_C_DIA','MA_AAFM_W_M20',
-'MA_AAFM_W','MA_AAFM_W','MA_AAFM_W','MA_AAFM_W','MA_AAFM_W','MA_AAFM_W','MA_AAFM_W_M2','SX_AAFS_W_M20',
-'HA_HIVP_M_HVE','HA_HIVP_M_HIV',
-'CN_NUTS_C_WH2','CN_NUTS_C_HA2','ED_EDUC_W_SEP',
-'CM_ECMR_C_PNR','FP_CUSA_W_MOD','FP_CUSM_W_ANY','FP_CUSM_W_MOD',
-'SX_AAFS_W_M25','SX_AAFS_W_M30','SX_AAFS_W_M35','SX_AAFS_W_M40','SX_AAFS_W_M45',
-'SX_AAFS_W_M2A','SX_AAFS_W_M2B','ED_LITR_W_LIT','RH_PAHC_W_KNW','RH_PAHC_W_PRM',
-'RH_PAHC_W_MON','RH_PAHC_W_DIS','RH_PAHC_W_TRN','RH_PAHC_W_ALN','RH_PAHC_W_FEM',
-'MM_MMRT_W_MRT','MM_MMRO_W_GFR','MM_MMRO_W_MMR','MM_MMRO_W_CIL','MM_MMRO_W_CIH',
-'RH_DELP_C_DHF','FP_CUSA_W_ANY')
+              'CN_NUTS_C_WA2','HA_HIVP_W_HIV','HA_HIVP_W_HVE',
+              'HA_HIVP_B_HIV','HA_HIVP_B_HVE','CM_ECMT_C_U5M','CM_ECMR_C_IMR',
+              'CM_ECMR_C_NNR','CH_VACS_C_BAS','CH_VACS_C_NON','CH_VACC_C_BAS','CH_VACC_C_NON',
+              'CH_VAC1_C_BAS','CH_VAC1_C_NON','CH_DIAT_C_ORT','CH_DIAR_C_DIA','MA_AAFM_W_M20',
+              'MA_AAFM_W','MA_AAFM_W','MA_AAFM_W','MA_AAFM_W','MA_AAFM_W','MA_AAFM_W','MA_AAFM_W_M2','SX_AAFS_W_M20',
+              'HA_HIVP_M_HVE','HA_HIVP_M_HIV',
+              'CN_NUTS_C_WH2','CN_NUTS_C_HA2','ED_EDUC_W_SEP',
+              'CM_ECMR_C_PNR','FP_CUSA_W_MOD','FP_CUSM_W_ANY','FP_CUSM_W_MOD',
+              'SX_AAFS_W_M25','SX_AAFS_W_M30','SX_AAFS_W_M35','SX_AAFS_W_M40','SX_AAFS_W_M45',
+              'SX_AAFS_W_M2A','SX_AAFS_W_M2B','ED_LITR_W_LIT','RH_PAHC_W_KNW','RH_PAHC_W_PRM',
+              'RH_PAHC_W_MON','RH_PAHC_W_DIS','RH_PAHC_W_TRN','RH_PAHC_W_ALN','RH_PAHC_W_FEM',
+              'MM_MMRT_W_MRT','MM_MMRO_W_GFR','MM_MMRO_W_MMR','MM_MMRO_W_CIL','MM_MMRO_W_CIH',
+              'RH_DELP_C_DHF','FP_CUSA_W_ANY')
 
-indicators = paste0(indicator[1], ',', indicator[2], ',', indicator[3], ',', indicator[4], ',', indicator[5],
-                    ',', indicator[6], ',', indicator[7], ',', 
-                    indicator[8], ',', indicator[9], ',', indicator[10], ',', 
-                    indicator[11], ',', indicator[12], ',', indicator[13], ',', indicator[14])
+indicators = paste0(indicator, collapse=',')
 
 countries = 'BJ,BF,CM,CI,GH,GN,LB,ML,MR,NI,NG,SN,SL,TG'
 
@@ -135,10 +132,23 @@ ggplot(natl %>% filter(Indicator %like% 'Maternal mortality ratio'), aes(x = Sur
   scale_y_continuous(limits = c(0, 1200))
 
 
+# reshape data ------------------------------------------------------------
+natl_wide = natl %>% 
+  arrange(SurveyYear) %>% 
+  group_by(CountryName, IndicatorId, Indicator) %>%
+  summarise(value1 = first(Value),
+            value2 = last(Value),
+            year1 = first(SurveyYear),
+            year2 = last(SurveyYear))
+  
+write.csv(natl_wide, '~/Documents/USAID/West Africa Regional 2016/dataout/WAFR_DHS_natl_wide.csv')
+
+
+
 # basic comparative plot --------------------------------------------------
 
 
-df = natl %>% filter(Indicator %like% 'stunted')
+df = natl %>% filter(Indicator %like% 'Unmet need for family planning')
 
 mostRecent = df %>% 
   group_by(CountryName) %>% 
@@ -153,16 +163,130 @@ avg = avg %>%
 
 df = left_join(df, avg %>% select(CountryName, deviation))
 
+order = df %>% 
+  arrange(desc(deviation)) %>% 
+  select(CountryName)
+
+order = unique(order$CountryName)
+
+df$CountryName = factor(df$CountryName, levels = order)
+
 ggplot(df, 
        aes(x = SurveyYear, y = Value, 
            group = CountryName,
            colour = deviation)) +
+  geom_hline(yintercept = wAfrAvg, colour = grey80K, size = 0.5) +
   geom_point(size = 3) +
   geom_line() +
-  geom_hline(yintercept = wAfrAvg) +
   scale_colour_gradientn(colours = rev(brewer.pal(11, 'RdYlBu'))) +
-  # facet_wrap(~CountryName) +
-  scale_y_continuous(limits = c(0, 60))
+  facet_wrap(~CountryName) +
+  scale_y_continuous(limits = c(0, 60)) +
+  theme_xygrid() +
+  theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
+        panel.background = element_rect(fill= grey15K))
+
+
+ggplot(df, 
+       aes(y = CountryName, x = Value, 
+           group = CountryName,
+           colour = SurveyYear)) +
+  geom_vline(xintercept = wAfrAvg, colour = grey80K, size = 0.5) +
+  geom_point(size = 3) +
+  geom_line() +
+  scale_colour_gradientn(colours = rev(brewer.pal(11, 'RdYlBu'))) +
+  theme_xgrid() +
+  scale_x_continuous(limits = c(0, 40)) +
+  theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
+        panel.background = element_rect(fill= grey10K))
+
+
+# HIV prevalence ----------------------------------------------------------
+
+hivBySex = natl_wide %>% 
+  filter(IndicatorId %in% c('HA_HIVP_M_HIV', 'HA_HIVP_W_HIV')) %>% 
+  select(-value1, -year1, -Indicator) %>% 
+  spread(IndicatorId, value2) %>% 
+  mutate(diff = HA_HIVP_W_HIV - HA_HIVP_M_HIV)
+
+order = hivBySex %>% 
+  ungroup() %>% 
+  arrange((HA_HIVP_W_HIV)) %>% 
+  select(CountryName)
+
+order = unique(order$CountryName)
+
+hivBySex$CountryName = factor(hivBySex$CountryName, levels = order)
+
+colourM = '#4575b4'
+colourF = '#ce1256'
+
+# -- Difference in most recent HIV rates by M/F --
+ggplot(hivBySex, aes(x = diff, y = CountryName, 
+                     xend = 0, yend = CountryName,
+                     size = HA_HIVP_W_HIV)) +
+  geom_segment(size = 0.5, colour = grey50K) +
+  geom_point(colour = colourF) +
+  geom_text(aes(label = year2, x = -0.2),
+            vjust = 0, nudge_y = -0.1,
+            colour = grey50K, size = 4, family = 'Segoe UI Light') +
+  geom_text(aes(label = paste0(HA_HIVP_W_HIV, '%')),
+            colour = colourF, size = 4, family = 'Segoe UI Light', nudge_y = 0.3) +
+  geom_text(aes(x = 0,
+                label = paste0(HA_HIVP_M_HIV, '%')),
+            colour = colourM, size = 4, family = 'Segoe UI Light', nudge_y = 0.3) +
+  geom_point(aes(x = 0, size = HA_HIVP_M_HIV), colour = colourM) +
+  theme_labelsOnly()
+
+
+# -- HIV trends over time --
+hivTrends = natl %>% 
+  filter(IndicatorId %in% c('HA_HIVP_M_HIV', 'HA_HIVP_W_HIV'))
+
+hivTrends$CountryName = factor(hivTrends$CountryName, levels = rev(order))
+
+
+ggplot(hivTrends, aes(x = SurveyYear, y = Value, 
+                      colour = Indicator)) +
+  geom_line() +
+  geom_point(size = 6, colour = 'white') +
+  geom_point(size = 3) +
+  geom_text(aes(label = SurveyYear), 
+            data = hivTrends %>% filter(IndicatorId == 'HA_HIVP_M_HIV'),
+            colour = grey50K, nudge_y = -0.5) +
+  geom_linerange(aes(ymin = CILow, ymax = CIHigh), alpha = 0.5, size = 2) +
+  scale_colour_manual(values = c(colourM, colourF)) +
+  facet_wrap(~CountryName) +
+  theme_ygrid() +
+  coord_cartesian(ylim = c(0, 7)) +
+  scale_x_continuous(limits = c(2003, 2014),
+                     breaks = c(2003, 2008, 2013))
+
+# -- HIV disaggregation --
+hivDisag = subnatl %>% 
+  filter(IndicatorId %in% c('HA_HIVP_M_HIV', 'HA_HIVP_W_HIV'))
+
+hivDisag$CountryName = factor(hivDisag$CountryName, levels = rev(order))
+
+
+ggplot(hivDisag%>% filter(IndicatorId == 'HA_HIVP_W_HIV',
+                           CharacteristicCategory == 'Age (5-year groups)',
+                           CharacteristicCategory != 'Region'), 
+       aes(x = SurveyYear, y = Value, 
+                      colour = CharacteristicLabel)) +
+  geom_line() +
+  geom_point(size = 6, colour = 'white') +
+  geom_point(size = 3) +
+  # geom_text(aes(label = SurveyYear), 
+            # data = hivTrends %>% filter(IndicatorId == 'HA_HIVP_W_HIV'),
+            # colour = grey50K, nudge_y = -0.5) +
+  geom_linerange(aes(ymin = CILow, ymax = CIHigh), alpha = 0.5, size = 2) +
+  # scale_colour_manual(values = c(colourM, colourF)) +
+  facet_wrap(~CountryName) +
+  theme_ygrid() +
+  theme(legend.position = 'bottom')+
+  coord_cartesian(ylim = c(0, 15)) +
+  scale_x_continuous(limits = c(2003, 2014),
+                     breaks = c(2003, 2008, 2013))
 
 
 # WHO Global Health Observatory -------------------------------------------
