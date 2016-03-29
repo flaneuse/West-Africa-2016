@@ -267,9 +267,11 @@ hivDisag = subnatl %>%
 
 hivDisag$CountryName = factor(hivDisag$CountryName, levels = rev(order))
 
+cats = hivDisag %>% 
+  
 
 ggplot(hivDisag%>% filter(IndicatorId == 'HA_HIVP_W_HIV',
-                           CharacteristicCategory == 'Age (5-year groups)',
+                           CharacteristicCategory == 'Prior HIV testing',
                            CharacteristicCategory != 'Region'), 
        aes(x = SurveyYear, y = Value, 
                       colour = CharacteristicLabel)) +
@@ -284,7 +286,7 @@ ggplot(hivDisag%>% filter(IndicatorId == 'HA_HIVP_W_HIV',
   facet_wrap(~CountryName) +
   theme_ygrid() +
   theme(legend.position = 'bottom')+
-  coord_cartesian(ylim = c(0, 15)) +
+  coord_cartesian(ylim = c(0, 20)) +
   scale_x_continuous(limits = c(2003, 2014),
                      breaks = c(2003, 2008, 2013))
 
