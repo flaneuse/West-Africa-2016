@@ -51,7 +51,8 @@ popRate = pop %>%
   arrange(country, year) %>% 
   mutate(lagged = lag(pop),
          lagged = ifelse(year == 1950, NA, lagged),
-         rate = (pop - lagged)/lagged)
+         rate = (pop - lagged)/lagged,
+         yearFacet = as.character(year))
 
 
 # plots -------------------------------------------------------------------
@@ -75,7 +76,7 @@ ggplot(obsPop2, aes(x = year, y = pop,
              data = obsPop %>% filter(year == 2015)) +
   facet_wrap(~country, scales = 'free_y') 
 
-
+popRate = popRate %>% filter(year < 2050)
 ggplot(popRate, aes(x = year, y = rate, 
                     label = percent(rate, 1),
                     group = country)) +
@@ -86,6 +87,32 @@ ggplot(popRate, aes(x = year, y = rate,
              fill = 'white', shape = 21,
              data = popRate %>% filter(year == 2015)) +
   geom_text(size = 3, colour = accentColor,
-            nudge_y = 0.1,
+            nudge_y = 0.01,
             data = popRate %>% filter(year == 2015)) +
   facet_wrap(~country)
+
+popRate$yearFacet = factor(popRate$yearFacet,
+                           levels = c('2015', '2010', '2005',
+                                      '2000', '1995', '1990'))
+
+countryOrder = popRate %>% 
+  filter(year == 2015) %>% 
+  arrange((rate))
+
+popRate$country = factor(popRate$country,
+                         levels = countryOrder$country)
+
+ggplot(popRate %>% filter(year %in% seq(2005, 2015, by = 10),
+                          isCountry == 1), aes(x = country, y = rate, 
+                    label = percent(rate, 1),
+                    group = country)) +
+  geom_hline(colour = grey90K, yintercept = 0) +
+  coord_flip()+
+  # geom_line(colour = accentColor, linetype = 2) +
+  # geom_line(colour = accentColor, data = popRate %>% filter(proj == 0)) +
+  geom_point(size = 3, colour = accentColor,
+             fill = 'white', shape = 21) +
+  geom_point(size = 3, colour = accentColor,
+             fill = accentColor, shape = 21,
+             data = popRate %>% filter(year == 2015, isCountry == 1)) +
+  theme_xgrid()
