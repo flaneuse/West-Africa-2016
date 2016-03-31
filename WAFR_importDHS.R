@@ -53,7 +53,7 @@ indicator = c('FP_NADM_W_UNT','FE_FRTR_W_TFR','CN_BFDR_C_MDE','HA_CPHT_W_T1R','H
               'SX_AAFS_W_M2A','SX_AAFS_W_M2B','ED_LITR_W_LIT','RH_PAHC_W_KNW','RH_PAHC_W_PRM',
               'RH_PAHC_W_MON','RH_PAHC_W_DIS','RH_PAHC_W_TRN','RH_PAHC_W_ALN','RH_PAHC_W_FEM',
               'MM_MMRT_W_MRT','MM_MMRO_W_GFR','MM_MMRO_W_MMR','MM_MMRO_W_CIL','MM_MMRO_W_CIH',
-              'RH_DELP_C_DHF','FP_CUSA_W_ANY')
+              'RH_DELP_C_DHF','FP_CUSA_W_ANY', 'PR_DESL_W_WNM', 'PR_DESL_M_WNM')
 
 indicators = paste0(indicator, collapse=',')
 
@@ -186,6 +186,50 @@ ggplot(df,
         panel.background = element_rect(fill= grey15K))
 
 
+
+# contraception -----------------------------------------------------------
+
+
+df = natl %>% filter(Indicator %like% 'Current use of any modern method')
+
+mostRecent = df %>% 
+  group_by(CountryName) %>% 
+  summarise(SurveyYear = max(SurveyYear))
+
+avg = left_join(mostRecent, df) 
+
+wAfrAvg = mean(avg$Value)
+
+avg = avg %>% 
+  mutate(deviation = Value - wAfrAvg)
+
+df = left_join(df, avg %>% select(CountryName, deviation))
+
+order = df %>% 
+  arrange(desc(deviation)) %>% 
+  select(CountryName)
+
+order = unique(order$CountryName)
+
+df$CountryName = factor(df$CountryName, levels = order)
+
+ggplot(df, 
+       aes(x = SurveyYear, y = Value, 
+           group = CountryName,
+           colour = deviation)) +
+  geom_hline(yintercept = wAfrAvg, colour = grey80K, size = 0.5) +
+  geom_point(size = 3) +
+  geom_line() +
+  scale_colour_gradientn(colours = (brewer.pal(11, 'RdYlBu'))) +
+  facet_wrap(~CountryName) +
+  scale_y_continuous(limits = c(0, 25)) +
+  theme_xygrid() +
+  theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
+        panel.background = element_rect(fill= grey15K))
+
+
+
+
 ggplot(df, 
        aes(y = CountryName, x = Value, 
            group = CountryName,
@@ -198,6 +242,50 @@ ggplot(df,
   scale_x_continuous(limits = c(0, 40)) +
   theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
         panel.background = element_rect(fill= grey10K))
+
+# baby desires -----------------------------------------------------------
+
+
+df = natl %>% filter(Indicator %like% 'want no more',
+                     ByVariableLabel == 'Total')
+
+mostRecent = df %>% 
+  group_by(CountryName) %>% 
+  summarise(SurveyYear = max(SurveyYear))
+
+avg = left_join(mostRecent, df) 
+
+wAfrAvg = mean(avg$Value)
+
+avg = avg %>% 
+  mutate(deviation = Value - wAfrAvg)
+
+df = left_join(df, avg %>% select(CountryName, deviation))
+
+order = df %>% 
+  arrange(desc(deviation)) %>% 
+  select(CountryName)
+
+order = unique(order$CountryName)
+
+df$CountryName = factor(df$CountryName, levels = order)
+
+ggplot(df, 
+       aes(x = SurveyYear, y = Value, 
+           group = Indicator,
+           colour = deviation)) +
+  geom_hline(yintercept = wAfrAvg, colour = grey80K, size = 0.5) +
+  geom_point(size = 3) +
+  geom_line() +
+  scale_colour_gradientn(colours = (brewer.pal(11, 'RdYlBu'))) +
+  geom_text(aes(label = IndicatorId)) +
+  facet_wrap(~CountryName) +
+  scale_y_continuous(limits = c(0, 40)) +
+  theme_xygrid() +
+  theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
+        panel.background = element_rect(fill= grey15K))
+
+
 
 
 # HIV prevalence ----------------------------------------------------------

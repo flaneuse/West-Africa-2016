@@ -60,23 +60,23 @@ popRate = pop %>%
 
 accentColor = '#b2182b'
 
-obsPop2 = obsPop %>% filter(isCountry == 1)
+obsPop2 = obsPop %>% filter(isCountry == 1, year <= 2050)
 
 ggplot(obsPop2, aes(x = year, y = pop, 
                    label = paste0(round(pop, 1), ' M'),
                 group = country)) +
   geom_line(colour = accentColor) +
   geom_line(colour = accentColor, linetype = 2,
-            data = predPop) +
+            data = predPop %>% filter(isCountry ==1)) +
   geom_point(size = 2, colour = accentColor,
              fill = 'white', shape = 21,
-             data = obsPop %>% filter(year == 2015)) +
+             data = obsPop2 %>% filter(year == 2015)) +
   geom_text(size = 3, colour = accentColor,
             nudge_y = 1,
-             data = obsPop %>% filter(year == 2015)) +
-  facet_wrap(~country, scales = 'free_y') 
+             data = obsPop2 %>% filter(year == 2015)) +
+  facet_wrap(~country, scales='free_y') 
 
-popRate = popRate %>% filter(year < 2050)
+popRate = popRate %>% filter(year <= 2050)
 ggplot(popRate, aes(x = year, y = rate, 
                     label = percent(rate, 1),
                     group = country)) +
