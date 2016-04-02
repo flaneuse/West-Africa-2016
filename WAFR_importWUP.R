@@ -82,10 +82,19 @@ urbRural = full_join(urbRural, totPop,
 # Check numbers make sense
 all(urbRural$rural + urbRural$urban - urbRural$total < 1e-10)
 
+
+
 # Calc % urban
 urbRural = urbRural %>% 
   filter(country != 'Saint Helena') %>% 
   mutate(pctUrb = urban/total)
+
+countryOrder = urbRural %>% 
+  filter(year == 2015) %>% 
+  arrange((pctUrb))
+
+urbRural$country = factor(urbRural$country,
+                          countryOrder$country)
 
 # Pull out the regional numbers
 regional = full_join(regionalR, regionalU, by = 'year')
