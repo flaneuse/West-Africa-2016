@@ -45,15 +45,31 @@ predPop = predPop %>%
 
 pop = rbind(obsPop, predPop) 
 
+write.csv(pop, '~/Documents/USAID/West Africa Regional 2016/dataout/allPop.csv')
+write.csv(obsPop, '~/Documents/USAID/West Africa Regional 2016/dataout/obsPop.csv')
+write.csv(predPop, '~/Documents/USAID/West Africa Regional 2016/dataout/predPop.csv')
 
 # calc derivative ---------------------------------------------------------
 popRate = pop %>% 
-  arrange(country, year) %>% 
+  group_by(country) %>% 
+  arrange(country, year) %>%
   mutate(lagged = lag(pop),
          lagged = ifelse(year == 1950, NA, lagged),
-         rate = (pop - lagged)/lagged,
+         rateYr = (pop - lagged)/lagged,
+         avgRate = rollapplyr(rateYr, width = 5, FUN = mean, fill = NA),
          yearFacet = as.character(year))
 
+
+write.csv(popRate, '~/Documents/USAID/West Africa Regional 2016/dataout/popRate.csv')
+
+popRate_wide = popRate %>% 
+  filter(year %in% c(2005, 2015)) %>% 
+  select(year, country, avgRate, isCountry) %>% 
+  spread(year, avgRate) %>% 
+  rename(`2001-2005` = `2005`,
+         `2011-2015` = `2015`)
+
+write.csv(popRate_wide, '~/Documents/USAID/West Africa Regional 2016/dataout/popRate_wide.csv')
 
 # plots -------------------------------------------------------------------
 
@@ -97,14 +113,14 @@ popRate$yearFacet = factor(popRate$yearFacet,
 
 countryOrder = popRate %>% 
   filter(year == 2015) %>% 
-  arrange((rate))
+  arrange((avgRate))
 
 popRate$country = factor(popRate$country,
                          levels = countryOrder$country)
 
 ggplot(popRate %>% filter(year %in% seq(2005, 2015, by = 10),
-                          isCountry == 1), aes(x = country, y = rate, 
-                    label = percent(rate, 1),
+                          isCountry == 1), aes(x = country, y = avgRate, 
+                    label = percent(avgRate, 1),
                     group = country)) +
   geom_hline(colour = grey90K, yintercept = 0) +
   coord_flip()+

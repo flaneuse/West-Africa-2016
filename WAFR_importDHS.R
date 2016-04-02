@@ -135,7 +135,7 @@ ggplot(natl %>% filter(Indicator %like% 'Maternal mortality ratio'), aes(x = Sur
 # reshape data ------------------------------------------------------------
 natl_wide = natl %>% 
   arrange(SurveyYear) %>% 
-  group_by(CountryName, IndicatorId, Indicator) %>%
+  group_by(CountryName, IndicatorId, Indicator, ByVariableLabel) %>%
   summarise(value1 = first(Value),
             value2 = last(Value),
             year1 = first(SurveyYear),
@@ -278,13 +278,49 @@ ggplot(df,
   geom_point(size = 3) +
   geom_line() +
   scale_colour_gradientn(colours = (brewer.pal(11, 'RdYlBu'))) +
-  geom_text(aes(label = IndicatorId)) +
+  # geom_text(aes(label = IndicatorId)) +
   facet_wrap(~CountryName) +
-  scale_y_continuous(limits = c(0, 40)) +
+  scale_y_continuous(limits = c(0, 70)) +
   theme_xygrid() +
   theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
         panel.background = element_rect(fill= grey15K))
 
+df = natl %>% filter(Indicator %like% 'want no more')
+
+mostRecent = df %>% 
+  group_by(CountryName) %>% 
+  summarise(SurveyYear = max(SurveyYear))
+
+avg = left_join(mostRecent, df) 
+
+wAfrAvg = mean(avg$Value)
+
+avg = avg %>% 
+  mutate(deviation = Value - wAfrAvg)
+
+df = left_join(df, avg %>% select(CountryName, deviation))
+
+order = df %>% 
+  arrange(desc(deviation)) %>% 
+  select(CountryName)
+
+order = unique(order$CountryName)
+
+df$CountryName = factor(df$CountryName, levels = order)
+
+ggplot(df, 
+       aes(x = SurveyYear, y = Value, 
+           group = ByVariableLabel,
+           colour = ByVariableLabel)) +
+  geom_hline(yintercept = wAfrAvg, colour = grey80K, size = 0.5) +
+  geom_point(size = 3) +
+  geom_line() +
+  # scale_colour_gradientn(colours = (brewer.pal(11, 'RdYlBu'))) +
+  # geom_text(aes(label = IndicatorId)) +
+  facet_wrap(~CountryName + Indicator, scales = 'free_y')
+  theme_xygrid() +
+  theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
+        panel.background = element_rect(fill= grey15K))
 
 
 
@@ -390,3 +426,26 @@ library(XML)
 df <- xmlParse("http://apps.who.int/gho/athena/api/GHO/WHOSIS_000001?filter=COUNTRY:*;REGION:EUR")
 
 xml_data <- xmlToList(df)
+
+
+# baby desires + contraception + unmet ------------------------------------
+
+
+df = natl %>% 
+  filter(IndicatorId %in% c('FP_NADM_W_UNT', 'PR_DESL_W_WNM',
+                                        'FP_CUSA_W_MOD'),
+         SurveyYear > 2010,
+                     ByVariableLabel == 'Total' | ByVariableLabel == "") %>% 
+  select(CountryName, IndicatorId, Value, SurveyYear) %>% 
+  spread(IndicatorId, Value)
+
+ggplot(df, aes(x = FP_CUSA_W_MOD, y = PR_DESL_W_WNM,
+               colour = FP_NADM_W_UNT,
+               label = CountryName)) +
+  geom_label(nudge_y = 2) + 
+  geom_point(size = 5) +
+  xlab('modern contraception use') +
+  ylab('desires for no more children')+
+  scale_colour_gradientn(colours = brewer.pal(9, 'RdPu'),
+                         limits = c(15, 35)) +
+  theme_xygrid()
