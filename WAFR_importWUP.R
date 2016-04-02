@@ -84,6 +84,7 @@ all(urbRural$rural + urbRural$urban - urbRural$total < 1e-10)
 
 # Calc % urban
 urbRural = urbRural %>% 
+  filter(country != 'Saint Helena') %>% 
   mutate(pctUrb = urban/total)
 
 # Pull out the regional numbers
@@ -96,14 +97,19 @@ urbRural = full_join(urbRural, regional, by = 'year') %>%
          pctUrb_Africa = urbanAfrica / totalAfrica,
          pctUrb_Subsaharan = urbanSubsaharan / totalSubsaharan)
 
+
+write.csv(urbRural, '~/Documents/USAID/West Africa Regional 2016/dataout/urbanRural_pop.csv')
 # plot --------------------------------------------------------------------
 ggplot(urbRural, aes(x = year, y = pctUrb,
                      group = country)) +
   geom_line(aes(y = pctUrb_WestAfrica), 
             colour = grey50K) + 
+  # geom_area(aes(y = pctUrb_WestAfrica), 
+  #           alpha = 0.4,
+  #           fill = 'yellow') +
   geom_ribbon(aes(ymin = pctUrb_WestAfrica, 
                   ymax = pctUrb),
-              fill = 'blue',
+              fill = 'grey',
             alpha = 0.4) + 
   geom_line(colour = accentColor) +
   facet_wrap(~country) +
