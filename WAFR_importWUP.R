@@ -102,6 +102,8 @@ write.csv(urbRural, '~/Documents/USAID/West Africa Regional 2016/dataout/urbanRu
 # plot --------------------------------------------------------------------
 ggplot(urbRural, aes(x = year, y = pctUrb,
                      group = country)) +
+  geom_hline(yintercept = 0.5,
+             colour = 'blue') +
   geom_line(aes(y = pctUrb_WestAfrica), 
             colour = grey50K) + 
   # geom_area(aes(y = pctUrb_WestAfrica), 
@@ -114,4 +116,27 @@ ggplot(urbRural, aes(x = year, y = pctUrb,
   geom_line(colour = accentColor) +
   facet_wrap(~country) +
   theme_xygrid()
+
+ggplot(urbRural, aes(x = year, 
+                     group = country)) +
+  # geom_line(aes(y = urbanWestAfrica), 
+            # colour = grey50K) + 
+  # geom_line(aes(y = ruralWestAfrica), 
+            # colour = grey50K,
+            # linetype = 2) +
+  geom_line(aes(y = urban),
+            colour = accentColor) +
+  geom_line(aes(y = rural),
+            colour = accentColor, linetype = 2) +
+  facet_wrap(~country, scales = 'free_y') +
+  theme_xygrid()
+
+
+# rate change urbanization ------------------------------------------------
+urbRural = urbRural %>% 
+  group_by(country) %>% 
+  arrange(country, year) %>% 
+  mutate(laggedUrb = lag(urban),
+         rateUrb = (urban - laggedUrb)/urban)
+
 
