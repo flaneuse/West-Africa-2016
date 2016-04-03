@@ -83,17 +83,46 @@ popRate = pop %>%
          avgRate = rollapplyr(rateYr, width = 5, FUN = mean, fill = NA),
          yearFacet = as.character(year))
 
+popRate_region = popRate %>% 
+  filter(country %in% c('Africa', 'Western Africa')) %>% 
+  select(country, year, rateYr) %>% 
+  spread(country, rateYr)
+
+popRate = full_join(popRate, popRate_region,
+                    by = c('year')) %>% 
+  filter(country != 'Saint Helena')
 
 write.csv(popRate, '~/Documents/USAID/West Africa Regional 2016/dataout/popRate.csv')
 
-popRate_wide = popRate %>% 
-  filter(year %in% c(2005, 2015)) %>% 
-  select(year, country, avgRate, isCountry) %>% 
-  spread(year, avgRate) %>% 
-  rename(`2001-2005` = `2005`,
-         `2011-2015` = `2015`)
 
-write.csv(popRate_wide, '~/Documents/USAID/West Africa Regional 2016/dataout/popRate_wide.csv')
+wAfrRate = popRate %>% 
+  filter(year %in% c(2015),
+         country == 'Western Africa')
+  
+popRate_wide = popRate %>% 
+  filter(year %in% c(2005, 2015),
+         isCountry == 1,
+         country != 'Saint Helena') %>% 
+  select(year, country, avgRate) %>% 
+  mutate(yearStr = ifelse(year == 2005,
+                       '2001-2005',
+                       ifelse(year == 2015, '2011-2015',NA)))
+
+rateSign = popRate_wide %>% 
+  group_by(country) %>% 
+  mutate(`2011-2015` = lead(avgRate),
+         chg = `2011-2015` - avgRate) %>% 
+  filter(!is.na(chg)) %>% 
+  select(country, chg, `2011-2015`)
+
+popRate_wide = full_join(popRate_wide, rateSign, by = 'country')
+
+
+  # spread(year, avgRate) %>% 
+  # rename(`2001-2005` = `2005`,
+         # `2011-2015` = `2015`)
+
+write.csv(popRate_wide, '~/Documents/USAID/West Africa Regional 2016/dataout/popRate_filtered.csv')
 
 # plots -------------------------------------------------------------------
 
