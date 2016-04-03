@@ -322,8 +322,132 @@ ggplot(df,
   theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
         panel.background = element_rect(fill= grey15K))
 
+#----
+  
+  df = natl %>% filter(Indicator %like% 'want no more')
+  
+  mostRecent = df %>% 
+    group_by(CountryName) %>% 
+    summarise(SurveyYear = max(SurveyYear))
+  
+  avg = left_join(mostRecent, df) 
+  
+  
+  
+  order = df %>% 
+    arrange(desc(deviation)) %>% 
+    select(CountryName)
+  
+  order = unique(order$CountryName)
+  
+  df$CountryName = factor(df$CountryName, levels = order)
+  
+  ggplot(df, 
+         aes(x = SurveyYear, y = Value, 
+             group = ByVariableLabel,
+             colour = ByVariableLabel,
+             shape = IndicatorId)) +
+    geom_point(size = 3) +
+    geom_line() +
+    facet_wrap(~CountryName, scales = 'free_y') +
+  theme_xygrid() +
+    theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
+          panel.background = element_rect(fill= grey15K))
+  
+  df2 = df %>% 
+    select(Value, CountryName, SurveyYear, IndicatorId, ByVariableLabel) %>% 
+    spread(IndicatorId, Value) %>% 
+    mutate(diffVal = - PR_DESL_M_WNM + PR_DESL_W_WNM)
+  
+  
+  order = df2 %>% 
+    filter(ByVariableLabel=='Total') %>% 
+    arrange(desc(PR_DESL_W_WNM)) %>% 
+    select(CountryName)
+  
+  order = unique(order$CountryName)
+  
+  df2$CountryName = factor(df2$CountryName, levels = order)
+  
+  
+  ggplot(df2, 
+         aes(x = SurveyYear, y = diffVal, 
+             group = ByVariableLabel,
+             colour = ByVariableLabel)) +
+    geom_point(size = 3) +
+    geom_line() +
+    facet_wrap(~CountryName) +
+    theme_basic() +
+    theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
+          panel.background = element_rect(fill= grey15K))
+
+  
+  ggplot(df2 %>% filter(ByVariableLabel != 'Total'), 
+         aes(x = 100 - PR_DESL_M_WNM, y = diffVal, 
+             group = ByVariableLabel,
+             colour = ByVariableLabel)) +
+    geom_point(size = 3) +
+    facet_wrap(~CountryName) +
+    theme_basic() +
+    theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
+          panel.background = element_rect(fill= grey15K))
+  
+  
 
 
+  
+  ggplot(df2 %>% filter(ByVariableLabel != 'Total'), 
+         aes(x = 100 - PR_DESL_M_WNM, y = 100 - PR_DESL_W_WNM, 
+             group = ByVariableLabel,
+             colour = ByVariableLabel)) +
+    geom_abline(slope = 1, intercept = 0,
+                colour = grey40K, size = 0.5) +
+    geom_point(size = 3) +
+    facet_wrap(~CountryName) +
+    coord_cartesian(xlim = c(0, 100), ylim = c(0, 100))+
+    theme_xygrid()
+  
+  
+  ggplot(df2 %>% filter(CountryName == 'Ghana',
+    ByVariableLabel != 'Total'), 
+         aes(x = PR_DESL_M_WNM, y = diffVal, 
+             group = ByVariableLabel,
+             colour = ByVariableLabel)) +
+    geom_point(size = 3) +
+    facet_wrap(~SurveyYear) +
+    theme_xygrid() +
+    theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
+          panel.background = element_rect(fill= grey15K))
+
+  
+  ggplot(df2 %>% filter(CountryName == 'Senegal',ByVariableLabel != 'Total'), 
+         aes(x = PR_DESL_M_WNM, y = diffVal, 
+             group = ByVariableLabel,
+             colour = ByVariableLabel)) +
+    geom_point(size = 3) +
+    facet_wrap(~SurveyYear) +
+    theme_xygrid() +
+    theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
+          panel.background = element_rect(fill= grey15K))
+  
+  
+  order = df2 %>% 
+    filter(ByVariableLabel=='Total') %>% 
+    arrange(desc(diffVal)) %>% 
+    select(CountryName)
+  
+  order = unique(order$CountryName)
+  
+  df2$CountryName = factor(df2$CountryName, levels = order)
+  
+  ggplot(df2 %>% filter(ByVariableLabel == 'Total'), 
+         aes(x = SurveyYear, y = diffVal, 
+             group = CountryName)) +
+    geom_area(fill = 'dodgerblue') +
+    geom_bar(fill = 'dodgerblue', stat='identity') +
+    facet_wrap(~CountryName) +
+    theme_xygrid()
+  
 # HIV prevalence ----------------------------------------------------------
 
 hivBySex = natl_wide %>% 
@@ -423,9 +547,9 @@ json_data <- lapply(x$dataset, function(x) { unlist(x) })
 allData <- as.data.frame(do.call("rbind", json_data),stringsAsFactors=FALSE)
 
 library(XML)
-df <- xmlParse("http://apps.who.int/gho/athena/api/GHO/WHOSIS_000001?filter=COUNTRY:*;REGION:EUR")
+# df <- xmlParse("http://apps.who.int/gho/athena/api/GHO/WHOSIS_000001?filter=COUNTRY:*;REGION:EUR")
 
-xml_data <- xmlToList(df)
+# xml_data <- xmlToList(df)
 
 
 # baby desires + contraception + unmet ------------------------------------
