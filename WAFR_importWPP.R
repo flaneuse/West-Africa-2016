@@ -23,27 +23,51 @@ predPop = read_excel('~/Documents/USAID/West Africa Regional 2016/dataout/WAFR_U
                      sheet = 2)
 
 
+
 # Wrangle -----------------------------------------------------------------
 obsPop = obsPop %>% 
   gather(country, pop, -year) %>% 
   mutate(pop = pop/1000, # convert to millions
          year = as.numeric(year), # convert to number
          isCountry = ifelse(country %in% c('Sub-Saharan Africa', 'Africa', 'Western Africa'), 
-                            0, 1),
-         proj = 0
+                            0, 1)
   ) 
 
 predPop = predPop %>% 
-  gather(country, pop, -year) %>% 
-  filter(year != 2015) %>% 
-  mutate(pop = pop/1000, # convert to millions
+  gather(country, proj, -year) %>% 
+  # filter(year != 2015) %>% 
+  mutate(proj = proj/1000, # convert to millions
          year = as.numeric(year), # convert to number
          isCountry = ifelse(country %in% c('Sub-Saharan Africa', 'Africa', 'Western Africa'), 
-                            0, 1),
-         proj = 1
+                            0, 1)
   ) 
 
-pop = rbind(obsPop, predPop) 
+
+pop = full_join(obsPop, predPop,
+                by = c("year", "country", "isCountry")) 
+
+
+# obsPop = obsPop %>% 
+#   gather(country, pop, -year) %>% 
+#   mutate(pop = pop/1000, # convert to millions
+#          year = as.numeric(year), # convert to number
+#          isCountry = ifelse(country %in% c('Sub-Saharan Africa', 'Africa', 'Western Africa'), 
+#                             0, 1),
+#          proj = 0
+#   ) 
+# 
+# predPop = predPop %>% 
+#   gather(country, pop, -year) %>% 
+#   filter(year != 2015) %>% 
+#   mutate(pop = pop/1000, # convert to millions
+#          year = as.numeric(year), # convert to number
+#          isCountry = ifelse(country %in% c('Sub-Saharan Africa', 'Africa', 'Western Africa'), 
+#                             0, 1),
+#          proj = 1
+#   ) 
+# 
+# pop = rbind(obsPop, predPop) 
+
 
 write.csv(pop, '~/Documents/USAID/West Africa Regional 2016/dataout/allPop.csv')
 write.csv(obsPop, '~/Documents/USAID/West Africa Regional 2016/dataout/obsPop.csv')
