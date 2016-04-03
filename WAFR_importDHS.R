@@ -573,3 +573,75 @@ ggplot(df, aes(x = FP_CUSA_W_MOD, y = PR_DESL_W_WNM,
   scale_colour_gradientn(colours = brewer.pal(9, 'RdPu'),
                          limits = c(15, 35)) +
   theme_xygrid()
+
+
+
+df = subnatl %>% 
+  filter(CountryName %in% c('Cameroon', "Cote d'Ivoire"),
+    IndicatorId %in% c('FP_NADM_W_UNT', 'PR_DESL_W_WNM',
+                       'FP_CUSM_W_MOD', 'FP_CUSA_W_MOD'),
+         SurveyYear > 2010,
+         ByVariableLabel == 'Total' | ByVariableLabel == "") %>% 
+  mutate(id = paste0(DHS_CountryCode,CharacteristicId)) %>% 
+  select(id, CharacteristicLabel, CharacteristicCategory, CountryName, IndicatorId, Value, SurveyYear) %>% 
+  spread(IndicatorId, Value)
+
+df = subnatl %>% 
+  filter(CountryName %in% c('Benin', "Ghana"),
+         IndicatorId %in% c('FP_NADM_W_UNT', 'PR_DESL_W_WNM',
+                            'FP_CUSM_W_MOD', 'FP_CUSA_W_MOD'),
+         SurveyYear > 2010,
+         ByVariableLabel == 'Total' | ByVariableLabel == "") %>% 
+  mutate(id = paste0(DHS_CountryCode,CharacteristicId)) %>% 
+  select(id, CharacteristicLabel, CharacteristicCategory, CountryName, IndicatorId, Value, SurveyYear) %>% 
+  spread(IndicatorId, Value)
+
+df = subnatl %>% 
+  filter(CountryName %in% c('Guinea', "Liberia"),
+         IndicatorId %in% c('FP_NADM_W_UNT', 'PR_DESL_W_WNM',
+                            'FP_CUSM_W_MOD', 'FP_CUSA_W_MOD'),
+         SurveyYear > 2010,
+         ByVariableLabel == 'Total' | ByVariableLabel == "") %>% 
+  mutate(id = paste0(DHS_CountryCode,CharacteristicId)) %>% 
+  select(id, CharacteristicLabel, CharacteristicCategory, CountryName, IndicatorId, Value, SurveyYear) %>% 
+  spread(IndicatorId, Value)
+
+df = subnatl %>% 
+  filter(CountryName %in% c('Mali', "Sierra Leone"),
+         IndicatorId %in% c('FP_NADM_W_UNT', 'PR_DESL_W_WNM',
+                            'FP_CUSM_W_MOD', 'FP_CUSA_W_MOD'),
+         SurveyYear > 2010,
+         ByVariableLabel == 'Total' | ByVariableLabel == "") %>% 
+  mutate(id = paste0(DHS_CountryCode,CharacteristicId)) %>% 
+  select(id, CharacteristicLabel, CharacteristicCategory, CountryName, IndicatorId, Value, SurveyYear) %>% 
+  spread(IndicatorId, Value)
+
+
+df = subnatl %>% 
+  filter(CountryName %in% c('Niger', "Nigeria"),
+         IndicatorId %in% c('FP_NADM_W_UNT', 'PR_DESL_W_WNM',
+                            'FP_CUSM_W_MOD', 'FP_CUSA_W_MOD'),
+         SurveyYear > 2010,
+         ByVariableLabel == 'Total' | ByVariableLabel == "") %>% 
+  mutate(id = paste0(DHS_CountryCode,CharacteristicId)) %>% 
+  select(id, CharacteristicLabel, CharacteristicCategory, CountryName, IndicatorId, Value, SurveyYear) %>% 
+  spread(IndicatorId, Value)
+
+
+
+ggplot(df %>% filter(!is.na(FP_NADM_W_UNT),
+                     !is.na(FP_CUSM_W_MOD),
+                     !is.na(PR_DESL_W_WNM)
+                       ), aes(x = FP_CUSM_W_MOD, y = 100 - PR_DESL_W_WNM,
+               colour = FP_NADM_W_UNT,
+               label = CharacteristicLabel)) +
+  geom_label(nudge_y = 2) + 
+  geom_point(size = 5) +
+  xlab('modern contraception use') +
+  ylab('desires for more children')+
+  scale_colour_gradientn(colours = brewer.pal(9, 'RdPu'),
+                         limits = c(10, 50)) +
+  facet_wrap(~CountryName + CharacteristicCategory)
+
+
+
