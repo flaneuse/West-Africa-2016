@@ -149,3 +149,18 @@ urbRural = urbRural %>%
          rateUrb = (urban - laggedUrb)/urban)
 
 
+
+# current pop vs. % urbanized ---------------------------------------------
+urbRural2 = full_join(urbRural, popRate %>% select(year, country, avgRate)) %>% 
+  filter(year == 2015)
+
+ggplot(urbRural2 %>% filter(year == 2015), 
+       aes(x = total, y = pctUrb, 
+           label = country,
+           colour = avgRate,
+           size = avgRate)) +
+  geom_point() +
+  scale_x_continuous(trans = 'log') +
+  scale_colour_gradientn(colours = brewer.pal(9, 'RdPu')) +
+  geom_label(size = 2, nudge_y = 0.05) +
+  theme_xygrid()
