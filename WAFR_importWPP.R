@@ -156,3 +156,23 @@ ggplot(popRate %>% filter(year %in% seq(2005, 2015, by = 10),
              fill = accentColor, shape = 21,
              data = popRate %>% filter(year == 2015, isCountry == 1)) +
   theme_xgrid()
+
+
+# Probably bad idea -------------------------------------------------------
+pop = read.csv('~/Documents/USAID/West Africa Regional 2016/dataout/allPop.csv') %>% 
+  select(-X) %>% 
+  filter(isCountry == 1,
+         country != 'Saint Helena')
+
+pop = pop %>% 
+  ungroup() %>% 
+  group_by(year) %>% 
+  mutate(tot = sum(pop, proj), 
+         pct = pop/tot)
+
+ggplot(pop, aes(x = year, y = pct, group = country)) +
+  geom_line() +
+  theme_xygrid() +
+  coord_cartesian(xlim = c(1950, 2015)) +
+# facet_wrap(~country, scales = 'free_y')
+facet_wrap(~country)
