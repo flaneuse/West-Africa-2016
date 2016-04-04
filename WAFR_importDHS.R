@@ -451,8 +451,9 @@ ggplot(df,
 # HIV prevalence ----------------------------------------------------------
 
 hivBySex = natl_wide %>% 
+    ungroup() %>% 
   filter(IndicatorId %in% c('HA_HIVP_M_HIV', 'HA_HIVP_W_HIV')) %>% 
-  select(-value1, -year1, -Indicator) %>% 
+  select(IndicatorId, CountryName, value2, year2) %>% 
   spread(IndicatorId, value2) %>% 
   mutate(diff = HA_HIVP_W_HIV - HA_HIVP_M_HIV)
 
@@ -515,7 +516,7 @@ hivDisag = subnatl %>%
 
 hivDisag$CountryName = factor(hivDisag$CountryName, levels = rev(order))
 
-cats = hivDisag %>% 
+# cats = hivDisag %>% 
   
 
 ggplot(hivDisag%>% filter(IndicatorId == 'HA_HIVP_W_HIV',
