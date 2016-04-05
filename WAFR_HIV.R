@@ -1,3 +1,10 @@
+library(llamar)
+loadPkgs()
+
+natl_wide = read.csv('~/Documents/USAID/West Africa Regional 2016/dataout/WAFR_DHS_natl_wide.csv')
+natl = read.csv('~/Documents/USAID/West Africa Regional 2016/dataout/WAFR_DHS_natl.csv')
+subnatl = read.csv('~/Documents/USAID/West Africa Regional 2016/dataout/WAFR_DHS_subnatl.csv')
+
 # HIV prevalence ----------------------------------------------------------
 
 hivBySex = natl_wide %>% 
@@ -6,7 +13,7 @@ hivBySex = natl_wide %>%
   select(group = IndicatorId, country = CountryName, `HIV rate` = value2, year = year2) %>% 
   group_by(country) %>%
   mutate(`HIV rate` = `HIV rate` /100,
-    diff = `HIV rate` - lag(`HIV rate`),
+         diff = `HIV rate` - lag(`HIV rate`),
          diff = ifelse(is.na(diff), 0, diff),
          group = ifelse(group == 'HA_HIVP_M_HIV', 'men',
                         ifelse(group == 'HA_HIVP_W_HIV', 'women', NA))
@@ -28,10 +35,10 @@ hivBySex = natl_wide %>%
 # 
 # hivBySex$CountryName = factor(hivBySex$CountryName, levels = order)
 # 
-# colourM = '#4575b4'
-# colourF = '#ce1256'
+colourM = '#4575b4'
+colourF = '#ce1256'
 
-write.csv(hivBySex, '~/Documents/USAID/West Africa Regional 2016/dataout/HIVbySex.csv')
+# write.csv(hivBySex, '~/Documents/USAID/West Africa Regional 2016/dataout/HIVbySex.csv')
 
 # -- Difference in most recent HIV rates by M/F --
 ggplot(hivBySex, aes(x = diff, y = CountryName, 
@@ -68,7 +75,7 @@ ggplot(hivTrends, aes(x = SurveyYear, y = Value,
             colour = grey50K, nudge_y = -0.5) +
   geom_linerange(aes(ymin = CILow, ymax = CIHigh), alpha = 0.5, size = 2) +
   scale_colour_manual(values = c(colourM, colourF)) +
-  facet_wrap(~CountryName) +
+  facet_wrap(~CountryName, ncol = 3) +
   theme_ygrid() +
   coord_cartesian(ylim = c(0, 7)) +
   scale_x_continuous(limits = c(2003, 2014),
@@ -80,29 +87,38 @@ hivDisag = subnatl %>%
 
 hivDisag$CountryName = factor(hivDisag$CountryName, levels = rev(order))
 
-# cats = hivDisag %>% 
+cats = hivDisag %>%
+  group_by(CharacteristicCategory) %>% 
+  summarise(num = n()) %>% 
+  select(CharacteristicCategory)
 
+cats = cats$CharacteristicCategory
 
-ggplot(hivDisag%>% filter(IndicatorId == 'HA_HIVP_W_HIV',
-                          CharacteristicCategory == 'Prior HIV testing',
-                          CharacteristicCategory != 'Region'), 
-       aes(x = SurveyYear, y = Value, 
-           colour = CharacteristicLabel)) +
-  geom_line() +
-  geom_point(size = 6, colour = 'white') +
-  geom_point(size = 3) +
-  # geom_text(aes(label = SurveyYear), 
-  # data = hivTrends %>% filter(IndicatorId == 'HA_HIVP_W_HIV'),
-  # colour = grey50K, nudge_y = -0.5) +
-  geom_linerange(aes(ymin = CILow, ymax = CIHigh), alpha = 0.5, size = 2) +
-  # scale_colour_manual(values = c(colourM, colourF)) +
-  facet_wrap(~CountryName) +
-  theme_ygrid() +
-  theme(legend.position = 'bottom')+
-  coord_cartesian(ylim = c(0, 20)) +
-  scale_x_continuous(limits = c(2003, 2014),
-                     breaks = c(2003, 2008, 2013))
+for (i in seq_along(cats)){
+  print(i)
+  print(ggplot(hivDisag%>% filter(IndicatorId == 'HA_HIVP_W_HIV',
+                            CharacteristicCategory == cats[i]), 
+         aes(x = SurveyYear, y = Value, 
+             colour = CharacteristicLabel,
+             group = CharacteristicLabel)) +
+    geom_line() +
+    geom_point(size = 6, colour = 'white') +
+    geom_point(size = 3) +
+    # geom_text(aes(label = SurveyYear), 
+    # data = hivTrends %>% filter(IndicatorId == 'HA_HIVP_W_HIV'),
+    # colour = grey50K, nudge_y = -0.5) +
+    geom_linerange(aes(ymin = CILow, ymax = CIHigh), alpha = 0.5, size = 2) +
+    # scale_colour_manual(values = c(colourM, colourF)) +
+    facet_wrap(~CountryName) +
+    theme_ygrid() +
+    theme(legend.position = 'bottom')+
+    coord_cartesian(ylim = c(0, 20)) +
+    scale_x_continuous(limits = c(2003, 2014),
+                       breaks = c(2003, 2008, 2013))
+  
+  )
+}
 
-write.csv(hivTrends, '~/Documents/USAID/West Africa Regional 2016/dataout/HIVtrends.csv')
+# write.csv(hivTrends, '~/Documents/USAID/West Africa Regional 2016/dataout/HIVtrends.csv')
 # write.csv(hivBySex, '~/Documents/USAID/West Africa Regional 2016/dataout/HIVbySex.csv')
 
