@@ -26,12 +26,12 @@ hivBySex = natl_wide %>%
 #   spread(IndicatorId, value2) %>%
 #   mutate(diff = HA_HIVP_W_HIV - HA_HIVP_M_HIV)
 # 
-# order = hivBySex %>%
-#   ungroup() %>%
-#   arrange((HA_HIVP_W_HIV)) %>%
-#   select(CountryName)
+order = hivBySex %>%
+  ungroup() %>%
+  arrange(`HIV rate`) %>%
+  select(country)
 # 
-# order = unique(order$CountryName)
+order = unique(order$country)
 # 
 # hivBySex$CountryName = factor(hivBySex$CountryName, levels = order)
 # 
@@ -96,7 +96,7 @@ cats = cats$CharacteristicCategory
 
 for (i in seq_along(cats)){
   print(i)
-  print(ggplot(hivDisag%>% filter(IndicatorId == 'HA_HIVP_W_HIV',
+  print(ggplot(hivDisag%>% filter(
                             CharacteristicCategory == cats[i]), 
          aes(x = SurveyYear, y = Value, 
              colour = CharacteristicLabel,
@@ -109,10 +109,10 @@ for (i in seq_along(cats)){
     # colour = grey50K, nudge_y = -0.5) +
     geom_linerange(aes(ymin = CILow, ymax = CIHigh), alpha = 0.5, size = 2) +
     # scale_colour_manual(values = c(colourM, colourF)) +
-    facet_wrap(~CountryName) +
+    facet_wrap(~CountryName + IndicatorId) +
     theme_ygrid() +
     theme(legend.position = 'bottom')+
-    coord_cartesian(ylim = c(0, 20)) +
+    coord_cartesian(ylim = c(0, 10)) +
     scale_x_continuous(limits = c(2003, 2014),
                        breaks = c(2003, 2008, 2013))
   
