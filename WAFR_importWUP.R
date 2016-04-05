@@ -146,8 +146,38 @@ urbRural = urbRural %>%
   group_by(country) %>% 
   arrange(country, year) %>% 
   mutate(laggedUrb = lag(urban),
-         rateUrb = (urban - laggedUrb)/urban)
+         laggedRur = lag(rural),
+         rateUrb = (urban - laggedUrb)/laggedUrb,
+         rateRur = (rural - laggedRur)/laggedRur,
+         ratioUrb = rateUrb / rateRur)
 
+
+ggplot(urbRural, aes(x = year, 
+                     group = country)) +
+  # geom_line(aes(y = urbanWestAfrica), 
+  # colour = grey50K) + 
+  # geom_line(aes(y = ruralWestAfrica), 
+  # colour = grey50K,
+  # linetype = 2) +
+  geom_line(aes(y = rateUrb),
+            colour = accentColor) +
+  geom_line(aes(y = rateRur),
+            colour = 'blue', linetype = 2) +
+  facet_wrap(~country, scales = 'free_y') +
+  theme_xygrid()
+
+ggplot(urbRural, aes(x = year, 
+                     group = country)) +
+  # geom_line(aes(y = urbanWestAfrica), 
+  # colour = grey50K) + 
+  # geom_line(aes(y = ruralWestAfrica), 
+  # colour = grey50K,
+  # linetype = 2) +
+  geom_line(aes(y = ratioUrb),
+            colour = accentColor) +
+  facet_wrap(~country) +
+  theme_xygrid()  + 
+  coord_cartesian(xlim = c(1990, 2030), ylim = c(0, 10))
 
 
 # current pop vs. % urbanized ---------------------------------------------

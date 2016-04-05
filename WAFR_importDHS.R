@@ -539,6 +539,9 @@ ggplot(hivDisag%>% filter(IndicatorId == 'HA_HIVP_W_HIV',
   scale_x_continuous(limits = c(2003, 2014),
                      breaks = c(2003, 2008, 2013))
 
+write.csv(hivTrends, '~/Documents/USAID/West Africa Regional 2016/dataout/HIVtrends.csv')
+write.csv(hivBySex, '~/Documents/USAID/West Africa Regional 2016/dataout/HIVbySex.csv')
+
 
 # WHO Global Health Observatory -------------------------------------------
 x = fromJSON(paste0('http://apps.who.int/gho/athena/api/GHO/WHOSIS_000001.json'))
@@ -642,7 +645,8 @@ ggplot(df %>% filter(!is.na(FP_NADM_W_UNT),
   ylab('desires for more children')+
   scale_colour_gradientn(colours = brewer.pal(9, 'RdPu'),
                          limits = c(10, 50)) +
-  facet_wrap(~CountryName + CharacteristicCategory)
+  facet_wrap(~CountryName + CharacteristicCategory) +
+  theme_xygrid()
 
 
 
