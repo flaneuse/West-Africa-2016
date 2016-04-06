@@ -14,6 +14,7 @@ sidebar <- dashboardSidebar(
   sidebarMenu(
     # Setting id makes input$tabs give the tabName of currently-selected tab
     id = "tabs",
+    menuItem("choroTab", tabName = "choroTab", icon = icon("map-o")),
     menuItem("plot", tabName = "plot", icon = icon("bar-chart"))
   )
 )
@@ -33,6 +34,12 @@ body <- dashboardBody(
   # -- Each tab --
   tabItems(
     
+    # -- Choropleth --
+    tabItem(tabName = "choroTab",
+            fluidRow(column(6,
+                            plotOutput('choro')),
+                     column(6,
+                            plotOutput('choroChg')))),
     # -- Basic plot -- 
     tabItem(tabName = "plot", 
             fluidRow(plotOutput('plot1', height = '500px')),
