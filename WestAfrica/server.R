@@ -38,8 +38,30 @@ shinyServer(
         ggtitle(selYear)
     })
     
-    output$indiv = renderPlot({
-      ggplot(mtcars, aes(x = mpg, y = cyl)) + geom_point()
+    output$indivRate = renderPlot({
+      yLim = c(-0.65, 0.15)
+      
+      selCountry = 'Niger'
+      
+      filteredTFR = filterTFR() %>% 
+        filter(country == selCountry)
+        
+        ggplot(filteredTFR, aes(x = year, y = rate, group = country)) +
+        geom_line(colour = accentColor) +
+        geom_point(colour = accentColor,
+                   data = filteredTFR %>% filter(year == '2010-2015'))+
+        facet_wrap(~country) +
+        scale_x_discrete(breaks = c('1950-1955','1960-1965', '1970-1975', 
+                                    '1980-1985', '1990-1995', '2000-2005','2010-2015'),
+                         labels = c('1950-1955','',  '',
+                                    '1980-1985', 
+                                    '','','2010-2015')) +
+        theme_xygridlight() + 
+        scale_y_continuous(labels = scales::percent,
+                           limits = yLim) +
+        ggtitle(selCountry) +
+        theme(axis.text.x = element_text(size = 14))
+      
     })
     
     

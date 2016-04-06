@@ -39,7 +39,9 @@ body <- dashboardBody(
     tabItem(tabName = 'indivTab',
             fluidRow(
               tabBox(
-                tabPanel('Niger', plotOutput('indiv')),
+                tabPanel('Niger', 
+                         fluidRow(column(6,plotOutput('indivRate')),
+                                  column(6, plotOutput('indivChoro')))),
                 tabPanel('Mali', 'text2')
                 
               )
