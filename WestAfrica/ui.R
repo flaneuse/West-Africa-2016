@@ -35,7 +35,8 @@ body <- dashboardBody(
     
     # -- Basic plot -- 
     tabItem(tabName = "plot", 
-            plotOutput('plot1')
+            fluidRow(plotOutput('plot1', height = '500px')),
+            fluidRow(imageOutput('footer', width = '100%'))
     )))
 
 

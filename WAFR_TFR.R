@@ -69,8 +69,7 @@ tfr$country = factor(tfr$country,
 # save --------------------------------------------------------------------
 tfr = tfr %>%
   select(-lagged,-laggedWAfr) %>%
-  mutate(refRate = ifelse(year == '2010-2015',
-                          (tfr - refTFR) / refTFR, NA))
+  mutate(refRate = (tfr - refTFR) / refTFR)
 
 write.csv(tfr, '~/Documents/USAID/West Africa Regional 2016/dataout/WFAR_tfr.csv')
 

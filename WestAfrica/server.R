@@ -6,12 +6,17 @@ shinyServer(
         filter(country %in% input$countryList)
     })
     
+    
+    
     output$plot1 = renderPlot({
+      
+      # Filter down the data
       filteredTFR = filterTFR()
       
       recentTFR = filteredTFR %>% filter(year == '2010-2015')
       
-      ggplot(filteredTFR, aes(x = year, y = tfr, group = country)) +
+      # see if there's > 1 country
+      p = ggplot(filteredTFR, aes(x = year, y = tfr, group = country)) +
         geom_line(colour = grey50K,
                   aes(y = tfrWAfr)) +
         geom_line(colour = accentColor) +
@@ -42,5 +47,18 @@ shinyServer(
         theme(axis.text.x = element_text(size = 10),
               panel.margin = unit(1, 'lines'))
       
+      return(p)
     })
+    
+    
+    output$footer = renderImage({
+      return(list(
+        src = "img/footer_WestAfrica_WPP.png",
+        width = '100%',
+        filetype = "image/png",
+        alt = "Plots from USAID's GeoCenter"
+      ))
+    }, deleteFile = FALSE)
+    
+    
   })
