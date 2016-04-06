@@ -82,7 +82,7 @@ allData <- as.data.frame(do.call("rbind", json_data),stringsAsFactors=FALSE)
 
 
 svyYrs = allData %>% 
-  group_by(SurveyYear, CountryName) %>% 
+  group_by(SurveyYear, CountryName, SurveyType) %>% 
   summarise(num  = n()) %>% 
   mutate(year = as.integer(SurveyYear))
 
@@ -91,11 +91,22 @@ ggplot(svyYrs, aes(x = year, y = CountryName, size = num)) +
   scale_x_continuous(breaks = seq(1986, 2016, by = 4)) +
   theme_xgrid()
 
-ggplot(svyYrs, aes(x = year, y = CountryName, size = num)) +
-  geom_point() +
+
+
+svyYrs$CountryName = factor(svyYrs$CountryName,
+                            levels = rev(unique(sort(svyYrs$CountryName))))
+
+ggplot(svyYrs, aes(x = year, 
+                   y = CountryName,
+                   label= year,
+                   colour = SurveyType)) +
+  geom_label(size = 5)+
   scale_x_continuous(limits = c(2000, 2016),
                      breaks = seq(2000, 2016, by = 2)) +
-  theme_xgrid()
+  theme_ygrid() +
+  # scale_y_reverse()+
+  xlab('') + ylab('') +
+  ggtitle('Available Demographic and Health Surveys data')
 
 
 years = paste0(seq(2000,2016), collapse = ',')
@@ -175,15 +186,21 @@ ggplot(df,
        aes(x = SurveyYear, y = Value, 
            group = CountryName,
            colour = deviation)) +
-  geom_hline(yintercept = wAfrAvg, colour = grey80K, size = 0.5) +
+  # geom_hline(yintercept = wAfrAvg, colour = grey80K, size = 0.5) +
   geom_point(size = 3) +
+  geom_text(aes(label = paste(round(Value,0),'%')), size = 3.5,
+            nudge_y = -7, colour = grey90K, check_overlap = TRUE) + 
   geom_line() +
   scale_colour_gradientn(colours = rev(brewer.pal(11, 'RdYlBu'))) +
   facet_wrap(~CountryName) +
-  scale_y_continuous(limits = c(0, 60)) +
+  scale_y_continuous(limits = c(0, 36), breaks = c(0, 15, 30)) +
+  ggtitle('Unmet need for family planning has been fairly constant, aside from in Benin') +
   theme_xygrid() +
-  theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
-        panel.background = element_rect(fill= grey15K))
+  ylab('')+
+  theme(title = element_text(size = 14),
+    rect = element_rect(fill = grey10K, colour = grey10K, linetype = 1, size =0),
+        panel.background = element_rect(fill= grey10K),
+        panel.margin = unit(1, 'lines'))
 
 
 
@@ -217,15 +234,23 @@ ggplot(df,
        aes(x = SurveyYear, y = Value, 
            group = CountryName,
            colour = deviation)) +
-  geom_hline(yintercept = wAfrAvg, colour = grey80K, size = 0.5) +
+  # geom_hline(yintercept = wAfrAvg, colour = grey80K, size = 0.5) +
   geom_point(size = 3) +
   geom_line() +
   scale_colour_gradientn(colours = (brewer.pal(11, 'RdYlBu'))) +
   facet_wrap(~CountryName) +
-  scale_y_continuous(limits = c(0, 25)) +
+  scale_y_continuous(limits = c(0, 25), breaks = c(0, 10, 20)) +
   theme_xygrid() +
+  geom_text(aes(label = paste(round(Value,0),'%')), size = 3.5,
+            nudge_y = -4, colour = grey90K, check_overlap = TRUE) + 
   theme(rect = element_rect(fill = grey15K, colour = grey15K, linetype = 1, size =0),
-        panel.background = element_rect(fill= grey15K))
+        panel.background = element_rect(fill= grey15K)) +
+  ylab('')+
+  ggtitle('Modern contraception use in all women is low but increasing') +
+  theme(title = element_text(size = 14),
+        rect = element_rect(fill = grey10K, colour = grey10K, linetype = 1, size =0),
+        panel.background = element_rect(fill= grey10K),
+        panel.margin = unit(1, 'lines'))
 
 
 
@@ -395,7 +420,7 @@ ggplot(df,
   
 
 
-  
+  #!!
   ggplot(df2 %>% filter(ByVariableLabel != 'Total'), 
          aes(x = 100 - PR_DESL_M_WNM, y = 100 - PR_DESL_W_WNM, 
              group = ByVariableLabel,
@@ -405,8 +430,13 @@ ggplot(df,
     geom_point(size = 3) +
     facet_wrap(~CountryName) +
     coord_cartesian(xlim = c(0, 100), ylim = c(0, 100))+
-    theme_xygrid()
-  
+    theme_xygrid() + 
+    ggtitle('Men and women have different desires for more children') +
+    xlab('percent of men wanting more children') +
+    ylab('percent of women wanting more children') +
+    theme(legend.position = c(0.8, 0.1),
+          legend.direction = 'horizontal',
+          panel.margin = unit(1, 'lines'))
   
   ggplot(df2 %>% filter(CountryName == 'Ghana',
     ByVariableLabel != 'Total'), 
@@ -473,16 +503,20 @@ df = natl %>%
   select(CountryName, IndicatorId, Value, SurveyYear) %>% 
   spread(IndicatorId, Value)
 
-ggplot(df, aes(x = FP_CUSA_W_MOD, y = PR_DESL_W_WNM,
+ggplot(df, aes(x = FP_CUSA_W_MOD, y = 100- PR_DESL_W_WNM,
                colour = FP_NADM_W_UNT,
+               size = FP_NADM_W_UNT,
                label = CountryName)) +
-  geom_label(nudge_y = 2) + 
-  geom_point(size = 5) +
-  xlab('modern contraception use') +
-  ylab('desires for no more children')+
+  geom_label(nudge_y = 2, size = 5) + 
+  geom_point() +
+  xlab('modern contraception use in all women') +
+  ggtitle('')+
+  # coord_cartesian(xlim = c(0, 25), ylim = c(0, 100))+
+  ylab('percent of women desiring more children')+
   scale_colour_gradientn(colours = brewer.pal(9, 'RdPu'),
-                         limits = c(15, 35)) +
-  theme_xygrid()
+                         limits = c(7, 35)) +
+  theme_xygrid() +
+  theme(legend.position = c(0.1, 0.1))
 
 
 

@@ -59,8 +59,25 @@ ggplot(hivBySex, aes(x = diff, y = CountryName,
 
 
 # -- HIV trends over time --
+
+smMult = data.frame(CountryName = c("Burkina Faso",  "Cote d'Ivoire",
+                                    "Cameroon",      "Ghana",         "Guinea",
+                                    "Liberia", "Mali",  
+                                    "Niger",
+                                    "Sierra Leone",  "Senegal", "Togo"),
+                    smCols = c(1, 2, 1, 1, 2, 4, 4, 3, 3, 2, 3),
+                    smRows = c(3, 1,1,2,2,1,2,3,2, 3, 1))
+
 hivTrends = natl %>% 
-  filter(IndicatorId %in% c('HA_HIVP_M_HIV', 'HA_HIVP_W_HIV'))
+  filter(IndicatorId %in% c('HA_HIVP_M_HIV', 'HA_HIVP_W_HIV')) %>% 
+  mutate(`HIV rate` = Value /100,
+         IndicatorId = ifelse(IndicatorId == 'HA_HIVP_M_HIV', 'men',
+                        ifelse(IndicatorId == 'HA_HIVP_W_HIV', 'women', NA)))
+
+hivTrends = full_join(hivTrends, smMult, by = 'CountryName')
+
+write.csv(hivTrends, '~/Documents/USAID/West Africa Regional 2016/dataout/HIVtrends.csv')
+
 
 hivTrends$CountryName = factor(hivTrends$CountryName, levels = rev(order))
 
@@ -119,6 +136,5 @@ for (i in seq_along(cats)){
   )
 }
 
-# write.csv(hivTrends, '~/Documents/USAID/West Africa Regional 2016/dataout/HIVtrends.csv')
 # write.csv(hivBySex, '~/Documents/USAID/West Africa Regional 2016/dataout/HIVbySex.csv')
 
