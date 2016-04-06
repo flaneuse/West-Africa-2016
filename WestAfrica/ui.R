@@ -42,8 +42,8 @@ body <- dashboardBody(
                 tabPanel('Niger', 
                          fluidRow(column(6,plotOutput('indivRate')),
                                   column(6, plotOutput('indivChoro')))),
-                tabPanel('Mali', 'text2')
-                
+                tabPanel('Mali', 'text2'),
+                width = 12
               )
             )),
     
