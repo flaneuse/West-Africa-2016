@@ -38,6 +38,10 @@ shinyServer(
         ggtitle(selYear)
     })
     
+    output$indiv = renderPlot({
+      ggplot(mtcars, aes(x = mpg, y = cyl)) + geom_point()
+    })
+    
     
     output$choroChg = renderPlot({
       selYear = '2010-2015'

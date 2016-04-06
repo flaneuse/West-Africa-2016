@@ -14,7 +14,8 @@ sidebar <- dashboardSidebar(
   sidebarMenu(
     # Setting id makes input$tabs give the tabName of currently-selected tab
     id = "tabs",
-    menuItem("choroTab", tabName = "choroTab", icon = icon("map-o")),
+    menuItem("each country", tabName = "indivTab", icon = icon("crosshairs")),
+    menuItem("maps", tabName = "choroTab", icon = icon("map-o")),
     menuItem("plot", tabName = "plot", icon = icon("bar-chart"))
   )
 )
@@ -34,6 +35,16 @@ body <- dashboardBody(
   # -- Each tab --
   tabItems(
     
+    # -- Individual country plots --
+    tabItem(tabName = 'indivTab',
+            fluidRow(
+              tabBox(
+                tabPanel('Niger', plotOutput('indiv')),
+                tabPanel('Mali', 'text2')
+                
+              )
+            )),
+    
     # -- Choropleth --
     tabItem(tabName = "choroTab",
             fluidRow(column(6,
@@ -43,8 +54,8 @@ body <- dashboardBody(
     # -- Basic plot -- 
     tabItem(tabName = "plot", 
             fluidRow(plotOutput('plot1', height = '500px')),
-            fluidRow(imageOutput('footer', width = '100%'))
-    )))
+            fluidRow(imageOutput('footer', width = '100%')))
+  ))
 
 
 

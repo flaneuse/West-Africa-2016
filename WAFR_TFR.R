@@ -111,12 +111,12 @@ ggplot(tfr, aes(x = year, y = tfr, group = country)) +
 # TFR rate over time ------------------------------------------------------
 
 ggplot(tfr, aes(x = year, y = rate, group = country)) +
-  geom_line(colour = grey50K,
-            aes(y = rateWAfr)) +
+  # geom_line(colour = grey50K,
+            # aes(y = rateWAfr)) +
   geom_line(colour = accentColor) +
-  geom_ribbon(aes(ymin = rateWAfr, ymax = rate),
-              fill = 'blue',
-              alpha = 0.15) +
+  # geom_ribbon(aes(ymin = rateWAfr, ymax = rate),
+  #             fill = 'blue',
+  #             alpha = 0.15) +
   geom_point(colour = accentColor,
              data = tfr %>% filter(year == '2010-2015'))+
   facet_wrap(~country) +
