@@ -1,6 +1,16 @@
 library(llamar)
 loadPkgs()
 
+
+# Static things -----------------------------------------------------------
+
+accentColor = '#b2182b'
+
+refYr = '1980-1985'
+
+# Load Data ---------------------------------------------------------------
+
+
 tfr = read_excel('~/Documents/USAID/West Africa Regional 2016/datain/WPP_TFR.xlsx',
                     sheet = 1)
 
@@ -8,9 +18,11 @@ prb = read_excel('~/Documents/USAID/West Africa Regional 2016/datain/WAFR_PRB_TF
   mutate(prb = as.numeric(Data)
          # country = rem
          # country = ifelse(country == 'Cape Verde', 'Cabo Verde', country)
-         )
+         ) %>% 
+  filter(TimeFrame == 2014) %>% 
+  select(Location, prb)
 
-accentColor = '#b2182b'
+
 
 # Wrangle -----------------------------------------------------------------
 # Pull out the regional numbers
@@ -20,6 +32,8 @@ regionalTFR = tfr %>%
   mutate(laggedWAfr = lag(tfrWAfr),
          rateWAfr = (tfrWAfr - laggedWAfr)/laggedWAfr)
 
+
+# Tidy
 tfr = tfr %>% 
   gather(country, tfr, -year) %>% 
   filter(!(country %in% c('Sub-Saharan Africa', 'AFRICA', 'Western Africa'))) %>% 
@@ -28,10 +42,19 @@ tfr = tfr %>%
          rate = (tfr - lagged)/lagged
          )
 
+
+# Pull out the reference number
+refTFR = tfr %>% 
+  filter(year == refYr) %>% 
+  select(country, refTFR = tfr)
+
+
 tfr = full_join(tfr, regionalTFR) %>% 
   mutate(diffRate = rate-rateWAfr)
 
-tfr = left_join(tfr, prb %>% filter(TimeFrame == 2014), by = c("country" = "Location"))
+tfr = left_join(tfr, prb, by = c("country" = "Location"))
+
+tfr = full_join(tfr, refTFR, by = 'country')
 
 
 order = tfr %>% 
@@ -41,6 +64,15 @@ order = tfr %>%
 
 tfr$country = factor(tfr$country,
                      levels  = order$country)
+
+
+# save --------------------------------------------------------------------
+tfr = tfr %>%
+  select(-lagged,-laggedWAfr) %>%
+  mutate(refRate = ifelse(year == '2010-2015',
+                          (tfr - refTFR) / refTFR, NA))
+
+write.csv(tfr, '~/Documents/USAID/West Africa Regional 2016/dataout/WFAR_tfr.csv')
 
 
 # TFR over time -----------------------------------------------------------
