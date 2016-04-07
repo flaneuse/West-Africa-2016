@@ -40,19 +40,23 @@ shinyServer(
           geom_line(colour = accentColor) +
           geom_point(colour = accentColor,
                      data = recentTFR)+
-          geom_point(aes(y = prb),
+          geom_point(aes(y = tfrWAfr),
                      data = recentTFR,
-                     colour = 'dodgerblue')+
+                     size = 2.5,
+                     colour = grey50K) +
+          # geom_point(aes(y = prb),
+                     # data = recentTFR,
+                     # colour = 'dodgerblue')+
           geom_text(aes(label = round(tfr,1)), 
                     colour = accentColor,
                     nudge_y = -1,
                     hjust = 1,
                     data = recentTFR) +
-          geom_text(aes(label = round(prb,1)), 
-                    colour = 'dodgerblue',
-                    nudge_y = -1,
-                    hjust = 1,
-                    data = recentTFR) +
+          # geom_text(aes(label = round(prb,1)), 
+          #           colour = 'dodgerblue',
+          #           nudge_y = -1,
+          #           hjust = 1,
+          #           data = recentTFR) +
           facet_wrap(~country) +
           scale_x_discrete(breaks = c('1950-1955','1960-1965', '1970-1975', 
                                       '1980-1985', '1990-1995', '2000-2005','2010-2015'),
@@ -61,8 +65,11 @@ shinyServer(
                                       '','','2010-2015')) +
           theme_xygridlight() + 
           scale_y_continuous(limits = c(0,8)) +
+          xlab('') + ylab('')+
           ggtitle('Niger and Mali have high Total Fertility Rates relative to the rest of the region') +
-          theme(axis.text.x = element_text(size = 9))
+          theme(axis.text.x = element_text(size = 9),
+                legend.position = 'bottom',
+                legend.direction = 'horizontal')
 
               return(p)
     })
