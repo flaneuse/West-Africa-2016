@@ -11,6 +11,9 @@ library(shiny)
 library(shinydashboard)
 library(stringr)
 library(llamar)
+library(choroplethr)
+library(choroplethrMaps)
+library(RColorBrewer)
 
 accentColor = '#b2182b'
 ltColor  = '#e0a3aa'
@@ -18,6 +21,8 @@ ltColor  = '#e0a3aa'
 # import data -------------------------------------------------------------
 
 tfr = read.csv('data/WFAR_tfr.csv')
+choroData = read.csv('data/choroData.csv')
+
 
 countries = levels(unique(tfr$country))
 

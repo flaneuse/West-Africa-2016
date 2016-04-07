@@ -12,7 +12,7 @@ indivRateUI = function(id){
   )
 }
 
-indivRate = function(input, output, session, tfr, selCountry){
+indivRate = function(input, output, session, tfr, choroData, selCountry){
   
   filterTFR = reactive({
     tfr %>% 
@@ -104,12 +104,6 @@ indivRate = function(input, output, session, tfr, selCountry){
     selYear = '2010-2015'
     
      
-      if(selCountry == 'Cabo Verde') {
-        selChoroLab = filteredChoro
-      } else{
-        selChoroLab = filteredChoro %>% filter(country == str_to_lower(selCountry))
-      }
-    
     filteredTFR = tfr %>% 
       filter(year == selYear) %>% 
       ungroup() %>% 
@@ -119,6 +113,13 @@ indivRate = function(input, output, session, tfr, selCountry){
     
     filteredChoro = left_join(choroData, filteredTFR,
                               by = c("country" = "country"))
+    
+    if(selCountry == 'Cabo Verde') {
+      selChoroLab = filteredChoro
+    } else{
+      selChoroLab = filteredChoro %>% filter(country == str_to_lower(selCountry))
+    }
+    
     
     country_choropleth(filteredChoro, 
                        zoom = filteredChoro$region, num_colors = 1) +
@@ -139,13 +140,6 @@ indivRate = function(input, output, session, tfr, selCountry){
   
   
   output$indivChoroChg = renderPlot({
-    if(selCountry == 'Cabo Verde') {
-      selChoroLab = filteredChoro
-    } else{
-      selChoroLab = filteredChoro %>% filter(country == str_to_lower(selCountry))
-    }
-    
-    
     selYear = '2010-2015'
     
     filteredChg = tfr %>% 
@@ -158,6 +152,13 @@ indivRate = function(input, output, session, tfr, selCountry){
     filteredChoro = left_join(choroData, filteredChg,
                               by = c("country" = "country"))
     
+    if(selCountry == 'Cabo Verde') {
+      selChoroLab = filteredChoro
+    } else{
+      selChoroLab = filteredChoro %>% filter(country == str_to_lower(selCountry))
+    }
+    
+    
     country_choropleth(filteredChoro, 
                        zoom = filteredChoro$region, num_colors = 1) +
       scale_fill_gradientn(colours = rev(brewer.pal(9, 'PuRd')),
@@ -168,7 +169,7 @@ indivRate = function(input, output, session, tfr, selCountry){
                     size = 3,
                     colour = colText,
                     x = lon, y = lat, group = region),
-                data = filteredChoro %>% selChoroLab) +
+                data = selChoroLab) +
       scale_colour_identity() +
       scale_size(guide = FALSE) +
       guides(fill = guide_colorbar(ticks = FALSE)) +

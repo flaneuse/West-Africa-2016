@@ -7,3 +7,5 @@ choroData = data.frame(country = str_to_lower(countries)) %>%
 coords = geocode(choroData$region)
 
 choroData = cbind(choroData, coords)
+
+write.csv(choroData,'~/GitHub/West Africa 2016/WestAfrica/data/choroData.csv')

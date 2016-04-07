@@ -8,23 +8,23 @@ shinyServer(
     
     
     
-    callModule(indivRate, 'benin', tfr, 'Benin')
-    callModule(indivRate, 'burkina', tfr, 'Burkina Faso')
-    callModule(indivRate, 'cabo', tfr, 'Cabo Verde')
-    callModule(indivRate, 'cameroon', tfr, 'Cameroon')
-    callModule(indivRate, 'cote', tfr, "Côte d'Ivoire")
-    callModule(indivRate, 'gambia', tfr, 'Gambia')
-    callModule(indivRate, 'ghana', tfr, 'Ghana')
-    callModule(indivRate, 'guinea', tfr, 'Guinea')
-    callModule(indivRate, 'g-b', tfr, 'Guinea-Bissau')
-    callModule(indivRate, 'liberia', tfr, 'Liberia')
-    callModule(indivRate, 'mali', tfr, 'Mali')
-    callModule(indivRate, 'mauritania', tfr, 'Mauritania')
-    callModule(indivRate, 'niger', tfr, 'Niger')
-    callModule(indivRate, 'nigeria', tfr, 'Nigeria')
-    callModule(indivRate, 'senegal', tfr, 'Senegal')
-    callModule(indivRate, 'sl', tfr, 'Sierra Leone')
-    callModule(indivRate, 'togo', tfr, 'Togo')
+    callModule(indivRate, 'benin', tfr, choroData, 'Benin')
+    callModule(indivRate, 'burkina', tfr, choroData, 'Burkina Faso')
+    callModule(indivRate, 'cabo', tfr, choroData, 'Cabo Verde')
+    callModule(indivRate, 'cameroon', tfr, choroData, 'Cameroon')
+    callModule(indivRate, 'cote', tfr, choroData, "Côte d'Ivoire")
+    callModule(indivRate, 'gambia', tfr, choroData, 'Gambia')
+    callModule(indivRate, 'ghana', tfr, choroData, 'Ghana')
+    callModule(indivRate, 'guinea', tfr, choroData, 'Guinea')
+    callModule(indivRate, 'g-b', tfr, choroData, 'Guinea-Bissau')
+    callModule(indivRate, 'liberia', tfr, choroData, 'Liberia')
+    callModule(indivRate, 'mali', tfr, choroData, 'Mali')
+    callModule(indivRate, 'mauritania', tfr, choroData, 'Mauritania')
+    callModule(indivRate, 'niger', tfr, choroData, 'Niger')
+    callModule(indivRate, 'nigeria', tfr, choroData, 'Nigeria')
+    callModule(indivRate, 'senegal', tfr, choroData, 'Senegal')
+    callModule(indivRate, 'sl', tfr, choroData, 'Sierra Leone')
+    callModule(indivRate, 'togo', tfr, choroData, 'Togo')
     
     
     output$plot1 = renderPlot({
@@ -64,7 +64,8 @@ shinyServer(
                                       '1980-1985', 
                                       '','','2010-2015')) +
           theme_xygridlight() + 
-          scale_y_continuous(limits = c(0,8)) +
+          scale_y_continuous(limits = c(0,8),
+                             breaks = seq(0, 8, by = 2)) +
           xlab('') + ylab('')+
           ggtitle('Niger and Mali have high Total Fertility Rates relative to the rest of the region') +
           theme(axis.text.x = element_text(size = 9),
