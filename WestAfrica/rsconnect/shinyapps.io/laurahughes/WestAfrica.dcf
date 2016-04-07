@@ -2,8 +2,8 @@ name: WestAfrica
 account: laurahughes
 server: shinyapps.io
 appId: 92707
-bundleId: 412539
+bundleId: 412548
 url: https://laurahughes.shinyapps.io/WestAfrica/
-when: 1459996440.78287
+when: 1459997251.48815
 asMultiple: FALSE
 asStatic: FALSE
