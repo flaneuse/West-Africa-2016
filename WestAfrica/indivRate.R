@@ -4,15 +4,12 @@ indivRateUI = function(id){
   tagList(
     fluidRow(column(6,plotOutput(ns('indivPlot'))),
              column(6, plotOutput(ns('indivChoro')))),
-             
-             fluidRow(column(6,plotOutput(ns('indivRate'))),
-                      column(6, plotOutput(ns('indivChoroChg')))
-             )
-    )
-    # fluidRow(column(6,plotOutput('indiv')),
-    # column(6, plotOutput('indivChoro')))),
-    # fluidRow(column(6,plotOutput('indivRate')),
-    # column(6, plotOutput('indivChoroChg')))),
+    
+    fluidRow(column(6,plotOutput(ns('indivRate'))),
+             column(6, plotOutput(ns('indivChoroChg')))
+    ),
+    fluidRow(imageOutput(ns('indivFooter'), width = '90%'))
+  )
 }
 
 indivRate = function(input, output, session, tfr, selCountry){
@@ -22,78 +19,96 @@ indivRate = function(input, output, session, tfr, selCountry){
       filter(country == selCountry)
   })
   
+  output$indivFooter = renderImage({
+    return(list(
+      src = "img/footer_WestAfrica_WPP.png",
+      width = '100%',
+      filetype = "image/png",
+      alt = "Plots from USAID's GeoCenter"
+    ))
+  }, deleteFile = FALSE)
+
+  
   output$indivPlot = renderPlot({
-      
-      # Filter down the data
-      filteredTFR = filterTFR()
-      
-      recentTFR = filteredTFR %>% filter(year == '2010-2015')
-      
-      compTFR = filteredTFR %>% filter(year == '1980-1985')
-      
-      p = ggplot(filteredTFR, aes(x = year, y = tfr, group = country)) +
-        geom_line(colour = grey50K,
-                  aes(y = tfrWAfr)) +
-        geom_line(colour = accentColor) +
-        geom_segment(aes(x = '1980-1985', xend = '2010-2015',
-                         y = 7.5, yend = 7.5),
-                     arrow = arrow(length = unit(0.03, "npc"), ends = 'both'),
-                     colour = ltColor) +
-        geom_text(aes(x = '1995-2000',
-                      size = 4,
-                         y = 7.5, label = paste0('change: ', percent(refRate))),
-                  nudge_y = -0.3,   
-                  colour = ltColor, data = recentTFR) +
-        geom_point(colour = accentColor,
-                   size = 2.5,
-                   data = recentTFR)+
-        geom_point(colour = accentColor,
-                   data = compTFR)+
-        geom_point(aes(y = tfrWAfr),
-                   data = recentTFR,
-                   size = 2.5,
-                   colour = grey50K) +
-        geom_text(aes(label = 'West Africa (excluding Cameroon)', 
-                      x = 1, y = 1), 
-                  colour = grey50K,
-                  size = 5,
-                  nudge_y = 0.4,
-                  hjust = 0, 
-                  data = filteredTFR %>% filter(year == '1950-1955')) +
-        geom_text(aes(label = selCountry, 
-                      x = 1, y = 1.75), 
-                  colour = accentColor,
-                  size = 5,
-                  nudge_y = 0.4,
-                  hjust = 0,
-                  data = filteredTFR %>% filter(year == '1950-1955')) +
-        geom_text(aes(label = round(tfr,1)), 
-                  colour = accentColor,
-                  size = 6,
-                  nudge_y = -0.8,
-                  hjust = 1,
-                  data = recentTFR) +
-        geom_text(aes(label = round(tfr,1)), 
-                  colour = accentColor,
-                  size = 6,
-                  nudge_y = -0.8,
-                  hjust = 1,
-                  data = compTFR) +
-        scale_x_discrete(breaks = c('1950-1955','1960-1965', '1970-1975', 
-                                    '1980-1985', '1990-1995', '2000-2005','2010-2015'),
-                         labels = c('1950-1955','',  '',
-                                    '1980-1985', 
-                                    '','','2010-2015')) +
-        theme_xygridlight() + 
-        scale_y_continuous(limits = c(0,8)) +
-        ggtitle(paste0(selCountry, ': total fertility rate')) +
-        xlab('') + ylab('')+
-        theme(axis.text.x = element_text(size = 12))
-      return(p)
+    
+    # Filter down the data
+    filteredTFR = filterTFR()
+    
+    recentTFR = filteredTFR %>% filter(year == '2010-2015')
+    
+    compTFR = filteredTFR %>% filter(year == '1980-1985')
+    
+    p = ggplot(filteredTFR, aes(x = year, y = tfr, group = country)) +
+      geom_line(colour = grey50K,
+                aes(y = tfrWAfr)) +
+      geom_line(colour = accentColor) +
+      geom_segment(aes(x = '1980-1985', xend = '2010-2015',
+                       y = 7.5, yend = 7.5),
+                   arrow = arrow(length = unit(0.03, "npc"), ends = 'both'),
+                   colour = ltColor) +
+      geom_text(aes(x = '1995-2000',
+                    size = 4,
+                    y = 7.5, label = paste0('change: ', percent(refRate))),
+                nudge_y = -0.3,   
+                colour = ltColor, data = recentTFR) +
+      geom_point(colour = accentColor,
+                 size = 2.5,
+                 data = recentTFR)+
+      geom_point(colour = accentColor,
+                 data = compTFR)+
+      geom_point(aes(y = tfrWAfr),
+                 data = recentTFR,
+                 size = 2.5,
+                 colour = grey50K) +
+      geom_text(aes(label = 'West Africa (excluding Cameroon)', 
+                    x = 1, y = 1), 
+                colour = grey50K,
+                size = 5,
+                nudge_y = 0.4,
+                hjust = 0, 
+                data = filteredTFR %>% filter(year == '1950-1955')) +
+      geom_text(aes(label = selCountry, 
+                    x = 1, y = 1.75), 
+                colour = accentColor,
+                size = 5,
+                nudge_y = 0.4,
+                hjust = 0,
+                data = filteredTFR %>% filter(year == '1950-1955')) +
+      geom_text(aes(label = round(tfr,1)), 
+                colour = accentColor,
+                size = 6,
+                nudge_y = -0.8,
+                hjust = 1,
+                data = recentTFR) +
+      geom_text(aes(label = round(tfr,1)), 
+                colour = accentColor,
+                size = 6,
+                nudge_y = -0.8,
+                hjust = 1,
+                data = compTFR) +
+      scale_x_discrete(breaks = c('1950-1955','1960-1965', '1970-1975', 
+                                  '1980-1985', '1990-1995', '2000-2005','2010-2015'),
+                       labels = c('1950-1955','',  '',
+                                  '1980-1985', 
+                                  '','','2010-2015')) +
+      theme_xygridlight() + 
+      scale_y_continuous(limits = c(0,8)) +
+      ggtitle(paste0(selCountry, ': total fertility rate')) +
+      xlab('') + ylab('')+
+      theme(axis.text.x = element_text(size = 12))
+    return(p)
   })
   
   output$indivChoro = renderPlot({
+    
     selYear = '2010-2015'
+    
+     
+      if(selCountry == 'Cabo Verde') {
+        selChoroLab = filteredChoro
+      } else{
+        selChoroLab = filteredChoro %>% filter(country == str_to_lower(selCountry))
+      }
     
     filteredTFR = tfr %>% 
       filter(year == selYear) %>% 
@@ -115,7 +130,7 @@ indivRate = function(input, output, session, tfr, selCountry){
                     size = 3,
                     colour = colText,
                     x = lon, y = lat, group = region),
-                data = filteredChoro %>% filter(country == str_to_lower(selCountry))) +
+                data = selChoroLab) +
       scale_colour_identity() +
       scale_size(guide = FALSE) +
       guides(fill = guide_colorbar(ticks = FALSE)) +
@@ -124,6 +139,13 @@ indivRate = function(input, output, session, tfr, selCountry){
   
   
   output$indivChoroChg = renderPlot({
+    if(selCountry == 'Cabo Verde') {
+      selChoroLab = filteredChoro
+    } else{
+      selChoroLab = filteredChoro %>% filter(country == str_to_lower(selCountry))
+    }
+    
+    
     selYear = '2010-2015'
     
     filteredChg = tfr %>% 
@@ -146,7 +168,7 @@ indivRate = function(input, output, session, tfr, selCountry){
                     size = 3,
                     colour = colText,
                     x = lon, y = lat, group = region),
-                data = filteredChoro %>% filter(country == str_to_lower(selCountry))) +
+                data = filteredChoro %>% selChoroLab) +
       scale_colour_identity() +
       scale_size(guide = FALSE) +
       guides(fill = guide_colorbar(ticks = FALSE)) +

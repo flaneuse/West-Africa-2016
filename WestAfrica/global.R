@@ -3,8 +3,14 @@
 
 # Set up the app ----------------------------------------------------------
 
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(shiny)
+library(shinydashboard)
+library(stringr)
 library(llamar)
-loadPkgs()
 
 accentColor = '#b2182b'
 ltColor  = '#e0a3aa'
