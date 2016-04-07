@@ -85,6 +85,33 @@ shinyServer(
     }, deleteFile = FALSE)
     
     
+    output$footer2 = renderImage({
+      return(list(
+        src = "img/footer_WestAfrica_WPP.png",
+        width = '100%',
+        filetype = "image/png",
+        alt = "Plots from USAID's GeoCenter"
+      ))
+    }, deleteFile = FALSE)
+    
+    output$footer3 = renderImage({
+      return(list(
+        src = "img/footer_WestAfrica_WPP.png",
+        width = '100%',
+        filetype = "image/png",
+        alt = "Plots from USAID's GeoCenter"
+      ))
+    }, deleteFile = FALSE)
+    
+    output$footer4 = renderImage({
+      return(list(
+        src = "img/footer_WestAfrica_WPP.png",
+        width = '100%',
+        filetype = "image/png",
+        alt = "Plots from USAID's GeoCenter"
+      ))
+    }, deleteFile = FALSE)
+    
     output$choroChg = renderPlot({
       selYear = '2010-2015'
       

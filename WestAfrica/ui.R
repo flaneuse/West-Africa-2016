@@ -82,7 +82,9 @@ body <- dashboardBody(
             fluidRow(column(6,
                             plotOutput('choro')),
                      column(6,
-                            plotOutput('choroChg')))),
+                            plotOutput('choroChg'))),
+            fluidRow(imageOutput('footer3', width = '100%'))
+            ),
     
     tabItem(tabName = "rateTab",
             fluidRow(plotOutput('ratePlot', height = '600px')),
