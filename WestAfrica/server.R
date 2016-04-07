@@ -8,36 +8,6 @@ shinyServer(
     
     
     
-    output$choro = renderPlot({
-      selYear = '2010-2015'
-      
-      filteredTFR = filterTFR() %>% 
-        filter(year == selYear) %>% 
-        ungroup() %>% 
-        select(country, year, value = tfr, rate, refRate) %>% 
-        mutate(colText = ifelse(value > 1.25*mean(value), grey10K, grey90K),
-               country = str_to_lower(country))
-      
-      filteredChoro = left_join(choroData, filteredTFR,
-                                by = c("country" = "country"))
-      
-      country_choropleth(filteredChoro, 
-                         zoom = filteredChoro$region, num_colors = 1) +
-        scale_fill_gradientn(colours = brewer.pal(9, 'Blues'),
-                             name = 'Total Fertility Rate',
-                             limits = c(2, 8),
-                             breaks = seq(2, 8, by = 2)) +
-        geom_text(aes(label = str_to_title(region), 
-                      size = 3,
-                      colour = colText,
-                      x = lon, y = lat, group = region),
-                  data = filteredChoro) +
-        scale_colour_identity() +
-        scale_size(guide = FALSE) +
-        guides(fill = guide_colorbar(ticks = FALSE)) +
-        ggtitle(selYear)
-    })
-    
     callModule(indivRate, 'benin', tfr, 'Benin')
     callModule(indivRate, 'burkina', tfr, 'Burkina Faso')
     callModule(indivRate, 'cabo', tfr, 'Cabo Verde')

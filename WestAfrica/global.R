@@ -7,6 +7,7 @@ library(llamar)
 loadPkgs()
 
 accentColor = '#b2182b'
+ltColor  = '#e0a3aa'
 
 # import data -------------------------------------------------------------
 
