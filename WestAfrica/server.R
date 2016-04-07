@@ -38,37 +38,24 @@ shinyServer(
         ggtitle(selYear)
     })
     
-    callModule(indivRate, 'test', tfr, 'Niger')
+    callModule(indivRate, 'benin', tfr, 'Benin')
+    callModule(indivRate, 'burkina', tfr, 'Burkina Faso')
+    callModule(indivRate, 'cabo', tfr, 'Cabo Verde')
+    callModule(indivRate, 'cameroon', tfr, 'Cameroon')
+    callModule(indivRate, 'cote', tfr, "Côte d'Ivoire")
+    callModule(indivRate, 'gambia', tfr, 'Gambia')
+    callModule(indivRate, 'ghana', tfr, 'Ghana')
+    callModule(indivRate, 'guinea', tfr, 'Guinea')
+    callModule(indivRate, 'g-b', tfr, 'Guinea-Bissau')
+    callModule(indivRate, 'liberia', tfr, 'Liberia')
+    callModule(indivRate, 'mali', tfr, 'Mali')
+    callModule(indivRate, 'mauritania', tfr, 'Mauritania')
+    callModule(indivRate, 'niger', tfr, 'Niger')
+    callModule(indivRate, 'nigeria', tfr, 'Nigeria')
+    callModule(indivRate, 'senegal', tfr, 'Senegal')
+    callModule(indivRate, 'sl', tfr, 'Sierra Leone')
+    callModule(indivRate, 'togo', tfr, 'Togo')
     
-    output$choroChg = renderPlot({
-      selYear = '2010-2015'
-      
-      filteredChg = filterTFR() %>% 
-        filter(year == selYear) %>% 
-        ungroup() %>% 
-        select(country, year, tfr, rate, value = refRate) %>% 
-        mutate(colText = ifelse(value < 1.25*mean(value), grey10K, grey90K),
-               country = str_to_lower(country))
-      
-      filteredChoro = left_join(choroData, filteredChg,
-                                by = c("country" = "country"))
-      
-      country_choropleth(filteredChoro, 
-                         zoom = filteredChoro$region, num_colors = 1) +
-        scale_fill_gradientn(colours = rev(brewer.pal(9, 'PuRd')),
-                             name = paste0('Change in TFR \n(', selYear, '  -  1980-1985)'),
-                             limits = c(-0.35, 0.10),
-                             breaks = seq(-0.35, 0.10, by = 0.1)) +
-        geom_text(aes(label = str_to_title(region), 
-                      size = 3,
-                      colour = colText,
-                      x = lon, y = lat, group = region),
-                  data = filteredChoro) +
-        scale_colour_identity() +
-        scale_size(guide = FALSE) +
-        guides(fill = guide_colorbar(ticks = FALSE)) +
-        ggtitle(selYear)
-    })
     
     output$plot1 = renderPlot({
       
