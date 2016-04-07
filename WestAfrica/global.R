@@ -11,7 +11,7 @@ ltColor  = '#e0a3aa'
 
 # import data -------------------------------------------------------------
 
-tfr = read.csv('~/Documents/USAID/West Africa Regional 2016/dataout/WFAR_tfr.csv')
+tfr = read.csv('data/WFAR_tfr.csv')
 
 countries = levels(unique(tfr$country))
 
