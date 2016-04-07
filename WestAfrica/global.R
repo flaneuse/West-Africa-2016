@@ -16,3 +16,8 @@ countries = levels(unique(tfr$country))
 
 minChg = round(min(tfr$refRate, na.rm = TRUE)*100, 0)
 maxChg = round(max(tfr$refRate, na.rm = TRUE)*100, 0)
+
+
+# Source files ------------------------------------------------------------
+
+source('indivRate.R')

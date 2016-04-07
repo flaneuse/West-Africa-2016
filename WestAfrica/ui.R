@@ -40,10 +40,11 @@ body <- dashboardBody(
             fluidRow(
               tabBox(
                 tabPanel('Niger', 
-                         fluidRow(column(6,plotOutput('indiv')),
-                                  column(6, plotOutput('indivChoro'))),
-                         fluidRow(column(6,plotOutput('indivRate')),
-                                  column(6, plotOutput('indivChoroChg')))),
+                         indivRateUI('test')),
+                         # fluidRow(column(6,plotOutput('indiv')),
+                                  # column(6, plotOutput('indivChoro')))),
+                         # fluidRow(column(6,plotOutput('indivRate')),
+                                  # column(6, plotOutput('indivChoroChg')))),
                 tabPanel('Mali', 'text2'),
                 width = 12
               )
