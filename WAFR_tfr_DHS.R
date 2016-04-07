@@ -1,7 +1,7 @@
 library(llamar)
 loadPkgs()
 
-tfr = read.csv('data/WFAR_tfr.csv') %>% 
+tfr = read.csv('~/GitHub/West Africa 2016/WestAfrica/data/WFAR_tfr.csv') %>% 
   filter(year == '2010-2015') %>% 
   select(country, tfr) %>% 
   mutate(country = as.character(country),
