@@ -3,12 +3,11 @@
 sidebar <- dashboardSidebar(
   
   
-  # -- Muscle filtering --
   checkboxGroupInput("countryList",label = NULL, inline = FALSE,
                      choices = countries,
                      selected = countries),
-  sliderInput('tfrChg', label = 'change in TFR from 1980-1985',
-              min = minChg, max = maxChg, post = '%', value = c(minChg, maxChg)),
+  # sliderInput('tfrChg', label = 'change in TFR from 1980-1985',
+              # min = minChg, max = maxChg, post = '%', value = c(minChg, maxChg)),
   
   # -- Sidebar icons --
   sidebarMenu(
@@ -16,7 +15,7 @@ sidebar <- dashboardSidebar(
     id = "tabs",
     menuItem("each country", tabName = "indivTab", icon = icon("crosshairs")),
     menuItem("maps", tabName = "choroTab", icon = icon("map-o")),
-    menuItem("plot", tabName = "plot", icon = icon("bar-chart"))
+    menuItem("TFR over time", tabName = "plot", icon = icon("bar-chart"))
   )
 )
 

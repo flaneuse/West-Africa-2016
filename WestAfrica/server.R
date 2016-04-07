@@ -78,4 +78,66 @@ shinyServer(
     }, deleteFile = FALSE)
     
     
+    output$choroChg = renderPlot({
+      selYear = '2010-2015'
+      
+      filteredChg = filterTFR() %>% 
+        filter(year == selYear) %>% 
+        ungroup() %>% 
+        select(country, year, tfr, rate, value = refRate) %>% 
+        mutate(colText = ifelse(value < 1.25*mean(value), grey10K, grey90K),
+               country = str_to_lower(country))
+      
+      filteredChoro = left_join(choroData, filteredChg,
+                                by = c("country" = "country"))
+      
+      country_choropleth(filteredChoro, 
+                         zoom = filteredChoro$region, num_colors = 1) +
+        scale_fill_gradientn(colours = rev(brewer.pal(9, 'PuRd')),
+                             name = paste0('Change in TFR \n(', selYear, '  -  1980-1985)'),
+                             limits = c(-0.35, 0.10),
+                             breaks = seq(-0.35, 0.10, by = 0.1)) +
+        geom_text(aes(label = str_to_title(region), 
+                      size = 3,
+                      colour = colText,
+                      x = lon, y = lat, group = region),
+                  data = filteredChoro) +
+        scale_colour_identity() +
+        scale_size(guide = FALSE) +
+        guides(fill = guide_colorbar(ticks = FALSE)) +
+        ggtitle(selYear)
+    })
+    
+    
+    
+    
+    output$choro = renderPlot({
+      selYear = '2010-2015'
+      
+      filteredTFR = filterTFR() %>% 
+        filter(year == selYear) %>% 
+        ungroup() %>% 
+        select(country, year, value = tfr, rate, refRate) %>% 
+        mutate(colText = ifelse(value > 1.25*mean(value), grey10K, grey90K),
+               country = str_to_lower(country))
+      
+      filteredChoro = left_join(choroData, filteredTFR,
+                                by = c("country" = "country"))
+      
+      country_choropleth(filteredChoro, 
+                         zoom = filteredChoro$region, num_colors = 1) +
+        scale_fill_gradientn(colours = brewer.pal(9, 'Blues'),
+                             name = 'Total Fertility Rate',
+                             limits = c(2, 8),
+                             breaks = seq(2, 8, by = 2)) +
+        geom_text(aes(label = str_to_title(region), 
+                      size = 3,
+                      colour = colText,
+                      x = lon, y = lat, group = region),
+                  data = filteredChoro) +
+        scale_colour_identity() +
+        scale_size(guide = FALSE) +
+        guides(fill = guide_colorbar(ticks = FALSE)) +
+        ggtitle(selYear)
+    })
   })
