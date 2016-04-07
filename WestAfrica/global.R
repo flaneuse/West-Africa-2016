@@ -22,3 +22,4 @@ maxChg = round(max(tfr$refRate, na.rm = TRUE)*100, 0)
 # Source files ------------------------------------------------------------
 
 source('indivRate.R')
+source('footer.R')

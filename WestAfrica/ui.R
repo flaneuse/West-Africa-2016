@@ -15,7 +15,8 @@ sidebar <- dashboardSidebar(
     id = "tabs",
     menuItem("each country", tabName = "indivTab", icon = icon("crosshairs")),
     menuItem("maps", tabName = "choroTab", icon = icon("map-o")),
-    menuItem("TFR over time", tabName = "plot", icon = icon("bar-chart"))
+    menuItem("TFR over time", tabName = "plot", icon = icon("bar-chart")),
+    menuItem("change in TFR rates", tabName = "rateTab", icon = icon("line-chart"))
   )
 )
 
@@ -82,9 +83,15 @@ body <- dashboardBody(
                             plotOutput('choro')),
                      column(6,
                             plotOutput('choroChg')))),
+    
+    tabItem(tabName = "rateTab",
+            fluidRow(plotOutput('ratePlot', height = '600px')),
+            fluidRow(imageOutput('footer2', width = '100%'))
+    ),
+    
     # -- Basic plot -- 
     tabItem(tabName = "plot", 
-            fluidRow(plotOutput('plot1', height = '500px')),
+            fluidRow(plotOutput('plot1', height = '600px')),
             fluidRow(imageOutput('footer', width = '100%')))
   ))
 
