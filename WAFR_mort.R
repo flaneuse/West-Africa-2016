@@ -23,14 +23,21 @@ df$country= factor(df$country, levels = order)
 
   
 
-ggplot(df, aes(x = infant, y = under5, 
+# infant, under 5 mort ----------------------------------------------------
+
+
+y = ggplot(df, aes(x = infant, y = under5, 
                alpha = year, group = country)) +
   geom_line(colour = 'dodgerblue') + 
   geom_point(size = 4, colour = 'white', alpha = 1) +
   geom_point(size = 4, colour = 'dodgerblue') +
   # scale_colour_gradientn(colours = brewer.pal(9, 'YlGnBu')) +
   facet_wrap(~country) +
-  theme_xygrid()
+  theme_xygrid() 
+
+
+# under 5, maternal mort --------------------------------------------------
+
 
 ggplot(df, aes(x = maternal, y = under5, 
                alpha = year, group = country)) +
@@ -39,4 +46,12 @@ ggplot(df, aes(x = maternal, y = under5,
   geom_point(size = 4, colour = 'dodgerblue') +
   # scale_colour_gradientn(colours = brewer.pal(9, 'YlGnBu')) +
   facet_wrap(~country) +
+  theme_xygrid()
+
+
+x = ggplot(df, aes(x = infant, y = under5, 
+               alpha = year, group = country)) +
+  geom_line(colour = grey40K) + 
+  geom_point(size = 4, colour = 'white', alpha = 1) +
+  geom_point(size = 4, colour = grey80K) +
   theme_xygrid()
