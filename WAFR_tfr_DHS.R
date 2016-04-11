@@ -1,12 +1,37 @@
 library(llamar)
 loadPkgs()
 
-tfr = read.csv('~/GitHub/West Africa 2016/WestAfrica/data/WFAR_tfr.csv') %>% 
-  filter(year == '2010-2015') %>% 
-  select(country, tfr) %>% 
-  mutate(country = as.character(country),
-         region = ifelse(country == "Côte d'Ivoire", "Cote d'Ivoire",
-                         country))
+
+proj = data.frame(
+  country = c("Benin",
+              "Burkina Faso",
+              "Cabo Verde",
+              "Cameroon",
+              "Cote d'Ivoire",
+              "Gambia",
+              "Ghana",
+              "Guinea",
+              "Guinea-Bissau",
+              "Liberia",
+              "Mali",
+              "Mauritania",
+              "Niger",
+              "Nigeria",
+              "Senegal",
+              "Sierra Leone",
+              "Togo"),
+  role = c('bilateral', 'non-presence',
+           'none', 'non-presence', 'non-presence', 'independent',
+           'bilateral', 'independent', 'none', 'independent', 'independent',
+           'non-presence', 'non-presence', 'independent', 'independent', 'independent', 'non-presence')
+)  
+
+# tfr = read.csv('~/GitHub/West Africa 2016/WestAfrica/data/WFAR_tfr.csv') %>% 
+  # filter(year == '2010-2015') %>% 
+  # select(country, tfr) %>% 
+  # mutate(country = as.character(country),
+         # region = ifelse(country == "Côte d'Ivoire", "Cote d'Ivoire",
+                         # country))
 
 natl = read.csv('~/Documents/USAID/West Africa Regional 2016/dataout/WAFR_DHS_natl.csv')
 
@@ -14,15 +39,20 @@ natl = read.csv('~/Documents/USAID/West Africa Regional 2016/dataout/WAFR_DHS_na
 
 df = natl %>% 
   filter(IndicatorId %in% c('FP_NADM_W_UNT', 'PR_DESL_W_WNM',
-                            'FP_CUSA_W_MOD', 'PR_DESL_M_WNM'),
-         SurveyYear > 2010,
+                            'FP_CUSA_W_MOD', 'FP_CUSM_W_MOD',
+                            'FE_FRTR_W_TFR',
+                            'PR_DESL_M_WNM'),
+         SurveyYear >= 2010 | SurveyYear == 2000,
          ByVariableLabel == 'Total' | ByVariableLabel == "") %>% 
   select(CountryName, IndicatorId, Value, SurveyYear) %>% 
   spread(IndicatorId, Value) %>% 
-  filter(SurveyYear != 2012 | CountryName != 'Senegal') %>% 
-  mutate(diffBabies = - PR_DESL_M_WNM + PR_DESL_W_WNM)
+  filter(SurveyYear != 2012 | CountryName != 'Senegal',
+         SurveyYear != 2010 | CountryName != 'Senegal') %>% 
+  mutate(diffBabies = - PR_DESL_M_WNM + PR_DESL_W_WNM,
+         tfr = FE_FRTR_W_TFR)
 
-df = left_join(df, tfr, by = c('CountryName' = 'region'))
+# df = left_join(df, tfr, by = c('CountryName' = 'region'))
+df = left_join(df, proj, by = c('CountryName' = 'country'))
 
 
 # desires -----------------------------------------------------------------
@@ -59,7 +89,6 @@ ggsave("~/GitHub/babies_contraception_unmet.pdf",
 
 # tfr ---------------------------------------------------------------------
 
-
 ggplot(df, aes(x = FP_CUSA_W_MOD, y = tfr,
                colour = FP_NADM_W_UNT,
                size = FP_NADM_W_UNT,
@@ -87,6 +116,60 @@ ggsave("~/GitHub/tfr_contraception_unmet.pdf",
        compress = FALSE,
        dpi = 300)
 
+
+ggplot(df, aes(x = FP_CUSM_W_MOD, y = tfr,
+               colour = FP_NADM_W_UNT,
+               size = FP_NADM_W_UNT,
+               label = CountryName)) +
+  geom_label(nudge_y = 0.3, size = 5,
+             family = 'Segoe UI Semilight') + 
+  geom_point() +
+  xlab('modern contraception use in married women') +
+  ggtitle('')+
+  ylab('total fertility rate')+
+  scale_size(guide = 'none') +
+  scale_colour_gradientn(colours = brewer.pal(9, 'RdPu'),
+                         name = 'unmet need',
+                         limits = c(7, 35)) +
+  theme_xygrid() +
+  guides(colour = guide_colorbar(ticks = FALSE))+ 
+  theme(legend.position = c(0.9, 0.9))
+
+
+ggplot(df, aes(x = FP_CUSM_W_MOD, y = tfr,
+               colour = FP_NADM_W_UNT,
+               fill = role,
+               size = FP_NADM_W_UNT,
+               label = CountryName)) +
+  geom_label(nudge_y = 0.3, size = 5,
+             family = 'Segoe UI Semilight') + 
+  geom_point() +
+  xlab('modern contraception use in married women') +
+  ggtitle('')+
+  ylab('total fertility rate')+
+  scale_size(guide = 'none') +
+  scale_fill_manual(values = c('independent' = 'white',
+                                'bilateral' = grey10K,
+                                'non-presence' = grey10K),
+                      guide = FALSE) +
+  scale_colour_gradientn(colours = brewer.pal(9, 'RdPu'),
+                         name = 'unmet need',
+                         limits = c(7, 35)) +
+  theme_xygrid() +
+  theme(panel.grid.major.x = element_line(size = 0.1),
+        panel.grid.major.y = element_line(size = 0.1))+
+  guides(colour = guide_colorbar(ticks = FALSE))+ 
+  theme(legend.position = c(0.9, 0.9))+
+  coord_cartesian(xlim = c(0, 25))
+
+ggsave("~/GitHub/West Africa 2016/plots/2016-04-11_tfr_contraceptionMarried_unmet.pdf",
+       width = 6, height = 4,
+       bg = 'transparent',
+       paper = 'special',
+       units = 'in',
+       useDingbats=FALSE,
+       compress = FALSE,
+       dpi = 300)
 
 # TFR babies --------------------------------------------------------------
 

@@ -57,7 +57,7 @@ indicator = c('FP_NADM_W_UNT','FE_FRTR_W_TFR','CN_BFDR_C_MDE','HA_CPHT_W_T1R','H
 
 indicators = paste0(indicator, collapse=',')
 
-countries = 'BJ,BF,CM,CI,GH,GN,LB,ML,MR,NI,NG,SN,SL,TG'
+countries = 'BJ,BF,CM,CI,CV,GH,GN,GM,LB,ML,MR,NI,NG,SN,SL,TG'
 
 # years = paste0(seq(1980,2016), collapse = ',')
 years = paste0(seq(2000,2016), collapse = ',')
@@ -107,6 +107,15 @@ ggplot(svyYrs, aes(x = year,
   # scale_y_reverse()+
   xlab('') + ylab('') +
   ggtitle('Available Demographic and Health Surveys data')
+
+ggsave("~/GitHub/WAfrica_DHSdata.pdf",
+       width = 6, height = 4,
+       bg = 'transparent',
+       paper = 'special',
+       units = 'in',
+       useDingbats=FALSE,
+       compress = FALSE,
+       dpi = 300)
 
 
 years = paste0(seq(2000,2016), collapse = ',')
