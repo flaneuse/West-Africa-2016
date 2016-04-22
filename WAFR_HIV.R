@@ -19,12 +19,12 @@ hivBySex = natl_wide %>%
                         ifelse(group == 'HA_HIVP_W_HIV', 'women', NA))
   )
 # 
-# hivBySex = natl_wide %>%
-#   ungroup() %>%
-#   filter(IndicatorId %in% c('HA_HIVP_M_HIV', 'HA_HIVP_W_HIV')) %>%
-#   select(IndicatorId, CountryName, value2, year2) %>%
-#   spread(IndicatorId, value2) %>%
-#   mutate(diff = HA_HIVP_W_HIV - HA_HIVP_M_HIV)
+hivBySex = natl_wide %>%
+  ungroup() %>%
+  filter(IndicatorId %in% c('HA_HIVP_M_HIV', 'HA_HIVP_W_HIV')) %>%
+  select(IndicatorId, CountryName, value2, year2) %>%
+  spread(IndicatorId, value2) %>%
+  mutate(diff = HA_HIVP_W_HIV - HA_HIVP_M_HIV)
 # 
 order = hivBySex %>%
   ungroup() %>%
