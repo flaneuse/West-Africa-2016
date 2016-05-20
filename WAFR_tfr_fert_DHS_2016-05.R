@@ -56,4 +56,11 @@ ggplot(df, aes(x = contra, y = tfr,
   theme(legend.position = c(0.9, 0.9))+
   coord_cartesian(xlim = c(4, 24))
 
-ggsave(...)
+ggsave("~/GitHub/West Africa 2016/plots/2016-05-05_TFR.pdf",
+       width = 4*1.5, height = 4,
+       bg = 'transparent',
+       paper = 'special',
+       units = 'in',
+       useDingbats=FALSE,
+       compress = FALSE,
+       dpi = 300)
