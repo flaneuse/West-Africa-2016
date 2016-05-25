@@ -83,22 +83,27 @@ df$causeCat = factor(df$causeCat, levels = c(causeOrder$causeCat))
 
 ggplot(df, aes(x = causeCat, 
                y = mort,
-               fill = causeCat,
-               label = country)) +
+               fill = causeCat)) +
   geom_bar(stat = 'identity') +
   scale_fill_brewer(palette = 'Paired') +
   scale_y_continuous(labels = scales::percent,
                      breaks = c(0, 0.25),
-                     minor_breaks = seq(0, 0.25, by = 0.125)) +
-  # scale_fill_manual(values = colorMort$color) +
+                     limits = c(0, 0.25),
+                     minor_breaks = seq(0, 0.25, by = 0.1)) +
   theme_ygrid() +
   facet_wrap(~ country, ncol = 1) +
-  geom_text(aes(x = 6, y = 0.2), hjust = 0, 
+  geom_text(aes(x = 6, y = 0.2,
+                label = country), hjust = 0, 
             colour = grey75K,
             family = 'Segoe UI Light') +
+  geom_text(aes(label = percent(mort, 0)), 
+            colour = grey90K,
+            nudge_y = -0.05,
+            size = 2,
+            family = 'Segoe UI') +
   theme(strip.text = element_blank(),
-        panel.background = element_rect(fill = NA, colour = grey75K, size = 0.1),
-        axis.text.y = element_text(size = 6),
+        panel.background = element_rect(fill = grey15K, colour = grey75K, size = 0.1),
+        axis.text.y = element_blank(),
         axis.text.x = element_text(size = 8),
         axis.title.y = element_blank(),
         legend.position = 'bottom',
