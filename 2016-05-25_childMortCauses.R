@@ -108,6 +108,17 @@ ggplot(df, aes(x = causeCat,
         axis.title.y = element_blank(),
         legend.position = 'bottom',
         legend.direction = 'horizontal',
-        panel.grid.minor.y = element_line(colour = grey60K, size = 0.1))
+        panel.grid.minor.y = element_blank(),
+        panel.grid.major.y = element_blank())
 
-# ggsave()
+
+# export ------------------------------------------------------------------
+
+ggsave(filename = 'childMort.pdf',
+       width = 2.5, height = 11,
+       bg = 'transparent',
+       paper = 'special',
+       units = 'in',
+       useDingbats=FALSE,
+       compress = FALSE,
+       dpi = 300)
