@@ -2,15 +2,15 @@
 library(llamar)
 loadPkgs()
 
-targetedCountries = c("Niger","Burkina Faso", "Cote d'Ivoire", "Cameroon", "Mauritania", "Togo")
+targetedCountries = c("Niger","Burkina Faso", "Cote d'Ivoire", "Cameroon", "Mauritania", "Togo", "Benin")
 
 
 # POPULATION PYRAMIDS -----------------------------------------------------
-# Data from the UN URPAS esa.un.org
+# Data from the UN URPAS http://www.un.org/en/development/desa/population/publications/dataset/urban/urbanAndRuralPopulationByAgeAndSex.shtml
 
 # import pop pyramids -----------------------------------------------------
 # Data initially in 1000's of people.
-popPyramid = read.csv('~/Documents/USAID/West Africa Regional 2016/datain/2.1_PopulationPyramid.csv')
+popPyramid = read.csv('~/Documents/USAID/West Africa Regional 2016/datain/2.1_PopulationPyramid_UNPopulation.csv')
 
 popPyramid = popPyramid %>% 
   rename(country = `X.Location`,
@@ -47,6 +47,7 @@ ggplot(totalPop %>% filter(sex =='Female'),
        aes(x = age, y = pop,
            fill = sex)) +
   coord_flip() + 
+  scale_fill_manual(values = c('Male' = '#6AB2E2', 'Female' = '#9483BD')) +
   geom_bar(stat = 'identity', size = 0) +
   geom_bar(stat = 'identity',
            size = 0,
@@ -79,6 +80,7 @@ for (i in seq_along(targetedCountries)){
              size = 0,
              data = totalPop %>% filter(sex =='Male')) +
     facet_wrap(~country) +
+    scale_fill_manual(values = c('Male' = '#6AB2E2', 'Female' = '#9483BD')) +
     theme_xgrid()
   
   fileName = paste0('~/Documents/USAID/West Africa Regional 2016/plots/MF_pop_', 
@@ -123,6 +125,8 @@ for (i in seq_along(targetedCountries)){
              data = urbRuralPop %>% 
                filter(sex =='Female',
                       !age %in% c('10-14', '15-19', '20-24','25-29'))) +
+    scale_fill_manual(values = c('Male' = '#6AB2E2', 'Female' = '#9483BD')) +
+    
     facet_wrap(~rural, ncol = 2) +
     theme_xgrid() +
     theme(axis.title = element_blank()) +
