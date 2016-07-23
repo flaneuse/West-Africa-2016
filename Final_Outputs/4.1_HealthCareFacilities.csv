@@ -1,0 +1,26 @@
+country,facType,numPub,numPriv,numTot,density100k
+Niger,Health Post,2344,149,2493,13.981
+Niger,Health Centre,801,85,886,4.969
+Niger,District Hospital,42,35,77,0.432
+Niger,Provincial Hospital,6,5,11,0.062
+Niger,Regional Hospital,6,4,10,0.056
+Togo,Health Centre,730,16,746,10.943
+Togo,District Hospital,35,0,35,0.513
+Togo,Regional Hospital,6,0,6,0.088
+Cameroon,Health Post,1653,0,1653,7.428
+Cameroon,Health Centre,141,0,141,0.634
+Cameroon,District Hospital,150,0,150,0.674
+Cameroon,Provincial Hospital,12,5,17,0.076
+Cameroon,Regional Hospital,8,1,9,0.04
+Cote D'Ivoire,Health Centre,1591,813,2404,11.833
+Cote D'Ivoire,District Hospital,60,175,235,1.157
+Cote D'Ivoire,Provincial Hospital,17,75,92,0.453
+Cote D'Ivoire,Regional Hospital,9,11,20,0.098
+Mauritania,Health Post,411,42,453,11.646
+Mauritania,Health Centre,67,81,148,3.805
+Mauritania,District Hospital,7,20,27,0.694
+Mauritania,Provincial Hospital,6,0,6,0.154
+Mauritania,Regional Hospital,7,0,7,0.18
+Burkina Faso,Health Centre,1629,384,2013,11.887
+Burkina Faso,District Hospital,41,2,43,0.254
+Burkina Faso,Regional Hospital,9,0,9,0.053

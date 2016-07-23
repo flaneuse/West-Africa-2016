@@ -1,0 +1,1219 @@
+indicator,category,community,country,region,sex,wealth_quintile,year,mean,standard_deviation,number,survey
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Boucle du Mouhoun,,,2010,0.03,0.00,1014.00,DHS
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Cascades,,,2010,0.08,0.00,855.00,DHS
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Centre,,,2010,0.21,0.00,1484.00,DHS
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Centre-Est,,,2010,0.05,0.00,836.00,DHS
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Centre-Nord,,,2010,0.03,0.00,772.00,DHS
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Centre-Ouest,,,2010,0.07,0.00,1067.00,DHS
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Centre-Sud,,,2010,0.07,0.00,885.00,DHS
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Est,,,2010,0.02,0.00,1013.00,DHS
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Hauts-Bassins,,,2010,0.12,0.00,1143.00,DHS
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Nord,,,2010,0.05,0.00,870.00,DHS
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Plateau-Central,,,2010,0.03,0.00,882.00,DHS
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Sahel,,,2010,0.01,0.00,846.00,DHS
+comp_lowsec_1524,Country Total Region,,Burkina Faso,Sud-Ouest,,,2010,0.03,0.00,807.00,DHS
+comp_lowsec_1524,Country Total Sex,,Burkina Faso,,Female,,2010,0.05,0.00,6845.00,DHS
+comp_lowsec_1524,Country Total Sex,,Burkina Faso,,Male,,2010,0.11,0.00,5629.00,DHS
+comp_lowsec_1524,Country Total Urban/Rural,Rural,Burkina Faso,,,,2010,0.02,0.00,7958.00,DHS
+comp_lowsec_1524,Country Total Urban/Rural,Urban,Burkina Faso,,,,2010,0.21,0.00,4516.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Burkina Faso,,,Quintile 1,2010,0.00,0.00,1743.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Burkina Faso,,,Quintile 2,2010,0.01,0.00,2106.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Burkina Faso,,,Quintile 3,2010,0.02,0.00,2333.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Burkina Faso,,,Quintile 4,2010,0.04,0.00,2612.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Burkina Faso,,,Quintile 5,2010,0.23,0.00,3680.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,,Quintile 1,2010,0.00,0.00,101.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,,Quintile 2,2010,0.01,0.00,252.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,,Quintile 3,2010,0.03,0.00,216.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,,Quintile 4,2010,0.02,0.00,258.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,,Quintile 5,2010,0.09,0.00,187.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Cascades,,Quintile 1,2010,0.02,0.00,46.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Cascades,,Quintile 2,2010,0.02,0.00,81.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Cascades,,Quintile 3,2010,0.04,0.00,175.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Cascades,,Quintile 4,2010,0.05,0.00,272.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Cascades,,Quintile 5,2010,0.19,0.00,281.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre,,Quintile 2,2010,0.07,0.00,39.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre,,Quintile 3,2010,0.05,0.00,74.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre,,Quintile 4,2010,0.03,0.00,202.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre,,Quintile 5,2010,0.25,0.00,1146.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Est,,Quintile 1,2010,0.00,0.00,65.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Est,,Quintile 2,2010,0.01,0.00,92.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Est,,Quintile 3,2010,0.02,0.00,236.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Est,,Quintile 4,2010,0.03,0.00,261.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Est,,Quintile 5,2010,0.25,0.00,182.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Nord,,Quintile 1,2010,0.01,0.00,126.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Nord,,Quintile 2,2010,0.00,0.00,160.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Nord,,Quintile 3,2010,0.01,0.00,186.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Nord,,Quintile 4,2010,0.03,0.00,169.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Nord,,Quintile 5,2010,0.20,0.00,131.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,,Quintile 1,2010,0.01,0.00,125.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,,Quintile 2,2010,0.01,0.00,191.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,,Quintile 3,2010,0.03,0.00,238.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,,Quintile 4,2010,0.06,0.00,252.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,,Quintile 5,2010,0.24,0.00,261.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Sud,,Quintile 1,2010,0.03,0.00,132.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Sud,,Quintile 2,2010,0.04,0.00,153.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Sud,,Quintile 3,2010,0.03,0.00,239.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Sud,,Quintile 4,2010,0.10,0.00,236.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Centre-Sud,,Quintile 5,2010,0.35,0.00,125.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Est,,Quintile 1,2010,0.00,0.00,331.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Est,,Quintile 2,2010,0.01,0.00,246.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Est,,Quintile 3,2010,0.00,0.00,177.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Est,,Quintile 4,2010,0.06,0.00,147.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Est,,Quintile 5,2010,0.19,0.00,112.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,,Quintile 1,2010,0.00,0.00,102.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,,Quintile 2,2010,0.01,0.00,121.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,,Quintile 3,2010,0.01,0.00,123.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,,Quintile 4,2010,0.03,0.00,205.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,,Quintile 5,2010,0.23,0.00,592.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Nord,,Quintile 1,2010,0.00,0.00,85.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Nord,,Quintile 2,2010,0.02,0.00,173.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Nord,,Quintile 3,2010,0.01,0.00,206.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Nord,,Quintile 4,2010,0.02,0.00,177.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Nord,,Quintile 5,2010,0.19,0.00,229.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Plateau-Central,,Quintile 1,2010,0.00,0.00,75.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Plateau-Central,,Quintile 2,2010,0.01,0.00,160.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Plateau-Central,,Quintile 3,2010,0.02,0.00,228.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Plateau-Central,,Quintile 4,2010,0.03,0.00,279.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Plateau-Central,,Quintile 5,2010,0.14,0.00,140.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Sahel,,Quintile 1,2010,0.00,0.00,333.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Sahel,,Quintile 2,2010,0.00,0.00,231.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Sahel,,Quintile 3,2010,0.00,0.00,130.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Sahel,,Quintile 4,2010,0.02,0.00,64.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Sahel,,Quintile 5,2010,0.22,0.00,88.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,,Quintile 1,2010,0.01,0.00,199.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,,Quintile 2,2010,0.00,0.00,207.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,,Quintile 3,2010,0.01,0.00,105.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,,Quintile 4,2010,0.02,0.00,90.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,,Quintile 5,2010,0.12,0.00,206.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Boucle du Mouhoun,Female,,2010,0.01,0.00,516.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Boucle du Mouhoun,Male,,2010,0.04,0.00,498.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Cascades,Female,,2010,0.04,0.00,461.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Cascades,Male,,2010,0.13,0.00,394.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Centre,Female,,2010,0.15,0.00,802.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Centre,Male,,2010,0.28,0.00,682.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Centre-Est,Female,,2010,0.04,0.00,489.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Centre-Est,Male,,2010,0.07,0.00,347.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Centre-Nord,Female,,2010,0.02,0.00,421.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Centre-Nord,Male,,2010,0.04,0.00,351.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Centre-Ouest,Female,,2010,0.05,0.00,583.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Centre-Ouest,Male,,2010,0.10,0.00,484.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Centre-Sud,Female,,2010,0.06,0.00,480.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Centre-Sud,Male,,2010,0.09,0.00,405.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Est,Female,,2010,0.01,0.00,544.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Est,Male,,2010,0.03,0.00,469.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Hauts-Bassins,Female,,2010,0.08,0.00,657.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Hauts-Bassins,Male,,2010,0.17,0.00,486.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Nord,Female,,2010,0.02,0.00,486.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Nord,Male,,2010,0.07,0.00,384.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Plateau-Central,Female,,2010,0.02,0.00,493.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Plateau-Central,Male,,2010,0.05,0.00,389.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Sahel,Female,,2010,0.01,0.00,473.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Sahel,Male,,2010,0.01,0.00,373.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Sud-Ouest,Female,,2010,0.01,0.00,440.00,DHS
+comp_lowsec_1524,Region and Sex,,Burkina Faso,Sud-Ouest,Male,,2010,0.05,0.00,367.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,Female,Quintile 1,2010,0.00,0.00,45.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,Female,Quintile 2,2010,0.01,0.00,134.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,Female,Quintile 3,2010,0.01,0.00,109.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,Female,Quintile 4,2010,0.00,0.00,134.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,Female,Quintile 5,2010,0.05,0.00,94.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,Male,Quintile 1,2010,0.00,0.00,56.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,Male,Quintile 2,2010,0.01,0.00,118.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,Male,Quintile 3,2010,0.05,0.00,107.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,Male,Quintile 4,2010,0.05,0.00,124.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Boucle du Mouhoun,Male,Quintile 5,2010,0.12,0.00,93.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Cascades,Female,Quintile 2,2010,0.00,0.00,48.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Cascades,Female,Quintile 3,2010,0.01,0.00,104.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Cascades,Female,Quintile 4,2010,0.00,0.00,133.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Cascades,Female,Quintile 5,2010,0.13,0.00,153.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Cascades,Male,Quintile 2,2010,0.05,0.00,33.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Cascades,Male,Quintile 3,2010,0.09,0.00,71.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Cascades,Male,Quintile 4,2010,0.09,0.00,139.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Cascades,Male,Quintile 5,2010,0.26,0.00,128.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre,Female,Quintile 3,2010,0.00,0.00,33.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre,Female,Quintile 4,2010,0.01,0.00,101.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre,Female,Quintile 5,2010,0.18,0.00,637.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre,Male,Quintile 3,2010,0.08,0.00,41.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre,Male,Quintile 4,2010,0.05,0.00,101.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre,Male,Quintile 5,2010,0.33,0.00,509.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Est,Female,Quintile 1,2010,0.00,0.00,40.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Est,Female,Quintile 2,2010,0.00,0.00,55.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Est,Female,Quintile 3,2010,0.01,0.00,139.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Est,Female,Quintile 4,2010,0.01,0.00,148.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Est,Female,Quintile 5,2010,0.21,0.00,107.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Est,Male,Quintile 2,2010,0.02,0.00,37.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Est,Male,Quintile 3,2010,0.03,0.00,97.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Est,Male,Quintile 4,2010,0.05,0.00,113.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Est,Male,Quintile 5,2010,0.31,0.00,75.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Nord,Female,Quintile 1,2010,0.02,0.00,66.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Nord,Female,Quintile 2,2010,0.00,0.00,88.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Nord,Female,Quintile 3,2010,0.00,0.00,106.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Nord,Female,Quintile 4,2010,0.02,0.00,88.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Nord,Female,Quintile 5,2010,0.11,0.00,73.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Nord,Male,Quintile 1,2010,0.00,0.00,60.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Nord,Male,Quintile 2,2010,0.00,0.00,72.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Nord,Male,Quintile 3,2010,0.01,0.00,80.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Nord,Male,Quintile 4,2010,0.04,0.00,81.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Nord,Male,Quintile 5,2010,0.32,0.00,58.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,Female,Quintile 1,2010,0.00,0.00,69.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,Female,Quintile 2,2010,0.00,0.00,102.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,Female,Quintile 3,2010,0.01,0.00,132.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,Female,Quintile 4,2010,0.03,0.00,145.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,Female,Quintile 5,2010,0.21,0.00,135.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,Male,Quintile 1,2010,0.02,0.00,56.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,Male,Quintile 2,2010,0.03,0.00,89.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,Male,Quintile 3,2010,0.07,0.00,106.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,Male,Quintile 4,2010,0.09,0.00,107.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Ouest,Male,Quintile 5,2010,0.27,0.00,126.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Sud,Female,Quintile 1,2010,0.04,0.00,62.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Sud,Female,Quintile 2,2010,0.04,0.00,89.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Sud,Female,Quintile 3,2010,0.02,0.00,129.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Sud,Female,Quintile 4,2010,0.08,0.00,133.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Sud,Female,Quintile 5,2010,0.21,0.00,67.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Sud,Male,Quintile 1,2010,0.01,0.00,70.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Sud,Male,Quintile 2,2010,0.04,0.00,64.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Sud,Male,Quintile 3,2010,0.05,0.00,110.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Sud,Male,Quintile 4,2010,0.12,0.00,103.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Centre-Sud,Male,Quintile 5,2010,0.50,0.00,58.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Est,Female,Quintile 1,2010,0.00,0.00,159.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Est,Female,Quintile 2,2010,0.00,0.00,135.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Est,Female,Quintile 3,2010,0.00,0.00,110.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Est,Female,Quintile 4,2010,0.01,0.00,76.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Est,Female,Quintile 5,2010,0.12,0.00,64.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Est,Male,Quintile 1,2010,0.00,0.00,172.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Est,Male,Quintile 2,2010,0.01,0.00,111.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Est,Male,Quintile 3,2010,0.00,0.00,67.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Est,Male,Quintile 4,2010,0.11,0.00,71.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Est,Male,Quintile 5,2010,0.28,0.00,48.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,Female,Quintile 1,2010,0.00,0.00,58.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,Female,Quintile 2,2010,0.00,0.00,75.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,Female,Quintile 3,2010,0.00,0.00,65.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,Female,Quintile 4,2010,0.02,0.00,126.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,Female,Quintile 5,2010,0.17,0.00,333.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,Male,Quintile 1,2010,0.00,0.00,44.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,Male,Quintile 2,2010,0.02,0.00,46.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,Male,Quintile 3,2010,0.01,0.00,58.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,Male,Quintile 4,2010,0.04,0.00,79.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Hauts-Bassins,Male,Quintile 5,2010,0.32,0.00,259.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Nord,Female,Quintile 1,2010,0.00,0.00,41.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Nord,Female,Quintile 2,2010,0.01,0.00,104.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Nord,Female,Quintile 3,2010,0.00,0.00,115.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Nord,Female,Quintile 4,2010,0.01,0.00,97.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Nord,Female,Quintile 5,2010,0.11,0.00,129.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Nord,Male,Quintile 1,2010,0.00,0.00,44.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Nord,Male,Quintile 2,2010,0.04,0.00,69.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Nord,Male,Quintile 3,2010,0.01,0.00,91.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Nord,Male,Quintile 4,2010,0.03,0.00,80.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Nord,Male,Quintile 5,2010,0.31,0.00,100.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Plateau-Central,Female,Quintile 1,2010,0.00,0.00,46.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Plateau-Central,Female,Quintile 2,2010,0.01,0.00,82.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Plateau-Central,Female,Quintile 3,2010,0.01,0.00,131.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Plateau-Central,Female,Quintile 4,2010,0.02,0.00,150.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Plateau-Central,Female,Quintile 5,2010,0.10,0.00,84.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Plateau-Central,Male,Quintile 2,2010,0.01,0.00,78.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Plateau-Central,Male,Quintile 3,2010,0.04,0.00,97.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Plateau-Central,Male,Quintile 4,2010,0.04,0.00,129.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Plateau-Central,Male,Quintile 5,2010,0.19,0.00,56.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sahel,Female,Quintile 1,2010,0.00,0.00,181.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sahel,Female,Quintile 2,2010,0.00,0.00,129.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sahel,Female,Quintile 3,2010,0.00,0.00,83.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sahel,Female,Quintile 4,2010,0.02,0.00,33.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sahel,Female,Quintile 5,2010,0.17,0.00,47.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sahel,Male,Quintile 1,2010,0.00,0.00,152.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sahel,Male,Quintile 2,2010,0.00,0.00,102.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sahel,Male,Quintile 3,2010,0.00,0.00,47.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sahel,Male,Quintile 4,2010,0.03,0.00,31.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sahel,Male,Quintile 5,2010,0.30,0.00,41.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,Female,Quintile 1,2010,0.00,0.00,99.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,Female,Quintile 2,2010,0.00,0.00,111.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,Female,Quintile 3,2010,0.00,0.00,55.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,Female,Quintile 4,2010,0.00,0.00,54.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,Female,Quintile 5,2010,0.05,0.00,121.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,Male,Quintile 1,2010,0.02,0.00,100.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,Male,Quintile 2,2010,0.01,0.00,96.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,Male,Quintile 3,2010,0.03,0.00,50.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,Male,Quintile 4,2010,0.06,0.00,36.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Burkina Faso,Sud-Ouest,Male,Quintile 5,2010,0.22,0.00,85.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Burkina Faso,,Female,Quintile 1,2010,0.00,0.00,899.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Burkina Faso,,Female,Quintile 2,2010,0.00,0.00,1173.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Burkina Faso,,Female,Quintile 3,2010,0.01,0.00,1311.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Burkina Faso,,Female,Quintile 4,2010,0.02,0.00,1418.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Burkina Faso,,Female,Quintile 5,2010,0.16,0.00,2044.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Burkina Faso,,Male,Quintile 1,2010,0.01,0.00,844.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Burkina Faso,,Male,Quintile 2,2010,0.02,0.00,933.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Burkina Faso,,Male,Quintile 3,2010,0.03,0.00,1022.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Burkina Faso,,Male,Quintile 4,2010,0.06,0.00,1194.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Burkina Faso,,Male,Quintile 5,2010,0.31,0.00,1636.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Burkina Faso,,,Quintile 1,2010,0.00,0.00,1673.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Burkina Faso,,,Quintile 2,2010,0.01,0.00,1974.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Burkina Faso,,,Quintile 3,2010,0.02,0.00,2052.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Burkina Faso,,,Quintile 4,2010,0.03,0.00,1796.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Burkina Faso,,,Quintile 5,2010,0.10,0.00,463.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Burkina Faso,,,Quintile 1,2010,0.00,0.00,70.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Burkina Faso,,,Quintile 2,2010,0.04,0.00,132.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Burkina Faso,,,Quintile 3,2010,0.05,0.00,281.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Burkina Faso,,,Quintile 4,2010,0.05,0.00,816.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Burkina Faso,,,Quintile 5,2010,0.25,0.00,3217.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Rural,Burkina Faso,,Female,,2010,0.01,0.00,4389.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Rural,Burkina Faso,,Male,,2010,0.03,0.00,3569.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Urban,Burkina Faso,,Female,,2010,0.15,0.00,2456.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Urban,Burkina Faso,,Male,,2010,0.28,0.00,2060.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Burkina Faso,,Female,Quintile 1,2010,0.00,0.00,863.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Burkina Faso,,Female,Quintile 2,2010,0.00,0.00,1097.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Burkina Faso,,Female,Quintile 3,2010,0.00,0.00,1167.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Burkina Faso,,Female,Quintile 4,2010,0.02,0.00,1014.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Burkina Faso,,Female,Quintile 5,2010,0.07,0.00,248.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Burkina Faso,,Male,Quintile 1,2010,0.01,0.00,810.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Burkina Faso,,Male,Quintile 2,2010,0.02,0.00,877.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Burkina Faso,,Male,Quintile 3,2010,0.03,0.00,885.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Burkina Faso,,Male,Quintile 4,2010,0.05,0.00,782.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Burkina Faso,,Male,Quintile 5,2010,0.14,0.00,215.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Burkina Faso,,Female,Quintile 1,2010,0.00,0.00,36.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Burkina Faso,,Female,Quintile 2,2010,0.04,0.00,76.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Burkina Faso,,Female,Quintile 3,2010,0.02,0.00,144.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Burkina Faso,,Female,Quintile 4,2010,0.02,0.00,404.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Burkina Faso,,Female,Quintile 5,2010,0.18,0.00,1796.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Burkina Faso,,Male,Quintile 1,2010,0.00,0.00,34.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Burkina Faso,,Male,Quintile 2,2010,0.05,0.00,56.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Burkina Faso,,Male,Quintile 3,2010,0.09,0.00,137.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Burkina Faso,,Male,Quintile 4,2010,0.09,0.00,412.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Burkina Faso,,Male,Quintile 5,2010,0.34,0.00,1421.00,DHS
+comp_lowsec_1524,Country Total Region,,Niger,Agadez,,,2012,0.10,0.00,649.00,DHS
+comp_lowsec_1524,Country Total Region,,Niger,Diffa,,,2012,0.02,0.00,756.00,DHS
+comp_lowsec_1524,Country Total Region,,Niger,Dosso,,,2012,0.02,0.00,1104.00,DHS
+comp_lowsec_1524,Country Total Region,,Niger,Maradi,,,2012,0.03,0.00,1336.00,DHS
+comp_lowsec_1524,Country Total Region,,Niger,Niamey,,,2012,0.23,0.00,1231.00,DHS
+comp_lowsec_1524,Country Total Region,,Niger,Tahoua,,,2012,0.02,0.00,1151.00,DHS
+comp_lowsec_1524,Country Total Region,,Niger,Tillabéri,,,2012,0.03,0.00,702.00,DHS
+comp_lowsec_1524,Country Total Region,,Niger,Zinder,,,2012,0.03,0.00,1086.00,DHS
+comp_lowsec_1524,Country Total Sex,,Niger,,Female,,2012,0.04,0.00,4662.00,DHS
+comp_lowsec_1524,Country Total Sex,,Niger,,Male,,2012,0.07,0.00,3353.00,DHS
+comp_lowsec_1524,Country Total Urban/Rural,Rural,Niger,,,,2012,0.01,0.00,5046.00,DHS
+comp_lowsec_1524,Country Total Urban/Rural,Urban,Niger,,,,2012,0.18,0.00,2969.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Niger,,,Quintile 1,2012,0.01,0.00,1048.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Niger,,,Quintile 2,2012,0.00,0.00,1168.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Niger,,,Quintile 3,2012,0.01,0.00,1237.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Niger,,,Quintile 4,2012,0.02,0.00,1450.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Niger,,,Quintile 5,2012,0.16,0.00,3112.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Agadez,,Quintile 1,2012,0.00,0.00,95.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Agadez,,Quintile 4,2012,0.06,0.00,67.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Agadez,,Quintile 5,2012,0.16,0.00,451.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Diffa,,Quintile 1,2012,0.00,0.00,101.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Diffa,,Quintile 2,2012,0.00,0.00,104.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Diffa,,Quintile 3,2012,0.00,0.00,85.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Diffa,,Quintile 4,2012,0.01,0.00,220.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Diffa,,Quintile 5,2012,0.07,0.00,246.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Dosso,,Quintile 1,2012,0.00,0.00,94.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Dosso,,Quintile 2,2012,0.01,0.00,250.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Dosso,,Quintile 3,2012,0.00,0.00,357.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Dosso,,Quintile 4,2012,0.02,0.00,237.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Dosso,,Quintile 5,2012,0.10,0.00,166.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Maradi,,Quintile 1,2012,0.01,0.00,203.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Maradi,,Quintile 2,2012,0.00,0.00,250.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Maradi,,Quintile 3,2012,0.01,0.00,251.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Maradi,,Quintile 4,2012,0.02,0.00,230.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Maradi,,Quintile 5,2012,0.08,0.00,402.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Niamey,,Quintile 4,2012,0.02,0.00,55.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Niamey,,Quintile 5,2012,0.24,0.00,1175.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Tahoua,,Quintile 1,2012,0.00,0.00,247.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Tahoua,,Quintile 2,2012,0.01,0.00,232.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Tahoua,,Quintile 3,2012,0.00,0.00,214.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Tahoua,,Quintile 4,2012,0.01,0.00,228.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Tahoua,,Quintile 5,2012,0.10,0.00,230.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Tillabéri,,Quintile 1,2012,0.00,0.00,93.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Tillabéri,,Quintile 2,2012,0.00,0.00,150.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Tillabéri,,Quintile 3,2012,0.02,0.00,182.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Tillabéri,,Quintile 4,2012,0.03,0.00,153.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Tillabéri,,Quintile 5,2012,0.13,0.00,124.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Zinder,,Quintile 1,2012,0.02,0.00,215.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Zinder,,Quintile 2,2012,0.00,0.00,164.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Zinder,,Quintile 3,2012,0.01,0.00,129.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Zinder,,Quintile 4,2012,0.01,0.00,260.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Niger,Zinder,,Quintile 5,2012,0.14,0.00,318.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Agadez,Female,,2012,0.09,0.00,331.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Agadez,Male,,2012,0.12,0.00,318.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Diffa,Female,,2012,0.03,0.00,455.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Diffa,Male,,2012,0.02,0.00,301.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Dosso,Female,,2012,0.01,0.00,621.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Dosso,Male,,2012,0.03,0.00,483.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Maradi,Female,,2012,0.01,0.00,791.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Maradi,Male,,2012,0.05,0.00,545.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Niamey,Female,,2012,0.21,0.00,628.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Niamey,Male,,2012,0.26,0.00,603.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Tahoua,Female,,2012,0.01,0.00,747.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Tahoua,Male,,2012,0.03,0.00,404.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Tillabéri,Female,,2012,0.02,0.00,457.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Tillabéri,Male,,2012,0.04,0.00,245.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Zinder,Female,,2012,0.02,0.00,632.00,DHS
+comp_lowsec_1524,Region and Sex,,Niger,Zinder,Male,,2012,0.05,0.00,454.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Agadez,Female,Quintile 1,2012,0.00,0.00,40.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Agadez,Female,Quintile 4,2012,0.04,0.00,32.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Agadez,Female,Quintile 5,2012,0.13,0.00,239.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Agadez,Male,Quintile 1,2012,0.01,0.00,55.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Agadez,Male,Quintile 4,2012,0.09,0.00,35.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Agadez,Male,Quintile 5,2012,0.19,0.00,212.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Diffa,Female,Quintile 1,2012,0.00,0.00,67.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Diffa,Female,Quintile 2,2012,0.00,0.00,61.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Diffa,Female,Quintile 3,2012,0.00,0.00,58.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Diffa,Female,Quintile 4,2012,0.02,0.00,129.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Diffa,Female,Quintile 5,2012,0.08,0.00,140.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Diffa,Male,Quintile 1,2012,0.00,0.00,34.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Diffa,Male,Quintile 2,2012,0.00,0.00,43.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Diffa,Male,Quintile 4,2012,0.01,0.00,91.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Diffa,Male,Quintile 5,2012,0.05,0.00,106.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Dosso,Female,Quintile 1,2012,0.00,0.00,56.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Dosso,Female,Quintile 2,2012,0.00,0.00,141.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Dosso,Female,Quintile 3,2012,0.00,0.00,191.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Dosso,Female,Quintile 4,2012,0.02,0.00,142.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Dosso,Female,Quintile 5,2012,0.07,0.00,91.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Dosso,Male,Quintile 1,2012,0.00,0.00,38.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Dosso,Male,Quintile 2,2012,0.02,0.00,109.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Dosso,Male,Quintile 3,2012,0.01,0.00,166.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Dosso,Male,Quintile 4,2012,0.03,0.00,95.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Dosso,Male,Quintile 5,2012,0.14,0.00,75.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Maradi,Female,Quintile 1,2012,0.00,0.00,139.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Maradi,Female,Quintile 2,2012,0.00,0.00,159.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Maradi,Female,Quintile 3,2012,0.00,0.00,147.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Maradi,Female,Quintile 4,2012,0.00,0.00,131.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Maradi,Female,Quintile 5,2012,0.06,0.00,215.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Maradi,Male,Quintile 1,2012,0.02,0.00,64.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Maradi,Male,Quintile 2,2012,0.00,0.00,91.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Maradi,Male,Quintile 3,2012,0.03,0.00,104.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Maradi,Male,Quintile 4,2012,0.06,0.00,99.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Maradi,Male,Quintile 5,2012,0.10,0.00,187.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Niamey,Female,Quintile 4,2012,0.00,0.00,31.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Niamey,Female,Quintile 5,2012,0.22,0.00,597.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Niamey,Male,Quintile 5,2012,0.27,0.00,578.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tahoua,Female,Quintile 1,2012,0.00,0.00,152.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tahoua,Female,Quintile 2,2012,0.01,0.00,151.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tahoua,Female,Quintile 3,2012,0.00,0.00,149.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tahoua,Female,Quintile 4,2012,0.00,0.00,147.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tahoua,Female,Quintile 5,2012,0.07,0.00,148.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tahoua,Male,Quintile 1,2012,0.00,0.00,95.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tahoua,Male,Quintile 2,2012,0.01,0.00,81.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tahoua,Male,Quintile 3,2012,0.00,0.00,65.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tahoua,Male,Quintile 4,2012,0.02,0.00,81.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tahoua,Male,Quintile 5,2012,0.16,0.00,82.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tillabéri,Female,Quintile 1,2012,0.00,0.00,66.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tillabéri,Female,Quintile 2,2012,0.00,0.00,92.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tillabéri,Female,Quintile 3,2012,0.01,0.00,120.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tillabéri,Female,Quintile 4,2012,0.03,0.00,106.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tillabéri,Female,Quintile 5,2012,0.11,0.00,73.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tillabéri,Male,Quintile 2,2012,0.00,0.00,58.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tillabéri,Male,Quintile 3,2012,0.04,0.00,62.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tillabéri,Male,Quintile 4,2012,0.04,0.00,47.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Tillabéri,Male,Quintile 5,2012,0.17,0.00,51.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Zinder,Female,Quintile 1,2012,0.00,0.00,135.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Zinder,Female,Quintile 2,2012,0.00,0.00,109.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Zinder,Female,Quintile 3,2012,0.01,0.00,76.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Zinder,Female,Quintile 4,2012,0.00,0.00,161.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Zinder,Female,Quintile 5,2012,0.13,0.00,151.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Zinder,Male,Quintile 1,2012,0.05,0.00,80.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Zinder,Male,Quintile 2,2012,0.00,0.00,55.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Zinder,Male,Quintile 3,2012,0.01,0.00,53.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Zinder,Male,Quintile 4,2012,0.02,0.00,99.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Niger,Zinder,Male,Quintile 5,2012,0.15,0.00,167.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Niger,,Female,Quintile 1,2012,0.00,0.00,655.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Niger,,Female,Quintile 2,2012,0.00,0.00,721.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Niger,,Female,Quintile 3,2012,0.00,0.00,753.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Niger,,Female,Quintile 4,2012,0.01,0.00,879.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Niger,,Female,Quintile 5,2012,0.13,0.00,1654.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Niger,,Male,Quintile 1,2012,0.02,0.00,393.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Niger,,Male,Quintile 2,2012,0.01,0.00,447.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Niger,,Male,Quintile 3,2012,0.02,0.00,484.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Niger,,Male,Quintile 4,2012,0.03,0.00,571.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Niger,,Male,Quintile 5,2012,0.18,0.00,1458.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Niger,,,Quintile 1,2012,0.01,0.00,1044.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Niger,,,Quintile 2,2012,0.00,0.00,1162.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Niger,,,Quintile 3,2012,0.01,0.00,1224.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Niger,,,Quintile 4,2012,0.01,0.00,1136.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Niger,,,Quintile 5,2012,0.03,0.00,480.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Niger,,,Quintile 4,2012,0.03,0.00,314.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Niger,,,Quintile 5,2012,0.20,0.00,2632.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Rural,Niger,,Female,,2012,0.00,0.00,3124.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Rural,Niger,,Male,,2012,0.02,0.00,1922.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Urban,Niger,,Female,,2012,0.16,0.00,1538.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Urban,Niger,,Male,,2012,0.20,0.00,1431.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Niger,,Female,Quintile 1,2012,0.00,0.00,653.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Niger,,Female,Quintile 2,2012,0.00,0.00,718.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Niger,,Female,Quintile 3,2012,0.00,0.00,747.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Niger,,Female,Quintile 4,2012,0.01,0.00,726.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Niger,,Female,Quintile 5,2012,0.01,0.00,280.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Niger,,Male,Quintile 1,2012,0.02,0.00,391.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Niger,,Male,Quintile 2,2012,0.00,0.00,444.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Niger,,Male,Quintile 3,2012,0.02,0.00,477.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Niger,,Male,Quintile 4,2012,0.03,0.00,410.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Niger,,Male,Quintile 5,2012,0.06,0.00,200.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Niger,,Female,Quintile 4,2012,0.01,0.00,153.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Niger,,Female,Quintile 5,2012,0.18,0.00,1374.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Niger,,Male,Quintile 4,2012,0.05,0.00,161.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Niger,,Male,Quintile 5,2012,0.22,0.00,1258.00,DHS
+comp_lowsec_1524,Country Total Region,,Cameroon,Adamaoua,,,2011,0.15,0.00,1035.00,DHS
+comp_lowsec_1524,Country Total Region,,Cameroon,Centre,,,2011,0.30,0.00,1038.00,DHS
+comp_lowsec_1524,Country Total Region,,Cameroon,Douala,,,2011,0.49,0.00,1136.00,DHS
+comp_lowsec_1524,Country Total Region,,Cameroon,Est,,,2011,0.22,0.00,818.00,DHS
+comp_lowsec_1524,Country Total Region,,Cameroon,Extrême-Nord,,,2011,0.07,0.00,1409.00,DHS
+comp_lowsec_1524,Country Total Region,,Cameroon,Littoral,,,2011,0.33,0.00,773.00,DHS
+comp_lowsec_1524,Country Total Region,,Cameroon,Nord,,,2011,0.08,0.00,1319.00,DHS
+comp_lowsec_1524,Country Total Region,,Cameroon,Nord-Ouest,,,2011,0.37,0.00,1086.00,DHS
+comp_lowsec_1524,Country Total Region,,Cameroon,Ouest,,,2011,0.34,0.00,1066.00,DHS
+comp_lowsec_1524,Country Total Region,,Cameroon,Sud,,,2011,0.31,0.00,755.00,DHS
+comp_lowsec_1524,Country Total Region,,Cameroon,Sud-Ouest,,,2011,0.44,0.00,850.00,DHS
+comp_lowsec_1524,Country Total Region,,Cameroon,Yaoundé,,,2011,0.54,0.00,1186.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Adamaoua,,Quintile 1,2011,0.03,0.00,169.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Adamaoua,,Quintile 2,2011,0.05,0.00,218.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Adamaoua,,Quintile 3,2011,0.06,0.00,261.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Adamaoua,,Quintile 4,2011,0.19,0.00,253.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Adamaoua,,Quintile 5,2011,0.51,0.00,134.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Centre,,Quintile 2,2011,0.07,0.00,269.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Centre,,Quintile 3,2011,0.15,0.00,322.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Centre,,Quintile 4,2011,0.32,0.00,267.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Centre,,Quintile 5,2011,0.67,0.00,171.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Douala,,Quintile 3,2011,0.29,0.00,70.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Douala,,Quintile 4,2011,0.39,0.00,358.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Douala,,Quintile 5,2011,0.56,0.00,708.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Est,,Quintile 1,2011,0.02,0.00,132.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Est,,Quintile 2,2011,0.06,0.00,221.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Est,,Quintile 3,2011,0.18,0.00,155.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Est,,Quintile 4,2011,0.25,0.00,183.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Est,,Quintile 5,2011,0.58,0.00,127.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Extrême-Nord,,Quintile 1,2011,0.02,0.00,672.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Extrême-Nord,,Quintile 2,2011,0.06,0.00,373.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Extrême-Nord,,Quintile 3,2011,0.07,0.00,212.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Extrême-Nord,,Quintile 4,2011,0.27,0.00,102.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Extrême-Nord,,Quintile 5,2011,0.31,0.00,50.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Littoral,,Quintile 2,2011,0.22,0.00,60.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Littoral,,Quintile 3,2011,0.18,0.00,231.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Littoral,,Quintile 4,2011,0.33,0.00,274.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Littoral,,Quintile 5,2011,0.55,0.00,199.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Nord,,Quintile 1,2011,0.02,0.00,612.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Nord,,Quintile 2,2011,0.08,0.00,242.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Nord,,Quintile 3,2011,0.07,0.00,205.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Nord,,Quintile 4,2011,0.17,0.00,184.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Nord,,Quintile 5,2011,0.28,0.00,76.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Nord-Ouest,,Quintile 1,2011,0.07,0.00,75.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Nord-Ouest,,Quintile 2,2011,0.15,0.00,276.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Nord-Ouest,,Quintile 3,2011,0.30,0.00,317.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Nord-Ouest,,Quintile 4,2011,0.54,0.00,269.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Nord-Ouest,,Quintile 5,2011,0.60,0.00,149.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Ouest,,Quintile 2,2011,0.14,0.00,248.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Ouest,,Quintile 3,2011,0.18,0.00,279.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Ouest,,Quintile 4,2011,0.44,0.00,323.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Ouest,,Quintile 5,2011,0.65,0.00,201.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Sud,,Quintile 2,2011,0.10,0.00,173.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Sud,,Quintile 3,2011,0.13,0.00,187.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Sud,,Quintile 4,2011,0.38,0.00,201.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Sud,,Quintile 5,2011,0.58,0.00,186.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Sud-Ouest,,Quintile 2,2011,0.17,0.00,122.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Sud-Ouest,,Quintile 3,2011,0.30,0.00,266.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Sud-Ouest,,Quintile 4,2011,0.45,0.00,205.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Sud-Ouest,,Quintile 5,2011,0.65,0.00,246.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Yaoundé,,Quintile 3,2011,0.16,0.00,50.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Yaoundé,,Quintile 4,2011,0.40,0.00,415.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Cameroon,Yaoundé,,Quintile 5,2011,0.64,0.00,721.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Adamaoua,Female,,2011,0.10,0.00,605.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Adamaoua,Male,,2011,0.23,0.00,430.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Centre,Female,,2011,0.23,0.00,531.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Centre,Male,,2011,0.37,0.00,507.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Douala,Female,,2011,0.49,0.00,636.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Douala,Male,,2011,0.49,0.00,500.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Est,Female,,2011,0.18,0.00,439.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Est,Male,,2011,0.26,0.00,379.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Extrême-Nord,Female,,2011,0.04,0.00,763.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Extrême-Nord,Male,,2011,0.11,0.00,646.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Littoral,Female,,2011,0.32,0.00,367.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Littoral,Male,,2011,0.34,0.00,406.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Nord,Female,,2011,0.04,0.00,705.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Nord,Male,,2011,0.12,0.00,614.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Nord-Ouest,Female,,2011,0.39,0.00,654.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Nord-Ouest,Male,,2011,0.33,0.00,432.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Ouest,Female,,2011,0.29,0.00,566.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Ouest,Male,,2011,0.40,0.00,500.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Sud,Female,,2011,0.28,0.00,399.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Sud,Male,,2011,0.34,0.00,356.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Sud-Ouest,Female,,2011,0.43,0.00,436.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Sud-Ouest,Male,,2011,0.45,0.00,414.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Yaoundé,Female,,2011,0.52,0.00,657.00,DHS
+comp_lowsec_1524,Region and Sex,,Cameroon,Yaoundé,Male,,2011,0.55,0.00,529.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Adamaoua,Female,Quintile 1,2011,0.00,0.00,98.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Adamaoua,Female,Quintile 2,2011,0.02,0.00,121.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Adamaoua,Female,Quintile 3,2011,0.03,0.00,172.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Adamaoua,Female,Quintile 4,2011,0.10,0.00,139.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Adamaoua,Female,Quintile 5,2011,0.50,0.00,75.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Adamaoua,Male,Quintile 1,2011,0.08,0.00,71.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Adamaoua,Male,Quintile 2,2011,0.09,0.00,97.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Adamaoua,Male,Quintile 3,2011,0.12,0.00,89.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Adamaoua,Male,Quintile 4,2011,0.30,0.00,114.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Adamaoua,Male,Quintile 5,2011,0.52,0.00,59.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Centre,Female,Quintile 2,2011,0.08,0.00,138.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Centre,Female,Quintile 3,2011,0.14,0.00,159.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Centre,Female,Quintile 4,2011,0.24,0.00,147.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Centre,Female,Quintile 5,2011,0.54,0.00,83.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Centre,Male,Quintile 2,2011,0.06,0.00,131.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Centre,Male,Quintile 3,2011,0.17,0.00,163.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Centre,Male,Quintile 4,2011,0.43,0.00,120.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Centre,Male,Quintile 5,2011,0.76,0.00,88.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Douala,Female,Quintile 3,2011,0.31,0.00,43.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Douala,Female,Quintile 4,2011,0.40,0.00,194.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Douala,Female,Quintile 5,2011,0.55,0.00,399.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Douala,Male,Quintile 4,2011,0.37,0.00,164.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Douala,Male,Quintile 5,2011,0.57,0.00,309.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Est,Female,Quintile 1,2011,0.00,0.00,75.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Est,Female,Quintile 2,2011,0.05,0.00,122.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Est,Female,Quintile 3,2011,0.14,0.00,79.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Est,Female,Quintile 4,2011,0.26,0.00,97.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Est,Female,Quintile 5,2011,0.43,0.00,66.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Est,Male,Quintile 1,2011,0.04,0.00,57.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Est,Male,Quintile 2,2011,0.08,0.00,99.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Est,Male,Quintile 3,2011,0.23,0.00,76.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Est,Male,Quintile 4,2011,0.23,0.00,86.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Est,Male,Quintile 5,2011,0.73,0.00,61.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Extrême-Nord,Female,Quintile 1,2011,0.00,0.00,352.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Extrême-Nord,Female,Quintile 2,2011,0.03,0.00,220.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Extrême-Nord,Female,Quintile 3,2011,0.02,0.00,106.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Extrême-Nord,Female,Quintile 4,2011,0.23,0.00,59.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Extrême-Nord,Male,Quintile 1,2011,0.04,0.00,320.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Extrême-Nord,Male,Quintile 2,2011,0.11,0.00,153.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Extrême-Nord,Male,Quintile 3,2011,0.12,0.00,106.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Extrême-Nord,Male,Quintile 4,2011,0.33,0.00,43.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Littoral,Female,Quintile 2,2011,0.18,0.00,33.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Littoral,Female,Quintile 3,2011,0.19,0.00,116.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Littoral,Female,Quintile 4,2011,0.34,0.00,118.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Littoral,Female,Quintile 5,2011,0.55,0.00,92.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Littoral,Male,Quintile 3,2011,0.18,0.00,115.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Littoral,Male,Quintile 4,2011,0.32,0.00,156.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Littoral,Male,Quintile 5,2011,0.55,0.00,107.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord,Female,Quintile 1,2011,0.01,0.00,353.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord,Female,Quintile 2,2011,0.01,0.00,131.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord,Female,Quintile 3,2011,0.02,0.00,103.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord,Female,Quintile 4,2011,0.14,0.00,80.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord,Female,Quintile 5,2011,0.30,0.00,38.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord,Male,Quintile 1,2011,0.04,0.00,259.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord,Male,Quintile 2,2011,0.17,0.00,111.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord,Male,Quintile 3,2011,0.11,0.00,102.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord,Male,Quintile 4,2011,0.19,0.00,104.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord,Male,Quintile 5,2011,0.25,0.00,38.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord-Ouest,Female,Quintile 1,2011,0.07,0.00,55.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord-Ouest,Female,Quintile 2,2011,0.16,0.00,178.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord-Ouest,Female,Quintile 3,2011,0.33,0.00,185.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord-Ouest,Female,Quintile 4,2011,0.63,0.00,156.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord-Ouest,Female,Quintile 5,2011,0.62,0.00,80.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord-Ouest,Male,Quintile 2,2011,0.14,0.00,98.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord-Ouest,Male,Quintile 3,2011,0.24,0.00,132.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord-Ouest,Male,Quintile 4,2011,0.40,0.00,113.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Nord-Ouest,Male,Quintile 5,2011,0.58,0.00,69.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Ouest,Female,Quintile 2,2011,0.11,0.00,147.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Ouest,Female,Quintile 3,2011,0.15,0.00,166.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Ouest,Female,Quintile 4,2011,0.40,0.00,152.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Ouest,Female,Quintile 5,2011,0.64,0.00,95.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Ouest,Male,Quintile 2,2011,0.20,0.00,101.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Ouest,Male,Quintile 3,2011,0.22,0.00,113.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Ouest,Male,Quintile 4,2011,0.48,0.00,171.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Ouest,Male,Quintile 5,2011,0.66,0.00,106.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud,Female,Quintile 2,2011,0.06,0.00,97.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud,Female,Quintile 3,2011,0.13,0.00,100.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud,Female,Quintile 4,2011,0.36,0.00,103.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud,Female,Quintile 5,2011,0.52,0.00,96.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud,Male,Quintile 2,2011,0.15,0.00,76.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud,Male,Quintile 3,2011,0.12,0.00,87.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud,Male,Quintile 4,2011,0.40,0.00,98.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud,Male,Quintile 5,2011,0.66,0.00,90.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud-Ouest,Female,Quintile 2,2011,0.16,0.00,62.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud-Ouest,Female,Quintile 3,2011,0.29,0.00,138.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud-Ouest,Female,Quintile 4,2011,0.46,0.00,105.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud-Ouest,Female,Quintile 5,2011,0.64,0.00,126.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud-Ouest,Male,Quintile 2,2011,0.19,0.00,60.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud-Ouest,Male,Quintile 3,2011,0.31,0.00,128.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud-Ouest,Male,Quintile 4,2011,0.45,0.00,100.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Sud-Ouest,Male,Quintile 5,2011,0.66,0.00,120.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Yaoundé,Female,Quintile 3,2011,0.26,0.00,30.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Yaoundé,Female,Quintile 4,2011,0.36,0.00,233.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Yaoundé,Female,Quintile 5,2011,0.64,0.00,394.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Yaoundé,Male,Quintile 4,2011,0.45,0.00,182.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Cameroon,Yaoundé,Male,Quintile 5,2011,0.64,0.00,327.00,DHS
+comp_lowsec_1524,Country Total Region,,Côte d'Ivoire,Centre,,,2011,0.27,0.00,640.00,DHS
+comp_lowsec_1524,Country Total Region,,Côte d'Ivoire,Centre-Est,,,2011,0.24,0.00,833.00,DHS
+comp_lowsec_1524,Country Total Region,,Côte d'Ivoire,Centre-Nord,,,2011,0.22,0.00,895.00,DHS
+comp_lowsec_1524,Country Total Region,,Côte d'Ivoire,Centre-Ouest,,,2011,0.23,0.00,705.00,DHS
+comp_lowsec_1524,Country Total Region,,Côte d'Ivoire,Nord,,,2011,0.16,0.00,658.00,DHS
+comp_lowsec_1524,Country Total Region,,Côte d'Ivoire,Nord-Est,,,2011,0.15,0.00,615.00,DHS
+comp_lowsec_1524,Country Total Region,,Côte d'Ivoire,Nord-Ouest,,,2011,0.08,0.00,925.00,DHS
+comp_lowsec_1524,Country Total Region,,Côte d'Ivoire,Ouest,,,2011,0.10,0.00,839.00,DHS
+comp_lowsec_1524,Country Total Region,,Côte d'Ivoire,Sud sans Abidjan,,,2011,0.25,0.00,616.00,DHS
+comp_lowsec_1524,Country Total Region,,Côte d'Ivoire,Sud-Ouest,,,2011,0.14,0.00,776.00,DHS
+comp_lowsec_1524,Country Total Region,,Côte d'Ivoire,Ville d'Abidjan,,,2011,0.36,0.00,1323.00,DHS
+comp_lowsec_1524,Country Total Sex,,Côte d'Ivoire,,Female,,2011,0.17,0.00,4578.00,DHS
+comp_lowsec_1524,Country Total Sex,,Côte d'Ivoire,,Male,,2011,0.29,0.00,4247.00,DHS
+comp_lowsec_1524,Country Total Urban/Rural,Rural,Côte d'Ivoire,,,,2011,0.08,0.00,4268.00,DHS
+comp_lowsec_1524,Country Total Urban/Rural,Urban,Côte d'Ivoire,,,,2011,0.35,0.00,4557.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Côte d'Ivoire,,,Quintile 1,2011,0.03,0.00,1461.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Côte d'Ivoire,,,Quintile 2,2011,0.10,0.00,1495.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Côte d'Ivoire,,,Quintile 3,2011,0.18,0.00,1870.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Côte d'Ivoire,,,Quintile 4,2011,0.25,0.00,1842.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Côte d'Ivoire,,,Quintile 5,2011,0.46,0.00,2157.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre,,Quintile 1,2011,0.03,0.00,130.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre,,Quintile 2,2011,0.08,0.00,138.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre,,Quintile 3,2011,0.33,0.00,141.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre,,Quintile 4,2011,0.33,0.00,113.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre,,Quintile 5,2011,0.57,0.00,118.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,,Quintile 1,2011,0.04,0.00,106.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,,Quintile 2,2011,0.11,0.00,168.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,,Quintile 3,2011,0.26,0.00,212.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,,Quintile 4,2011,0.29,0.00,172.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,,Quintile 5,2011,0.43,0.00,175.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,,Quintile 1,2011,0.02,0.00,52.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,,Quintile 2,2011,0.11,0.00,160.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,,Quintile 3,2011,0.12,0.00,237.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,,Quintile 4,2011,0.30,0.00,191.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,,Quintile 5,2011,0.39,0.00,255.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,,Quintile 1,2011,0.04,0.00,162.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,,Quintile 2,2011,0.09,0.00,142.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,,Quintile 3,2011,0.19,0.00,142.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,,Quintile 4,2011,0.31,0.00,107.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,,Quintile 5,2011,0.53,0.00,152.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord,,Quintile 1,2011,0.00,0.00,83.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord,,Quintile 2,2011,0.03,0.00,46.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord,,Quintile 3,2011,0.07,0.00,190.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord,,Quintile 4,2011,0.14,0.00,142.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord,,Quintile 5,2011,0.39,0.00,197.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,,Quintile 1,2011,0.03,0.00,149.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,,Quintile 2,2011,0.11,0.00,159.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,,Quintile 3,2011,0.10,0.00,93.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,,Quintile 4,2011,0.26,0.00,94.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,,Quintile 5,2011,0.44,0.00,120.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,,Quintile 1,2011,0.01,0.00,191.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,,Quintile 2,2011,0.03,0.00,150.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,,Quintile 3,2011,0.05,0.00,292.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,,Quintile 4,2011,0.08,0.00,150.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,,Quintile 5,2011,0.30,0.00,142.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Ouest,,Quintile 1,2011,0.02,0.00,308.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Ouest,,Quintile 2,2011,0.11,0.00,178.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Ouest,,Quintile 3,2011,0.17,0.00,168.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Ouest,,Quintile 4,2011,0.14,0.00,112.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Ouest,,Quintile 5,2011,0.30,0.00,73.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,,Quintile 1,2011,0.05,0.00,73.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,,Quintile 2,2011,0.13,0.00,163.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,,Quintile 3,2011,0.27,0.00,141.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,,Quintile 4,2011,0.28,0.00,129.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,,Quintile 5,2011,0.49,0.00,110.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,,Quintile 1,2011,0.04,0.00,207.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,,Quintile 2,2011,0.08,0.00,191.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,,Quintile 3,2011,0.14,0.00,148.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,,Quintile 4,2011,0.27,0.00,156.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,,Quintile 5,2011,0.37,0.00,74.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Ville d'Abidjan,,Quintile 3,2011,0.14,0.00,106.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Ville d'Abidjan,,Quintile 4,2011,0.24,0.00,476.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Côte d'Ivoire,Ville d'Abidjan,,Quintile 5,2011,0.47,0.00,741.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Centre,Female,,2011,0.22,0.00,343.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Centre,Male,,2011,0.33,0.00,297.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Centre-Est,Female,,2011,0.20,0.00,435.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Centre-Est,Male,,2011,0.28,0.00,398.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Centre-Nord,Female,,2011,0.14,0.00,448.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Centre-Nord,Male,,2011,0.30,0.00,447.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Centre-Ouest,Female,,2011,0.16,0.00,359.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Centre-Ouest,Male,,2011,0.30,0.00,346.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Nord,Female,,2011,0.10,0.00,347.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Nord,Male,,2011,0.22,0.00,311.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Nord-Est,Female,,2011,0.11,0.00,344.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Nord-Est,Male,,2011,0.19,0.00,271.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Nord-Ouest,Female,,2011,0.05,0.00,462.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Nord-Ouest,Male,,2011,0.10,0.00,463.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Ouest,Female,,2011,0.06,0.00,400.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Ouest,Male,,2011,0.14,0.00,439.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Sud sans Abidjan,Female,,2011,0.17,0.00,309.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Sud sans Abidjan,Male,,2011,0.33,0.00,307.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Sud-Ouest,Female,,2011,0.09,0.00,409.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Sud-Ouest,Male,,2011,0.19,0.00,367.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Ville d'Abidjan,Female,,2011,0.29,0.00,722.00,DHS
+comp_lowsec_1524,Region and Sex,,Côte d'Ivoire,Ville d'Abidjan,Male,,2011,0.43,0.00,601.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre,Female,Quintile 1,2011,0.01,0.00,71.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre,Female,Quintile 2,2011,0.03,0.00,76.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre,Female,Quintile 3,2011,0.32,0.00,73.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre,Female,Quintile 4,2011,0.28,0.00,65.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre,Female,Quintile 5,2011,0.51,0.00,58.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre,Male,Quintile 1,2011,0.04,0.00,59.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre,Male,Quintile 2,2011,0.16,0.00,62.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre,Male,Quintile 3,2011,0.35,0.00,68.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre,Male,Quintile 4,2011,0.41,0.00,48.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre,Male,Quintile 5,2011,0.64,0.00,60.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,Female,Quintile 1,2011,0.00,0.00,50.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,Female,Quintile 2,2011,0.07,0.00,93.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,Female,Quintile 3,2011,0.22,0.00,110.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,Female,Quintile 4,2011,0.29,0.00,93.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,Female,Quintile 5,2011,0.37,0.00,89.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,Male,Quintile 1,2011,0.09,0.00,56.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,Male,Quintile 2,2011,0.15,0.00,75.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,Male,Quintile 3,2011,0.30,0.00,102.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,Male,Quintile 4,2011,0.29,0.00,79.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Est,Male,Quintile 5,2011,0.50,0.00,86.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,Female,Quintile 2,2011,0.06,0.00,70.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,Female,Quintile 3,2011,0.06,0.00,122.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,Female,Quintile 4,2011,0.18,0.00,90.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,Female,Quintile 5,2011,0.28,0.00,138.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,Male,Quintile 2,2011,0.15,0.00,90.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,Male,Quintile 3,2011,0.20,0.00,115.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,Male,Quintile 4,2011,0.40,0.00,101.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Nord,Male,Quintile 5,2011,0.51,0.00,117.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,Female,Quintile 1,2011,0.01,0.00,76.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,Female,Quintile 2,2011,0.06,0.00,78.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,Female,Quintile 3,2011,0.08,0.00,71.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,Female,Quintile 4,2011,0.17,0.00,53.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,Female,Quintile 5,2011,0.45,0.00,81.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,Male,Quintile 1,2011,0.07,0.00,86.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,Male,Quintile 2,2011,0.12,0.00,64.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,Male,Quintile 3,2011,0.29,0.00,71.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,Male,Quintile 4,2011,0.44,0.00,54.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Centre-Ouest,Male,Quintile 5,2011,0.62,0.00,71.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord,Female,Quintile 1,2011,0.00,0.00,48.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord,Female,Quintile 3,2011,0.04,0.00,110.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord,Female,Quintile 4,2011,0.10,0.00,72.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord,Female,Quintile 5,2011,0.28,0.00,93.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord,Male,Quintile 1,2011,0.00,0.00,35.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord,Male,Quintile 3,2011,0.11,0.00,80.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord,Male,Quintile 4,2011,0.19,0.00,70.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord,Male,Quintile 5,2011,0.50,0.00,104.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,Female,Quintile 1,2011,0.03,0.00,97.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,Female,Quintile 2,2011,0.10,0.00,89.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,Female,Quintile 3,2011,0.10,0.00,57.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,Female,Quintile 4,2011,0.14,0.00,41.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,Female,Quintile 5,2011,0.37,0.00,60.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,Male,Quintile 1,2011,0.01,0.00,52.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,Male,Quintile 2,2011,0.11,0.00,70.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,Male,Quintile 3,2011,0.10,0.00,36.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,Male,Quintile 4,2011,0.37,0.00,53.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Est,Male,Quintile 5,2011,0.50,0.00,60.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,Female,Quintile 1,2011,0.00,0.00,95.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,Female,Quintile 2,2011,0.02,0.00,79.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,Female,Quintile 3,2011,0.04,0.00,146.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,Female,Quintile 4,2011,0.04,0.00,67.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,Female,Quintile 5,2011,0.18,0.00,75.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,Male,Quintile 1,2011,0.03,0.00,96.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,Male,Quintile 2,2011,0.04,0.00,71.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,Male,Quintile 3,2011,0.06,0.00,146.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,Male,Quintile 4,2011,0.11,0.00,83.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Nord-Ouest,Male,Quintile 5,2011,0.44,0.00,67.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ouest,Female,Quintile 1,2011,0.02,0.00,135.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ouest,Female,Quintile 2,2011,0.03,0.00,93.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ouest,Female,Quintile 3,2011,0.08,0.00,72.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ouest,Female,Quintile 4,2011,0.17,0.00,62.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ouest,Female,Quintile 5,2011,0.22,0.00,38.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ouest,Male,Quintile 1,2011,0.03,0.00,173.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ouest,Male,Quintile 2,2011,0.21,0.00,85.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ouest,Male,Quintile 3,2011,0.25,0.00,96.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ouest,Male,Quintile 4,2011,0.10,0.00,50.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ouest,Male,Quintile 5,2011,0.40,0.00,35.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,Female,Quintile 1,2011,0.06,0.00,37.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,Female,Quintile 2,2011,0.07,0.00,90.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,Female,Quintile 3,2011,0.22,0.00,57.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,Female,Quintile 4,2011,0.20,0.00,65.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,Female,Quintile 5,2011,0.32,0.00,60.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,Male,Quintile 1,2011,0.04,0.00,36.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,Male,Quintile 2,2011,0.21,0.00,73.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,Male,Quintile 3,2011,0.31,0.00,84.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,Male,Quintile 4,2011,0.36,0.00,64.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud sans Abidjan,Male,Quintile 5,2011,0.65,0.00,50.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,Female,Quintile 1,2011,0.00,0.00,107.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,Female,Quintile 2,2011,0.03,0.00,92.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,Female,Quintile 3,2011,0.13,0.00,79.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,Female,Quintile 4,2011,0.16,0.00,94.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,Female,Quintile 5,2011,0.28,0.00,37.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,Male,Quintile 1,2011,0.08,0.00,100.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,Male,Quintile 2,2011,0.12,0.00,99.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,Male,Quintile 3,2011,0.15,0.00,69.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,Male,Quintile 4,2011,0.41,0.00,62.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Sud-Ouest,Male,Quintile 5,2011,0.44,0.00,37.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ville d'Abidjan,Female,Quintile 3,2011,0.13,0.00,63.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ville d'Abidjan,Female,Quintile 4,2011,0.19,0.00,228.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ville d'Abidjan,Female,Quintile 5,2011,0.38,0.00,431.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ville d'Abidjan,Male,Quintile 3,2011,0.16,0.00,43.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ville d'Abidjan,Male,Quintile 4,2011,0.30,0.00,248.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Côte d'Ivoire,Ville d'Abidjan,Male,Quintile 5,2011,0.60,0.00,310.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Côte d'Ivoire,,Female,Quintile 1,2011,0.01,0.00,744.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Côte d'Ivoire,,Female,Quintile 2,2011,0.05,0.00,784.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Côte d'Ivoire,,Female,Quintile 3,2011,0.13,0.00,960.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Côte d'Ivoire,,Female,Quintile 4,2011,0.18,0.00,930.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Côte d'Ivoire,,Female,Quintile 5,2011,0.37,0.00,1160.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Côte d'Ivoire,,Male,Quintile 1,2011,0.05,0.00,717.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Côte d'Ivoire,,Male,Quintile 2,2011,0.15,0.00,711.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Côte d'Ivoire,,Male,Quintile 3,2011,0.23,0.00,910.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Côte d'Ivoire,,Male,Quintile 4,2011,0.32,0.00,912.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Côte d'Ivoire,,Male,Quintile 5,2011,0.58,0.00,997.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Côte d'Ivoire,,,Quintile 1,2011,0.03,0.00,1461.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Côte d'Ivoire,,,Quintile 2,2011,0.10,0.00,1444.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Côte d'Ivoire,,,Quintile 3,2011,0.07,0.00,869.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Côte d'Ivoire,,,Quintile 4,2011,0.18,0.00,452.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Côte d'Ivoire,,,Quintile 5,2011,0.40,0.00,42.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Côte d'Ivoire,,,Quintile 2,2011,0.17,0.00,51.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Côte d'Ivoire,,,Quintile 3,2011,0.25,0.00,1001.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Côte d'Ivoire,,,Quintile 4,2011,0.27,0.00,1390.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Côte d'Ivoire,,,Quintile 5,2011,0.46,0.00,2115.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Rural,Côte d'Ivoire,,Female,,2011,0.04,0.00,2197.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Rural,Côte d'Ivoire,,Male,,2011,0.12,0.00,2071.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Urban,Côte d'Ivoire,,Female,,2011,0.27,0.00,2381.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Urban,Côte d'Ivoire,,Male,,2011,0.43,0.00,2176.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Côte d'Ivoire,,Female,Quintile 1,2011,0.01,0.00,744.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Côte d'Ivoire,,Female,Quintile 2,2011,0.05,0.00,754.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Côte d'Ivoire,,Female,Quintile 3,2011,0.05,0.00,450.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Côte d'Ivoire,,Female,Quintile 4,2011,0.11,0.00,229.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Côte d'Ivoire,,Male,Quintile 1,2011,0.05,0.00,717.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Côte d'Ivoire,,Male,Quintile 2,2011,0.15,0.00,690.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Côte d'Ivoire,,Male,Quintile 3,2011,0.10,0.00,419.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Côte d'Ivoire,,Male,Quintile 4,2011,0.25,0.00,223.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Côte d'Ivoire,,Female,Quintile 2,2011,0.14,0.00,30.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Côte d'Ivoire,,Female,Quintile 3,2011,0.18,0.00,510.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Côte d'Ivoire,,Female,Quintile 4,2011,0.20,0.00,701.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Côte d'Ivoire,,Female,Quintile 5,2011,0.37,0.00,1140.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Côte d'Ivoire,,Male,Quintile 3,2011,0.31,0.00,491.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Côte d'Ivoire,,Male,Quintile 4,2011,0.33,0.00,689.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Côte d'Ivoire,,Male,Quintile 5,2011,0.58,0.00,975.00,DHS
+comp_lowsec_1524,Country Total Region,,Togo,Centrale,,,2013,0.20,0.00,945.00,DHS
+comp_lowsec_1524,Country Total Region,,Togo,grande agglomération de lomé,,,2013,0.43,0.00,1535.00,DHS
+comp_lowsec_1524,Country Total Region,,Togo,Kara,,,2013,0.20,0.00,902.00,DHS
+comp_lowsec_1524,Country Total Region,,Togo,maritime (sans agglomération de lomé),,,2013,0.16,0.00,672.00,DHS
+comp_lowsec_1524,Country Total Region,,Togo,Plateaux,,,2013,0.18,0.00,1156.00,DHS
+comp_lowsec_1524,Country Total Region,,Togo,Savanes,,,2013,0.08,0.00,1319.00,DHS
+comp_lowsec_1524,Country Total Sex,,Togo,,Female,,2013,0.19,0.00,3224.00,DHS
+comp_lowsec_1524,Country Total Sex,,Togo,,Male,,2013,0.29,0.00,3305.00,DHS
+comp_lowsec_1524,Country Total Urban/Rural,Rural,Togo,,,,2013,0.11,0.00,4088.00,DHS
+comp_lowsec_1524,Country Total Urban/Rural,Urban,Togo,,,,2013,0.40,0.00,2441.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Togo,,,Quintile 1,2013,0.05,0.00,1620.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Togo,,,Quintile 2,2013,0.09,0.00,1196.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Togo,,,Quintile 3,2013,0.15,0.00,1128.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Togo,,,Quintile 4,2013,0.32,0.00,1243.00,DHS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Togo,,,Quintile 5,2013,0.48,0.00,1342.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Centrale,,Quintile 1,2013,0.11,0.00,193.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Centrale,,Quintile 2,2013,0.13,0.00,238.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Centrale,,Quintile 3,2013,0.13,0.00,244.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Centrale,,Quintile 4,2013,0.29,0.00,191.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Centrale,,Quintile 5,2013,0.51,0.00,79.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,grande agglomération de lomé,,Quintile 4,2013,0.32,0.00,469.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,grande agglomération de lomé,,Quintile 5,2013,0.49,0.00,1038.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Kara,,Quintile 1,2013,0.06,0.00,366.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Kara,,Quintile 2,2013,0.09,0.00,191.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Kara,,Quintile 3,2013,0.20,0.00,137.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Kara,,Quintile 4,2013,0.36,0.00,128.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Kara,,Quintile 5,2013,0.56,0.00,80.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,maritime (sans agglomération de lomé),,Quintile 1,2013,0.02,0.00,43.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,maritime (sans agglomération de lomé),,Quintile 2,2013,0.08,0.00,168.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,maritime (sans agglomération de lomé),,Quintile 3,2013,0.10,0.00,259.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,maritime (sans agglomération de lomé),,Quintile 4,2013,0.32,0.00,163.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,maritime (sans agglomération de lomé),,Quintile 5,2013,0.28,0.00,39.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Plateaux,,Quintile 1,2013,0.05,0.00,217.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Plateaux,,Quintile 2,2013,0.08,0.00,344.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Plateaux,,Quintile 3,2013,0.18,0.00,343.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Plateaux,,Quintile 4,2013,0.36,0.00,192.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Plateaux,,Quintile 5,2013,0.50,0.00,60.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Savanes,,Quintile 1,2013,0.04,0.00,801.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Savanes,,Quintile 2,2013,0.05,0.00,253.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Savanes,,Quintile 3,2013,0.15,0.00,119.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Savanes,,Quintile 4,2013,0.21,0.00,100.00,DHS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Togo,Savanes,,Quintile 5,2013,0.34,0.00,46.00,DHS
+comp_lowsec_1524,Region and Sex,,Togo,Centrale,Female,,2013,0.12,0.00,437.00,DHS
+comp_lowsec_1524,Region and Sex,,Togo,Centrale,Male,,2013,0.26,0.00,508.00,DHS
+comp_lowsec_1524,Region and Sex,,Togo,grande agglomération de lomé,Female,,2013,0.32,0.00,865.00,DHS
+comp_lowsec_1524,Region and Sex,,Togo,grande agglomération de lomé,Male,,2013,0.56,0.00,670.00,DHS
+comp_lowsec_1524,Region and Sex,,Togo,Kara,Female,,2013,0.16,0.00,429.00,DHS
+comp_lowsec_1524,Region and Sex,,Togo,Kara,Male,,2013,0.23,0.00,473.00,DHS
+comp_lowsec_1524,Region and Sex,,Togo,maritime (sans agglomération de lomé),Female,,2013,0.11,0.00,322.00,DHS
+comp_lowsec_1524,Region and Sex,,Togo,maritime (sans agglomération de lomé),Male,,2013,0.21,0.00,350.00,DHS
+comp_lowsec_1524,Region and Sex,,Togo,Plateaux,Female,,2013,0.15,0.00,542.00,DHS
+comp_lowsec_1524,Region and Sex,,Togo,Plateaux,Male,,2013,0.21,0.00,614.00,DHS
+comp_lowsec_1524,Region and Sex,,Togo,Savanes,Female,,2013,0.07,0.00,629.00,DHS
+comp_lowsec_1524,Region and Sex,,Togo,Savanes,Male,,2013,0.10,0.00,690.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Centrale,Female,Quintile 1,2013,0.09,0.00,80.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Centrale,Female,Quintile 2,2013,0.06,0.00,109.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Centrale,Female,Quintile 3,2013,0.08,0.00,125.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Centrale,Female,Quintile 4,2013,0.16,0.00,79.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Centrale,Female,Quintile 5,2013,0.37,0.00,44.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Centrale,Male,Quintile 1,2013,0.13,0.00,113.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Centrale,Male,Quintile 2,2013,0.19,0.00,129.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Centrale,Male,Quintile 3,2013,0.18,0.00,119.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Centrale,Male,Quintile 4,2013,0.38,0.00,112.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Centrale,Male,Quintile 5,2013,0.69,0.00,35.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,grande agglomération de lomé,Female,Quintile 4,2013,0.25,0.00,260.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,grande agglomération de lomé,Female,Quintile 5,2013,0.36,0.00,589.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,grande agglomération de lomé,Male,Quintile 4,2013,0.40,0.00,209.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,grande agglomération de lomé,Male,Quintile 5,2013,0.65,0.00,449.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Kara,Female,Quintile 1,2013,0.04,0.00,160.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Kara,Female,Quintile 2,2013,0.02,0.00,91.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Kara,Female,Quintile 3,2013,0.17,0.00,67.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Kara,Female,Quintile 4,2013,0.30,0.00,65.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Kara,Female,Quintile 5,2013,0.43,0.00,46.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Kara,Male,Quintile 1,2013,0.07,0.00,206.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Kara,Male,Quintile 2,2013,0.15,0.00,100.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Kara,Male,Quintile 3,2013,0.24,0.00,70.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Kara,Male,Quintile 4,2013,0.41,0.00,63.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Kara,Male,Quintile 5,2013,0.73,0.00,34.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,maritime (sans agglomération de lomé),Female,Quintile 2,2013,0.05,0.00,82.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,maritime (sans agglomération de lomé),Female,Quintile 3,2013,0.07,0.00,120.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,maritime (sans agglomération de lomé),Female,Quintile 4,2013,0.20,0.00,74.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,maritime (sans agglomération de lomé),Male,Quintile 2,2013,0.10,0.00,86.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,maritime (sans agglomération de lomé),Male,Quintile 3,2013,0.12,0.00,139.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,maritime (sans agglomération de lomé),Male,Quintile 4,2013,0.42,0.00,89.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Plateaux,Female,Quintile 1,2013,0.01,0.00,87.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Plateaux,Female,Quintile 2,2013,0.04,0.00,160.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Plateaux,Female,Quintile 3,2013,0.13,0.00,162.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Plateaux,Female,Quintile 4,2013,0.30,0.00,96.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Plateaux,Female,Quintile 5,2013,0.48,0.00,37.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Plateaux,Male,Quintile 1,2013,0.07,0.00,130.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Plateaux,Male,Quintile 2,2013,0.12,0.00,184.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Plateaux,Male,Quintile 3,2013,0.22,0.00,181.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Plateaux,Male,Quintile 4,2013,0.41,0.00,96.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Savanes,Female,Quintile 1,2013,0.01,0.00,359.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Savanes,Female,Quintile 2,2013,0.02,0.00,119.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Savanes,Female,Quintile 3,2013,0.14,0.00,71.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Savanes,Female,Quintile 4,2013,0.19,0.00,54.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Savanes,Male,Quintile 1,2013,0.07,0.00,442.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Savanes,Male,Quintile 2,2013,0.08,0.00,134.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Savanes,Male,Quintile 3,2013,0.15,0.00,48.00,DHS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Togo,Savanes,Male,Quintile 4,2013,0.24,0.00,46.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Togo,,Female,Quintile 1,2013,0.02,0.00,704.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Togo,,Female,Quintile 2,2013,0.04,0.00,562.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Togo,,Female,Quintile 3,2013,0.11,0.00,560.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Togo,,Female,Quintile 4,2013,0.25,0.00,628.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Togo,,Female,Quintile 5,2013,0.37,0.00,770.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Togo,,Male,Quintile 1,2013,0.07,0.00,916.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Togo,,Male,Quintile 2,2013,0.13,0.00,634.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Togo,,Male,Quintile 3,2013,0.18,0.00,568.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Togo,,Male,Quintile 4,2013,0.40,0.00,615.00,DHS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Togo,,Male,Quintile 5,2013,0.63,0.00,572.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Togo,,,Quintile 1,2013,0.05,0.00,1594.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Togo,,,Quintile 2,2013,0.08,0.00,1173.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Togo,,,Quintile 3,2013,0.14,0.00,1036.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Togo,,,Quintile 4,2013,0.30,0.00,267.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Togo,,,Quintile 3,2013,0.24,0.00,92.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Togo,,,Quintile 4,2013,0.33,0.00,976.00,DHS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Togo,,,Quintile 5,2013,0.48,0.00,1324.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Rural,Togo,,Female,,2013,0.07,0.00,1921.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Rural,Togo,,Male,,2013,0.14,0.00,2167.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Urban,Togo,,Female,,2013,0.32,0.00,1303.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex,Urban,Togo,,Male,,2013,0.50,0.00,1138.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Togo,,Female,Quintile 1,2013,0.02,0.00,690.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Togo,,Female,Quintile 2,2013,0.04,0.00,554.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Togo,,Female,Quintile 3,2013,0.10,0.00,518.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Togo,,Female,Quintile 4,2013,0.21,0.00,143.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Togo,,Male,Quintile 1,2013,0.07,0.00,904.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Togo,,Male,Quintile 2,2013,0.12,0.00,619.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Togo,,Male,Quintile 3,2013,0.17,0.00,518.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Togo,,Male,Quintile 4,2013,0.41,0.00,124.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Togo,,Female,Quintile 3,2013,0.20,0.00,42.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Togo,,Female,Quintile 4,2013,0.26,0.00,485.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Togo,,Female,Quintile 5,2013,0.37,0.00,754.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Togo,,Male,Quintile 3,2013,0.27,0.00,50.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Togo,,Male,Quintile 4,2013,0.39,0.00,491.00,DHS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Togo,,Male,Quintile 5,2013,0.63,0.00,570.00,DHS
+comp_lowsec_1524,Country Total Region,,Mauritania,Adrar,,,2011,0.21,0.00,501.00,MICS
+comp_lowsec_1524,Country Total Region,,Mauritania,Assaba,,,2011,0.08,0.00,623.00,MICS
+comp_lowsec_1524,Country Total Region,,Mauritania,Brakna,,,2011,0.14,0.00,762.00,MICS
+comp_lowsec_1524,Country Total Region,,Mauritania,Dakhlett Nouadibou,,,2011,0.26,0.00,683.00,MICS
+comp_lowsec_1524,Country Total Region,,Mauritania,Gorgol,,,2011,0.08,0.00,761.00,MICS
+comp_lowsec_1524,Country Total Region,,Mauritania,Guidimagha,,,2011,0.05,0.00,795.00,MICS
+comp_lowsec_1524,Country Total Region,,Mauritania,Hodh Ech Chargui,,,2011,0.06,0.00,556.00,MICS
+comp_lowsec_1524,Country Total Region,,Mauritania,Hodh El Gharbi,,,2011,0.08,0.00,440.00,MICS
+comp_lowsec_1524,Country Total Region,,Mauritania,Nouakchott,,,2011,0.36,0.00,2010.00,MICS
+comp_lowsec_1524,Country Total Region,,Mauritania,Tagant,,,2011,0.19,0.00,347.00,MICS
+comp_lowsec_1524,Country Total Region,,Mauritania,Tiris Zemmour,,,2011,0.32,0.00,438.00,MICS
+comp_lowsec_1524,Country Total Region,,Mauritania,Trarza,,,2011,0.23,0.00,638.00,MICS
+comp_lowsec_1524,Country Total Sex,,Mauritania,,Female,,2011,0.17,0.00,4675.00,MICS
+comp_lowsec_1524,Country Total Sex,,Mauritania,,Male,,2011,0.25,0.00,3879.00,MICS
+comp_lowsec_1524,Country Total Urban/Rural,Rural,Mauritania,,,,2011,0.09,0.00,4406.00,MICS
+comp_lowsec_1524,Country Total Urban/Rural,Urban,Mauritania,,,,2011,0.31,0.00,4148.00,MICS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Mauritania,,,Quintile 1,2011,0.02,0.00,1284.00,MICS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Mauritania,,,Quintile 2,2011,0.05,0.00,1436.00,MICS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Mauritania,,,Quintile 3,2011,0.11,0.00,1752.00,MICS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Mauritania,,,Quintile 4,2011,0.24,0.00,1833.00,MICS
+comp_lowsec_1524,Country Wealth Index Quintiles,,Mauritania,,,Quintile 5,2011,0.45,0.00,2249.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Adrar,,Quintile 1,2011,0.03,0.00,54.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Adrar,,Quintile 2,2011,0.08,0.00,99.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Adrar,,Quintile 3,2011,0.14,0.00,149.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Adrar,,Quintile 4,2011,0.32,0.00,93.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Adrar,,Quintile 5,2011,0.34,0.00,106.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Assaba,,Quintile 1,2011,0.01,0.00,234.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Assaba,,Quintile 2,2011,0.10,0.00,135.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Assaba,,Quintile 3,2011,0.11,0.00,127.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Assaba,,Quintile 4,2011,0.16,0.00,78.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Assaba,,Quintile 5,2011,0.20,0.00,49.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Brakna,,Quintile 1,2011,0.05,0.00,80.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Brakna,,Quintile 2,2011,0.04,0.00,179.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Brakna,,Quintile 3,2011,0.14,0.00,299.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Brakna,,Quintile 4,2011,0.21,0.00,156.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Brakna,,Quintile 5,2011,0.51,0.00,48.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Dakhlett Nouadibou,,Quintile 3,2011,0.05,0.00,57.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Dakhlett Nouadibou,,Quintile 4,2011,0.22,0.00,144.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Dakhlett Nouadibou,,Quintile 5,2011,0.30,0.00,478.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Gorgol,,Quintile 1,2011,0.03,0.00,149.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Gorgol,,Quintile 2,2011,0.03,0.00,256.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Gorgol,,Quintile 3,2011,0.06,0.00,224.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Gorgol,,Quintile 4,2011,0.18,0.00,84.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Gorgol,,Quintile 5,2011,0.42,0.00,48.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Guidimagha,,Quintile 1,2011,0.01,0.00,256.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Guidimagha,,Quintile 2,2011,0.05,0.00,241.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Guidimagha,,Quintile 3,2011,0.07,0.00,180.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Guidimagha,,Quintile 4,2011,0.06,0.00,84.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Guidimagha,,Quintile 5,2011,0.21,0.00,34.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Hodh Ech Chargui,,Quintile 1,2011,0.00,0.00,203.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Hodh Ech Chargui,,Quintile 2,2011,0.02,0.00,185.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Hodh Ech Chargui,,Quintile 3,2011,0.13,0.00,102.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Hodh Ech Chargui,,Quintile 4,2011,0.29,0.00,62.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Hodh El Gharbi,,Quintile 1,2011,0.04,0.00,205.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Hodh El Gharbi,,Quintile 2,2011,0.08,0.00,142.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Hodh El Gharbi,,Quintile 3,2011,0.06,0.00,66.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Nouakchott,,Quintile 3,2011,0.10,0.00,247.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Nouakchott,,Quintile 4,2011,0.25,0.00,699.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Nouakchott,,Quintile 5,2011,0.50,0.00,1036.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Tagant,,Quintile 1,2011,0.05,0.00,83.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Tagant,,Quintile 2,2011,0.09,0.00,98.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Tagant,,Quintile 3,2011,0.19,0.00,80.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Tagant,,Quintile 4,2011,0.36,0.00,61.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Tiris Zemmour,,Quintile 4,2011,0.19,0.00,128.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Tiris Zemmour,,Quintile 5,2011,0.41,0.00,277.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Trarza,,Quintile 2,2011,0.05,0.00,65.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Trarza,,Quintile 3,2011,0.18,0.00,192.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Trarza,,Quintile 4,2011,0.24,0.00,227.00,MICS
+comp_lowsec_1524,Region and Country Wealth Index Quintiles,,Mauritania,Trarza,,Quintile 5,2011,0.40,0.00,134.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Adrar,Female,,2011,0.20,0.00,259.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Adrar,Male,,2011,0.21,0.00,242.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Assaba,Female,,2011,0.07,0.00,371.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Assaba,Male,,2011,0.10,0.00,252.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Brakna,Female,,2011,0.10,0.00,430.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Brakna,Male,,2011,0.20,0.00,332.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Dakhlett Nouadibou,Female,,2011,0.24,0.00,330.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Dakhlett Nouadibou,Male,,2011,0.28,0.00,353.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Gorgol,Female,,2011,0.05,0.00,444.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Gorgol,Male,,2011,0.11,0.00,317.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Guidimagha,Female,,2011,0.02,0.00,419.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Guidimagha,Male,,2011,0.09,0.00,376.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Hodh Ech Chargui,Female,,2011,0.05,0.00,319.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Hodh Ech Chargui,Male,,2011,0.07,0.00,237.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Hodh El Gharbi,Female,,2011,0.06,0.00,267.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Hodh El Gharbi,Male,,2011,0.11,0.00,173.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Nouakchott,Female,,2011,0.32,0.00,1040.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Nouakchott,Male,,2011,0.40,0.00,970.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Tagant,Female,,2011,0.19,0.00,203.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Tagant,Male,,2011,0.17,0.00,144.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Tiris Zemmour,Female,,2011,0.33,0.00,226.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Tiris Zemmour,Male,,2011,0.32,0.00,212.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Trarza,Female,,2011,0.18,0.00,367.00,MICS
+comp_lowsec_1524,Region and Sex,,Mauritania,Trarza,Male,,2011,0.28,0.00,271.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Adrar,Female,Quintile 1,2011,0.00,0.00,30.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Adrar,Female,Quintile 2,2011,0.02,0.00,48.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Adrar,Female,Quintile 3,2011,0.08,0.00,73.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Adrar,Female,Quintile 4,2011,0.27,0.00,51.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Adrar,Female,Quintile 5,2011,0.46,0.00,57.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Adrar,Male,Quintile 2,2011,0.13,0.00,51.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Adrar,Male,Quintile 3,2011,0.19,0.00,76.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Adrar,Male,Quintile 4,2011,0.39,0.00,42.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Adrar,Male,Quintile 5,2011,0.21,0.00,49.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Assaba,Female,Quintile 1,2011,0.01,0.00,142.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Assaba,Female,Quintile 2,2011,0.13,0.00,75.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Assaba,Female,Quintile 3,2011,0.08,0.00,75.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Assaba,Female,Quintile 4,2011,0.09,0.00,49.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Assaba,Female,Quintile 5,2011,0.12,0.00,30.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Assaba,Male,Quintile 1,2011,0.03,0.00,92.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Assaba,Male,Quintile 2,2011,0.05,0.00,60.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Assaba,Male,Quintile 3,2011,0.15,0.00,52.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Brakna,Female,Quintile 1,2011,0.00,0.00,42.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Brakna,Female,Quintile 2,2011,0.02,0.00,109.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Brakna,Female,Quintile 3,2011,0.09,0.00,164.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Brakna,Female,Quintile 4,2011,0.17,0.00,88.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Brakna,Male,Quintile 1,2011,0.10,0.00,38.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Brakna,Male,Quintile 2,2011,0.08,0.00,70.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Brakna,Male,Quintile 3,2011,0.21,0.00,135.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Brakna,Male,Quintile 4,2011,0.26,0.00,68.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Dakhlett Nouadibou,Female,Quintile 4,2011,0.23,0.00,63.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Dakhlett Nouadibou,Female,Quintile 5,2011,0.26,0.00,245.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Dakhlett Nouadibou,Male,Quintile 3,2011,0.07,0.00,35.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Dakhlett Nouadibou,Male,Quintile 4,2011,0.22,0.00,81.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Dakhlett Nouadibou,Male,Quintile 5,2011,0.33,0.00,233.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Gorgol,Female,Quintile 1,2011,0.00,0.00,81.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Gorgol,Female,Quintile 2,2011,0.01,0.00,158.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Gorgol,Female,Quintile 3,2011,0.02,0.00,125.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Gorgol,Female,Quintile 4,2011,0.17,0.00,57.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Gorgol,Male,Quintile 1,2011,0.06,0.00,68.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Gorgol,Male,Quintile 2,2011,0.06,0.00,98.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Gorgol,Male,Quintile 3,2011,0.10,0.00,99.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Guidimagha,Female,Quintile 1,2011,0.01,0.00,145.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Guidimagha,Female,Quintile 2,2011,0.00,0.00,130.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Guidimagha,Female,Quintile 3,2011,0.04,0.00,85.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Guidimagha,Female,Quintile 4,2011,0.05,0.00,38.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Guidimagha,Male,Quintile 1,2011,0.03,0.00,111.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Guidimagha,Male,Quintile 2,2011,0.10,0.00,111.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Guidimagha,Male,Quintile 3,2011,0.10,0.00,95.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Guidimagha,Male,Quintile 4,2011,0.08,0.00,46.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Hodh Ech Chargui,Female,Quintile 1,2011,0.00,0.00,101.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Hodh Ech Chargui,Female,Quintile 2,2011,0.01,0.00,119.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Hodh Ech Chargui,Female,Quintile 3,2011,0.11,0.00,62.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Hodh Ech Chargui,Female,Quintile 4,2011,0.25,0.00,33.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Hodh Ech Chargui,Male,Quintile 1,2011,0.00,0.00,102.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Hodh Ech Chargui,Male,Quintile 2,2011,0.03,0.00,66.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Hodh Ech Chargui,Male,Quintile 3,2011,0.15,0.00,40.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Hodh El Gharbi,Female,Quintile 1,2011,0.03,0.00,126.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Hodh El Gharbi,Female,Quintile 2,2011,0.04,0.00,87.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Hodh El Gharbi,Female,Quintile 3,2011,0.03,0.00,37.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Hodh El Gharbi,Male,Quintile 1,2011,0.06,0.00,79.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Hodh El Gharbi,Male,Quintile 2,2011,0.15,0.00,55.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Nouakchott,Female,Quintile 3,2011,0.09,0.00,139.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Nouakchott,Female,Quintile 4,2011,0.21,0.00,366.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Nouakchott,Female,Quintile 5,2011,0.46,0.00,521.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Nouakchott,Male,Quintile 3,2011,0.10,0.00,108.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Nouakchott,Male,Quintile 4,2011,0.29,0.00,333.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Nouakchott,Male,Quintile 5,2011,0.54,0.00,515.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Tagant,Female,Quintile 1,2011,0.02,0.00,50.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Tagant,Female,Quintile 2,2011,0.08,0.00,54.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Tagant,Female,Quintile 3,2011,0.18,0.00,44.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Tagant,Female,Quintile 4,2011,0.36,0.00,36.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Tagant,Male,Quintile 1,2011,0.09,0.00,33.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Tagant,Male,Quintile 2,2011,0.12,0.00,44.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Tagant,Male,Quintile 3,2011,0.20,0.00,36.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Tiris Zemmour,Female,Quintile 4,2011,0.19,0.00,60.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Tiris Zemmour,Female,Quintile 5,2011,0.42,0.00,148.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Tiris Zemmour,Male,Quintile 4,2011,0.20,0.00,68.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Tiris Zemmour,Male,Quintile 5,2011,0.40,0.00,129.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Trarza,Female,Quintile 2,2011,0.00,0.00,32.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Trarza,Female,Quintile 3,2011,0.14,0.00,103.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Trarza,Female,Quintile 4,2011,0.16,0.00,144.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Trarza,Female,Quintile 5,2011,0.36,0.00,78.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Trarza,Male,Quintile 2,2011,0.09,0.00,33.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Trarza,Male,Quintile 3,2011,0.22,0.00,89.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Trarza,Male,Quintile 4,2011,0.36,0.00,83.00,MICS
+comp_lowsec_1524,Region and Sex and Wealth Index Quintiles,,Mauritania,Trarza,Male,Quintile 5,2011,0.46,0.00,56.00,MICS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Mauritania,,Female,Quintile 1,2011,0.01,0.00,727.00,MICS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Mauritania,,Female,Quintile 2,2011,0.03,0.00,827.00,MICS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Mauritania,,Female,Quintile 3,2011,0.08,0.00,946.00,MICS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Mauritania,,Female,Quintile 4,2011,0.20,0.00,994.00,MICS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Mauritania,,Female,Quintile 5,2011,0.42,0.00,1181.00,MICS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Mauritania,,Male,Quintile 1,2011,0.04,0.00,557.00,MICS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Mauritania,,Male,Quintile 2,2011,0.08,0.00,609.00,MICS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Mauritania,,Male,Quintile 3,2011,0.15,0.00,806.00,MICS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Mauritania,,Male,Quintile 4,2011,0.28,0.00,839.00,MICS
+comp_lowsec_1524,Sex and Country Wealth Index Quintiles,,Mauritania,,Male,Quintile 5,2011,0.49,0.00,1068.00,MICS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Mauritania,,,Quintile 1,2011,0.02,0.00,1264.00,MICS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Mauritania,,,Quintile 2,2011,0.05,0.00,1308.00,MICS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Mauritania,,,Quintile 3,2011,0.12,0.00,1141.00,MICS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Mauritania,,,Quintile 4,2011,0.21,0.00,522.00,MICS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Rural,Mauritania,,,Quintile 5,2011,0.40,0.00,171.00,MICS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Mauritania,,,Quintile 2,2011,0.03,0.00,128.00,MICS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Mauritania,,,Quintile 3,2011,0.10,0.00,611.00,MICS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Mauritania,,,Quintile 4,2011,0.24,0.00,1311.00,MICS
+comp_lowsec_1524,Urban/Rural and Country Wealth Index Quintiles,Urban,Mauritania,,,Quintile 5,2011,0.46,0.00,2078.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex,Rural,Mauritania,,Female,,2011,0.06,0.00,2489.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex,Rural,Mauritania,,Male,,2011,0.13,0.00,1917.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex,Urban,Mauritania,,Female,,2011,0.28,0.00,2186.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex,Urban,Mauritania,,Male,,2011,0.35,0.00,1962.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Mauritania,,Female,Quintile 1,2011,0.01,0.00,715.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Mauritania,,Female,Quintile 2,2011,0.03,0.00,757.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Mauritania,,Female,Quintile 3,2011,0.08,0.00,616.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Mauritania,,Female,Quintile 4,2011,0.16,0.00,301.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Mauritania,,Female,Quintile 5,2011,0.30,0.00,100.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Mauritania,,Male,Quintile 1,2011,0.04,0.00,549.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Mauritania,,Male,Quintile 2,2011,0.09,0.00,551.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Mauritania,,Male,Quintile 3,2011,0.18,0.00,525.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Mauritania,,Male,Quintile 4,2011,0.28,0.00,221.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Rural,Mauritania,,Male,Quintile 5,2011,0.56,0.00,71.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Mauritania,,Female,Quintile 2,2011,0.01,0.00,70.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Mauritania,,Female,Quintile 3,2011,0.10,0.00,330.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Mauritania,,Female,Quintile 4,2011,0.21,0.00,693.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Mauritania,,Female,Quintile 5,2011,0.43,0.00,1081.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Mauritania,,Male,Quintile 2,2011,0.05,0.00,58.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Mauritania,,Male,Quintile 3,2011,0.10,0.00,281.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Mauritania,,Male,Quintile 4,2011,0.28,0.00,618.00,MICS
+comp_lowsec_1524,Urban/Rural and Sex and Wealth Index Quintiles,Urban,Mauritania,,Male,Quintile 5,2011,0.49,0.00,997.00,MICS

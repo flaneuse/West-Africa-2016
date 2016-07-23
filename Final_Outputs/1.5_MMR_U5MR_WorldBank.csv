@@ -1,0 +1,171 @@
+country,year,mmr,u5mr
+Burkina Faso,2006,457,149.4
+Burkina Faso,2007,447,139.9
+Burkina Faso,2008,436,130.4
+Burkina Faso,2009,428,121.4
+Burkina Faso,2010,417,113.5
+Burkina Faso,2011,408,106.9
+Burkina Faso,2012,398,101.4
+Burkina Faso,2013,389,96.6
+Burkina Faso,2014,379,92.4
+Burkina Faso,2015,371,88.6
+Cameroon,2006,725,120.7
+Cameroon,2007,710,116.6
+Cameroon,2008,707,112.8
+Cameroon,2009,696,109
+Cameroon,2010,676,104.8
+Cameroon,2011,652,101
+Cameroon,2012,632,97.4
+Cameroon,2013,619,93.9
+Cameroon,2014,609,90.6
+Cameroon,2015,596,87.9
+Cote d'Ivoire,2006,745,125.1
+Cote d'Ivoire,2007,745,121.1
+Cote d'Ivoire,2008,745,116.5
+Cote d'Ivoire,2009,732,112.7
+Cote d'Ivoire,2010,717,109.1
+Cote d'Ivoire,2011,715,105.9
+Cote d'Ivoire,2012,715,102.5
+Cote d'Ivoire,2013,688,99
+Cote d'Ivoire,2014,665,95.5
+Cote d'Ivoire,2015,645,92.6
+Ghana,2006,358,84.4
+Ghana,2007,345,82.2
+Ghana,2008,337,79.9
+Ghana,2009,330,77.4
+Ghana,2010,325,74.7
+Ghana,2011,320,71.9
+Ghana,2012,324,69.2
+Ghana,2013,321,66.5
+Ghana,2014,322,64
+Ghana,2015,319,61.6
+Mauritania,2006,745,107.9
+Mauritania,2007,744,105.5
+Mauritania,2008,739,103
+Mauritania,2009,734,100.4
+Mauritania,2010,723,97.8
+Mauritania,2011,704,95.4
+Mauritania,2012,682,92.7
+Mauritania,2013,655,90.2
+Mauritania,2014,629,87.5
+Mauritania,2015,602,84.7
+Benin,2006,494,122.1
+Benin,2007,481,119
+Benin,2008,469,116.3
+Benin,2009,457,113.9
+Benin,2010,446,111.6
+Benin,2011,436,109.3
+Benin,2012,429,107
+Benin,2013,422,104.8
+Benin,2014,414,102.1
+Benin,2015,405,99.5
+Guinea,2006,791,131.2
+Guinea,2007,770,125.9
+Guinea,2008,743,121
+Guinea,2009,731,116.3
+Guinea,2010,720,111.9
+Guinea,2011,711,107.7
+Guinea,2012,695,104
+Guinea,2013,695,100.4
+Guinea,2014,688,97
+Guinea,2015,679,93.7
+Niger,2006,711,161.8
+Niger,2007,699,151.3
+Niger,2008,679,141.3
+Niger,2009,661,132.1
+Niger,2010,657,123.6
+Niger,2011,635,116.1
+Niger,2012,619,109.6
+Niger,2013,596,104.1
+Niger,2014,574,99.6
+Niger,2015,553,95.5
+Sierra Leone,2006,1880,196.2
+Sierra Leone,2007,1800,188
+Sierra Leone,2008,1730,179.1
+Sierra Leone,2009,1680,169.9
+Sierra Leone,2010,1630,160.2
+Sierra Leone,2011,1580,150.6
+Sierra Leone,2012,1510,141.6
+Sierra Leone,2013,1460,133.4
+Sierra Leone,2014,1410,126.4
+Sierra Leone,2015,1360,120.4
+Togo,2006,427,102.1
+Togo,2007,416,99.2
+Togo,2008,402,96.4
+Togo,2009,395,93.6
+Togo,2010,393,90.9
+Togo,2011,396,88.3
+Togo,2012,391,85.8
+Togo,2013,386,83.3
+Togo,2014,378,80.8
+Togo,2015,368,78.4
+Senegal,2006,426,88.8
+Senegal,2007,414,82
+Senegal,2008,398,75.8
+Senegal,2009,387,70.1
+Senegal,2010,375,64.8
+Senegal,2011,365,60
+Senegal,2012,351,55.9
+Senegal,2013,335,52.5
+Senegal,2014,323,49.7
+Senegal,2015,315,47.2
+Nigeria,2006,890,152.2
+Nigeria,2007,884,146.4
+Nigeria,2008,829,140.9
+Nigeria,2009,883,135.5
+Nigeria,2010,867,130.3
+Nigeria,2011,824,125.5
+Nigeria,2012,819,120.9
+Nigeria,2013,821,116.6
+Nigeria,2014,820,112.5
+Nigeria,2015,814,108.8
+Mali,2006,707,162.9
+Mali,2007,697,155.1
+Mali,2008,674,148.3
+Mali,2009,652,142
+Mali,2010,630,136.6
+Mali,2011,617,131.7
+Mali,2012,617,127
+Mali,2013,610,122.7
+Mali,2014,601,118.3
+Mali,2015,587,114.7
+Liberia,2006,935,115.7
+Liberia,2007,890,107.8
+Liberia,2008,851,100.9
+Liberia,2009,829,94.7
+Liberia,2010,811,89.3
+Liberia,2011,798,84.5
+Liberia,2012,787,80.3
+Liberia,2013,762,76.3
+Liberia,2014,741,72.9
+Liberia,2015,725,69.9
+Guinea-Bissau,2006,679,139.9
+Guinea-Bissau,2007,643,133.6
+Guinea-Bissau,2008,614,127.6
+Guinea-Bissau,2009,587,121.6
+Guinea-Bissau,2010,570,115.9
+Guinea-Bissau,2011,563,110.4
+Guinea-Bissau,2012,553,105.2
+Guinea-Bissau,2013,554,100.5
+Guinea-Bissau,2014,553,96.2
+Guinea-Bissau,2015,549,92.5
+"Gambia, The",2006,798,94.2
+"Gambia, The",2007,789,90.6
+"Gambia, The",2008,774,87.4
+"Gambia, The",2009,767,84.3
+"Gambia, The",2010,753,81.4
+"Gambia, The",2011,753,78.6
+"Gambia, The",2012,741,76.1
+"Gambia, The",2013,730,73.6
+"Gambia, The",2014,719,71.1
+"Gambia, The",2015,706,68.9
+Cabo Verde,2006,60,27.9
+Cabo Verde,2007,60,28.1
+Cabo Verde,2008,57,28.2
+Cabo Verde,2009,54,28.1
+Cabo Verde,2010,51,27.8
+Cabo Verde,2011,50,27.3
+Cabo Verde,2012,48,26.6
+Cabo Verde,2013,46,25.9
+Cabo Verde,2014,44,25.2
+Cabo Verde,2015,42,24.5
