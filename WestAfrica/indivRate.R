@@ -91,7 +91,7 @@ indivRate = function(input, output, session, tfr, choroData, selCountry){
                        labels = c('1950-1955','',  '',
                                   '1980-1985', 
                                   '','','2010-2015')) +
-      theme_xygridlight() + 
+      theme_xygrid() + 
       scale_y_continuous(limits = c(0,8)) +
       ggtitle(paste0(selCountry, ': total fertility rate')) +
       xlab('') + ylab('')+
@@ -200,7 +200,7 @@ indivRate = function(input, output, session, tfr, choroData, selCountry){
                        labels = c('1950-1955','',  '',
                                   '1980-1985', 
                                   '','','2010-2015')) +
-      theme_xygridlight() + 
+      theme_xygrid() + 
       scale_y_continuous(labels = scales::percent,
                          breaks = seq(yLim[1], yLim[2], by = 0.15),
                          limits = yLim) +

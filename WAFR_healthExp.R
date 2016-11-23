@@ -70,7 +70,7 @@ arrange(Year)
 #   scale_colour_gradientn(colours = brewer.pa) +
 #   # geom_text(aes(label = Year)) +
 #   facet_wrap(~Country, scales = 'free_y') +
-#   theme_xygridlight()
+#   theme_xygrid()
 
 
 
